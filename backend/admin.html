@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Administración | Rigel</title>
+  <link rel="icon" type="image/png" href="/assets/brand/rigel-favicon.png?v=2">
+  <style>
+    :root { --azul:#087dbb; --oscuro:#064f78; --verde:#25a85a; --gris:#667078; --fondo:#f2f4f5; --borde:#d5dade; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:#171a1c; background:var(--fondo); font-family:Arial,Helvetica,sans-serif; }
+    button,input,select,textarea { font:inherit; }
+    header { position:sticky; top:0; z-index:10; display:flex; align-items:center; justify-content:space-between; gap:24px; padding:18px clamp(20px,4vw,60px); background:white; border-bottom:1px solid var(--borde); }
+    header img { width:165px; height:48px; object-fit:contain; }
+    header nav { display:flex; flex-wrap:wrap; gap:8px; }
+    button,.boton { padding:11px 16px; border:1px solid var(--azul); color:var(--azul); background:white; cursor:pointer; text-decoration:none; font-weight:700; }
+    button.activo,.boton-primario { color:white; background:var(--azul); }
+    main { width:min(1240px,calc(100% - 32px)); margin:36px auto 80px; }
+    .encabezado { display:flex; align-items:end; justify-content:space-between; gap:24px; margin-bottom:28px; }
+    h1 { margin:0 0 8px; color:var(--oscuro); font-size:clamp(34px,5vw,58px); letter-spacing:-.04em; }
+    .encabezado p { margin:0; color:var(--gris); }
+    .panel { padding:26px; background:white; border-top:4px solid var(--azul); }
+    .oculto { display:none !important; }
+    .barra { display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:space-between; margin-bottom:20px; }
+    .barra div { display:flex; flex-wrap:wrap; gap:8px; }
+    table { width:100%; border-collapse:collapse; background:white; }
+    th,td { padding:13px 12px; border-bottom:1px solid var(--borde); text-align:left; vertical-align:top; font-size:13px; }
+    th { color:var(--gris); background:#f8f9f9; font-size:10px; text-transform:uppercase; letter-spacing:.08em; }
+    td img { width:64px; height:52px; object-fit:contain; background:#fafafa; }
+    .estado { display:inline-block; padding:5px 8px; color:white; background:#d49a00; font-size:10px; font-weight:800; text-transform:uppercase; }
+    .estado.disponible { background:var(--verde); }
+    .estado.no-disponible { background:#bb3b3b; }
+    .formulario { margin-top:28px; padding-top:26px; border-top:1px solid var(--borde); }
+    .formulario h2 { margin:0 0 20px; color:var(--oscuro); font-size:30px; }
+    .rejilla { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    .campo { display:flex; flex-direction:column; gap:7px; }
+    .campo-ancho { grid-column:1 / -1; }
+    label span { color:#3f464a; font-size:11px; font-weight:800; text-transform:uppercase; letter-spacing:.06em; }
+    input,select,textarea { width:100%; padding:12px 13px; border:1px solid #bcc4c9; background:white; }
+    textarea { min-height:110px; resize:vertical; }
+    input:focus,select:focus,textarea:focus { outline:2px solid rgba(8,125,187,.22); border-color:var(--azul); }
+    .ayuda { margin:3px 0 0; color:var(--gris); font-size:11px; }
+    .acciones { display:flex; flex-wrap:wrap; gap:10px; align-items:center; margin-top:22px; }
+    .mensaje { color:var(--oscuro); font-size:13px; font-weight:700; }
+    .mensaje.error { color:#a52f2f; }
+    .wa { position:fixed; right:22px; bottom:22px; z-index:20; width:58px; height:58px; display:grid; place-items:center; background:#25d366; border:3px solid white; border-radius:50%; box-shadow:0 9px 25px rgba(0,0,0,.25); }
+    .wa img { width:29px; height:29px; filter:brightness(0) invert(1); }
+    .tabla-contenedor { overflow:auto; }
+    .vacio { padding:42px 18px; color:var(--gris); text-align:center; }
+    @media(max-width:760px){ header,.encabezado{align-items:flex-start;flex-direction:column}.rejilla{grid-template-columns:1fr}.campo-ancho{grid-column:auto}.panel{padding:18px 14px} }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/"><img src="/assets/brand/rigel-horizontal.png" alt="Rigel"></a>
+    <nav aria-label="Administración">
+      <button id="tab-productos" class="activo" type="button">Productos y stock</button>
+      <button id="tab-contactos" type="button">Contactos locales</button>
+      <a class="boton" href="/" target="_blank">Ver página</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="seccion-productos">
+      <div class="encabezado"><div><h1>Inventario</h1><p>Actualiza disponibilidad o agrega equipos, cartuchos y accesorios.</p></div><button id="nuevo-producto" class="boton-primario" type="button">+ Nuevo producto</button></div>
+      <div class="panel">
+        <div class="tabla-contenedor">
+          <table>
+            <thead><tr><th>Imagen</th><th>Modelo</th><th>Producto</th><th>Tipo</th><th>Estado</th><th>Stock</th><th></th></tr></thead>
+            <tbody id="productos-tabla"></tbody>
+          </table>
+        </div>
+
+        <form id="producto-formulario" class="formulario" enctype="multipart/form-data">
+          <h2 id="producto-formulario-titulo">Nuevo producto</h2>
+          <input type="hidden" name="original_slug" id="original_slug">
+          <div class="rejilla">
+            <label class="campo"><span>Slug / identificador</span><input name="slug" id="slug" required placeholder="ej. nuevo-cartucho"></label>
+            <label class="campo"><span>Orden</span><input name="sort_order" id="sort_order" type="number" value="999"></label>
+            <label class="campo"><span>Modelo</span><input name="model" id="model" required placeholder="ej. UKCM K600"></label>
+            <label class="campo"><span>Estado</span><select name="status" id="status"><option value="disponible">Disponible</option><option value="bajo-pedido">Disponible bajo pedido</option><option value="no-disponible">No disponible</option></select></label>
+            <label class="campo"><span>Cantidad en stock</span><input name="stock_quantity" id="stock_quantity" type="number" min="0" placeholder="Opcional"></label>
+            <label class="campo"><span>Tipo</span><select name="type_es" id="type_es"><option>Codificadora</option><option>Cartucho</option><option>Accesorio</option></select></label>
+            <label class="campo"><span>Familia ES</span><input name="family_es" id="family_es"></label>
+            <label class="campo"><span>Family EN</span><input name="family_en" id="family_en"></label>
+            <label class="campo"><span>Nombre ES</span><input name="name_es" id="name_es" required></label>
+            <label class="campo"><span>Name EN</span><input name="name_en" id="name_en"></label>
+            <label class="campo campo-ancho"><span>Resumen ES</span><input name="summary_es" id="summary_es"></label>
+            <label class="campo campo-ancho"><span>Summary EN</span><input name="summary_en" id="summary_en"></label>
+            <label class="campo"><span>Descripción ES</span><textarea name="description_es" id="description_es"></textarea></label>
+            <label class="campo"><span>Description EN</span><textarea name="description_en" id="description_en"></textarea></label>
+            <label class="campo"><span>Altura visible</span><input name="height" id="height" placeholder="12,7 mm"></label>
+            <label class="campo"><span>Filtro de altura</span><input name="height_filter" id="height_filter" placeholder="12,7 mm o Variable"></label>
+            <label class="campo"><span>Imagen principal existente</span><input name="image_path" id="image_path" placeholder="assets/productos/modelo/principal.webp"></label>
+            <label class="campo"><span>Subir imagen principal</span><input name="image_file" id="image_file" type="file" accept=".png,.jpg,.jpeg,.webp,.gif"></label>
+            <label class="campo campo-ancho"><span>Agregar imágenes a la galería</span><input name="gallery_files" id="gallery_files" type="file" multiple accept=".png,.jpg,.jpeg,.webp,.gif"><small class="ayuda">Las imágenes se guardan en la carpeta persistente del backend.</small></label>
+            <label class="campo campo-ancho"><span><input name="replace_gallery" value="1" type="checkbox" style="width:auto"> Reemplazar la galería anterior con los archivos nuevos</span></label>
+            <label class="campo"><span>Características ES, una por línea</span><textarea name="features_es" id="features_es"></textarea></label>
+            <label class="campo"><span>Features EN, one per line</span><textarea name="features_en" id="features_en"></textarea></label>
+            <label class="campo"><span>Ficha técnica ES</span><input name="technical_sheet_es" id="technical_sheet_es" placeholder="assets/productos/modelo/ficha.pdf"></label>
+            <label class="campo"><span>Technical sheet EN</span><input name="technical_sheet_en" id="technical_sheet_en"></label>
+            <label class="campo campo-ancho"><span>Video de YouTube</span><input name="video" id="video" type="url" placeholder="https://www.youtube.com/watch?v=..."></label>
+            <label class="campo"><span>Especificaciones ES</span><textarea name="specs_es" id="specs_es" placeholder="Garantía | 1 año&#10;Pantalla | Táctil"></textarea><small class="ayuda">Una fila por línea: Etiqueta | Valor.</small></label>
+            <label class="campo"><span>Specifications EN</span><textarea name="specs_en" id="specs_en" placeholder="Warranty | 1 year&#10;Display | Touchscreen"></textarea></label>
+          </div>
+          <div class="acciones"><button class="boton-primario" type="submit">Guardar producto</button><button id="cancelar-edicion" type="button">Limpiar</button><span id="producto-mensaje" class="mensaje"></span></div>
+        </form>
+      </div>
+    </section>
+
+    <section id="seccion-contactos" class="oculto">
+      <div class="encabezado"><div><h1>Contactos locales</h1><p>Respaldo opcional de la API Python. El formulario público actual se administra desde Google Forms y su Google Sheet.</p></div></div>
+      <div class="panel">
+        <div class="barra"><strong id="contactos-total">0 mensajes</strong><div><a class="boton boton-primario" href="/admin/contactos.xlsx">Descargar Excel</a><a class="boton" href="/admin/contactos.csv">Descargar CSV</a><a class="boton" href="/admin/respaldo.json">Respaldo JSON</a></div></div>
+        <div class="tabla-contenedor"><table><thead><tr><th>Fecha y hora</th><th>Nombre</th><th>Empresa</th><th>Correo</th><th>Mensaje</th></tr></thead><tbody id="contactos-tabla"></tbody></table></div>
+      </div>
+    </section>
+  </main>
+  <a class="wa" href="https://wa.me/593939474695" target="_blank" rel="noreferrer" aria-label="Escribir a Rigel por WhatsApp"><img src="/assets/social/whatsapp.svg" alt=""></a>
+
+  <script>
+    (function () {
+      "use strict";
+      var products = [];
+      var form = document.getElementById("producto-formulario");
+      var message = document.getElementById("producto-mensaje");
+
+      function escapeHtml(value) {
+        return String(value == null ? "" : value).replace(/[&<>"']/g, function (char) {
+          return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#039;"}[char];
+        });
+      }
+
+      function showTab(name) {
+        document.getElementById("seccion-productos").classList.toggle("oculto", name !== "productos");
+        document.getElementById("seccion-contactos").classList.toggle("oculto", name !== "contactos");
+        document.getElementById("tab-productos").classList.toggle("activo", name === "productos");
+        document.getElementById("tab-contactos").classList.toggle("activo", name === "contactos");
+        if (name === "contactos") loadContacts();
+      }
+
+      async function loadProducts() {
+        var response = await fetch("/api/admin/products");
+        products = await response.json();
+        var body = document.getElementById("productos-tabla");
+        if (!products.length) { body.innerHTML = '<tr><td class="vacio" colspan="7">No hay productos.</td></tr>'; return; }
+        body.innerHTML = products.map(function (item) {
+          var product = item.es;
+          var quantity = item.stock_quantity == null ? "—" : item.stock_quantity;
+          return '<tr><td><img src="/' + escapeHtml(product.imagen) + '" alt=""></td><td><strong>' + escapeHtml(product.modelo) + '</strong></td><td>' + escapeHtml(product.nombre) + '</td><td>' + escapeHtml(product.tipo) + '</td><td><span class="estado ' + escapeHtml(item.status) + '">' + escapeHtml(item.status.replace(/-/g, " ")) + '</span></td><td>' + quantity + '</td><td><button type="button" data-edit="' + escapeHtml(item.slug) + '">Editar</button></td></tr>';
+        }).join("");
+        body.querySelectorAll("[data-edit]").forEach(function (button) { button.addEventListener("click", function () { editProduct(button.dataset.edit); }); });
+      }
+
+      function specsToText(specs) { return (specs || []).map(function (row) { return row[0] + " | " + row[1]; }).join("\n"); }
+      function setValue(id, value) { document.getElementById(id).value = value == null ? "" : value; }
+
+      function clearForm() {
+        form.reset();
+        setValue("original_slug", ""); setValue("sort_order", "999"); setValue("status", "bajo-pedido");
+        document.getElementById("producto-formulario-titulo").textContent = "Nuevo producto";
+        message.textContent = ""; message.classList.remove("error");
+        form.scrollIntoView({behavior:"smooth", block:"start"});
+      }
+
+      function editProduct(slug) {
+        var item = products.find(function (entry) { return entry.slug === slug; });
+        if (!item) return;
+        var es = item.es, en = item.en;
+        setValue("original_slug", item.slug); setValue("slug", item.slug); setValue("sort_order", item.sort_order);
+        setValue("model", es.modelo); setValue("status", item.status); setValue("stock_quantity", item.stock_quantity);
+        setValue("type_es", es.tipo); setValue("family_es", es.familia); setValue("family_en", en.familia);
+        setValue("name_es", es.nombre); setValue("name_en", en.nombre); setValue("summary_es", es.resumen); setValue("summary_en", en.resumen);
+        setValue("description_es", es.descripcion); setValue("description_en", en.descripcion); setValue("height", es.altura); setValue("height_filter", es.alturaFiltro);
+        setValue("image_path", es.imagen); setValue("features_es", (es.destacados || []).join("\n")); setValue("features_en", (en.destacados || []).join("\n"));
+        setValue("technical_sheet_es", es.ficha); setValue("technical_sheet_en", en.ficha); setValue("video", es.video);
+        setValue("specs_es", specsToText(es.especificaciones)); setValue("specs_en", specsToText(en.especificaciones));
+        document.getElementById("producto-formulario-titulo").textContent = "Editar " + es.nombre;
+        message.textContent = "";
+        form.scrollIntoView({behavior:"smooth", block:"start"});
+      }
+
+      form.addEventListener("submit", async function (event) {
+        event.preventDefault(); message.textContent = "Guardando…"; message.classList.remove("error");
+        try {
+          var response = await fetch("/api/admin/products", {method:"POST", body:new FormData(form)});
+          var result = await response.json();
+          if (!response.ok || !result.ok) throw new Error(result.error || "No se pudo guardar");
+          message.textContent = "Producto guardado correctamente.";
+          await loadProducts();
+          setValue("original_slug", result.slug);
+        } catch (error) { message.textContent = error.message; message.classList.add("error"); }
+      });
+
+      async function loadContacts() {
+        var response = await fetch("/api/admin/contacts");
+        var contacts = await response.json();
+        document.getElementById("contactos-total").textContent = contacts.length + (contacts.length === 1 ? " mensaje" : " mensajes");
+        document.getElementById("contactos-tabla").innerHTML = contacts.length ? contacts.map(function (item) {
+          return '<tr><td>' + escapeHtml(item.created_at.replace("T", " ")) + '</td><td><strong>' + escapeHtml(item.name) + '</strong></td><td>' + escapeHtml(item.company) + '</td><td><a href="mailto:' + escapeHtml(item.email) + '">' + escapeHtml(item.email) + '</a></td><td>' + escapeHtml(item.message) + '</td></tr>';
+        }).join("") : '<tr><td class="vacio" colspan="5">Aún no hay mensajes.</td></tr>';
+      }
+
+      document.getElementById("tab-productos").addEventListener("click", function () { showTab("productos"); });
+      document.getElementById("tab-contactos").addEventListener("click", function () { showTab("contactos"); });
+      document.getElementById("nuevo-producto").addEventListener("click", clearForm);
+      document.getElementById("cancelar-edicion").addEventListener("click", clearForm);
+      loadProducts();
+    }());
+  </script>
+</body>
+</html>

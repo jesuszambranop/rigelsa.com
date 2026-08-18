@@ -1,0 +1,2745 @@
+[
+  {
+    "slug": "m1",
+    "es": {
+      "slug": "m1",
+      "nombre": "Codificadora M1",
+      "modelo": "M1",
+      "tipo": "Codificadora",
+      "familia": "Portátil",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Compacta, táctil y diseñada para codificar productos secos y congelados.",
+      "descripcion": "Codificadora portátil de una mano con pantalla táctil de 3,5 pulgadas. Permite imprimir fechas, lotes, textos, logotipos y códigos sobre superficies planas, curvas, rugosas y espacios reducidos.",
+      "imagen": "/assets/productos/m1/principal.webp",
+      "galeria": [
+        "/assets/productos/m1/galeria-1.webp",
+        "/assets/productos/m1/galeria-2.webp",
+        "/assets/productos/m1/galeria-3.webp",
+        "/assets/productos/m1/galeria-4.webp",
+        "/assets/productos/m1/galeria-5.webp",
+        "/assets/productos/m1/galeria-6.webp",
+        "/assets/productos/m1/galeria-7.webp"
+      ],
+      "ficha": "/assets/productos/m1/ficha-tecnica.pdf",
+      "video": "https://www.youtube.com/watch?v=P94ap01WZgY",
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Pantalla táctil de 3,5 pulgadas",
+        "De 1 a 6 líneas",
+        "Batería de 4 a 6 horas",
+        "Resolución de 300 DPI"
+      ],
+      "incluye": [
+        "Cartucho de tinta solvente",
+        "Manual de usuario",
+        "Cable USB tipo C",
+        "Pendrive"
+      ],
+      "especificaciones": [
+        [
+          "Garantía",
+          "1 año por fallas de fábrica"
+        ],
+        [
+          "Pantalla",
+          "Táctil de 3,5 pulgadas"
+        ],
+        [
+          "Líneas de impresión",
+          "1 a 6 líneas"
+        ],
+        [
+          "Altura de impresión",
+          "12,7 mm"
+        ],
+        [
+          "Longitud de impresión",
+          "1,5 m"
+        ],
+        [
+          "Resolución",
+          "300 DPI"
+        ],
+        [
+          "Capacidad de tinta",
+          "42 ml"
+        ],
+        [
+          "Tipo de tinta",
+          "Cartucho de tinta solvente"
+        ],
+        [
+          "Colores de tinta",
+          "Negro, azul, rojo, amarillo y blanco"
+        ],
+        [
+          "Formatos de imagen",
+          "JPG, PNG y BMP"
+        ],
+        [
+          "Superficies",
+          "Cartón, tubo, cable, metal, plástico, aluminio, papel y más"
+        ],
+        [
+          "Batería",
+          "4 a 6 horas"
+        ],
+        [
+          "Peso",
+          "218 g"
+        ],
+        [
+          "Dimensiones",
+          "85 × 106 mm"
+        ],
+        [
+          "Memoria interna",
+          "65 MB"
+        ],
+        [
+          "Voltaje",
+          "110 V - 220 V / carga tipo C"
+        ]
+      ],
+      "compatibles": [
+        "S70",
+        "SK10"
+      ],
+      "fichaEn": "/assets/productos/m1/technical-data-sheet.pdf"
+    },
+    "en": {
+      "slug": "m1",
+      "nombre": "M1 Coding Printer",
+      "modelo": "M1",
+      "tipo": "Coding printer",
+      "familia": "Handheld",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "Compact touchscreen printer for dry and frozen products.",
+      "descripcion": "One-hand coding printer with a 3.5-inch touchscreen for dates, batches, text, logos and codes on flat, curved and rough surfaces.",
+      "imagen": "/assets/productos/m1/principal.webp",
+      "galeria": [
+        "/assets/productos/m1/galeria-1.webp",
+        "/assets/productos/m1/galeria-2.webp",
+        "/assets/productos/m1/galeria-3.webp",
+        "/assets/productos/m1/galeria-4.webp",
+        "/assets/productos/m1/galeria-5.webp",
+        "/assets/productos/m1/galeria-6.webp",
+        "/assets/productos/m1/galeria-7.webp"
+      ],
+      "ficha": "/assets/productos/m1/technical-data-sheet.pdf",
+      "video": "https://www.youtube.com/watch?v=P94ap01WZgY",
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "3.5-inch touchscreen",
+        "1 to 6 print lines",
+        "4 to 6 hours of battery life",
+        "300 DPI resolution"
+      ],
+      "incluye": [
+        "Solvent ink cartridge",
+        "Manual de usuario",
+        "Cable USB tipo C",
+        "Pendrive"
+      ],
+      "especificaciones": [
+        [
+          "Warranty",
+          "1 year against manufacturing defects"
+        ],
+        [
+          "Display",
+          "3.5-inch touchscreen"
+        ],
+        [
+          "Print lines",
+          "1 to 6 lines"
+        ],
+        [
+          "Print height",
+          "12,7 mm"
+        ],
+        [
+          "Print length",
+          "1,5 m"
+        ],
+        [
+          "Resolution",
+          "300 DPI"
+        ],
+        [
+          "Ink capacity",
+          "42 ml"
+        ],
+        [
+          "Ink type",
+          "Solvent ink cartridge"
+        ],
+        [
+          "Ink colors",
+          "Black, blue, red, yellow and white"
+        ],
+        [
+          "Image formats",
+          "JPG, PNG and BMP"
+        ],
+        [
+          "Materials",
+          "Cardboard, pipe, cable, metal, plastic, aluminum, paper and more"
+        ],
+        [
+          "Battery",
+          "4 to 6 hours"
+        ],
+        [
+          "Weight",
+          "218 g"
+        ],
+        [
+          "Dimensions",
+          "85 × 106 mm"
+        ],
+        [
+          "Internal memory",
+          "65 MB"
+        ],
+        [
+          "Voltage",
+          "110 V - 220 V / USB-C charging"
+        ]
+      ],
+      "compatibles": [
+        "S70",
+        "SK10"
+      ],
+      "fichaEn": "/assets/productos/m1/technical-data-sheet.pdf"
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 1
+  },
+  {
+    "slug": "b15",
+    "es": {
+      "slug": "b15",
+      "nombre": "Codificadora B15",
+      "modelo": "B15",
+      "tipo": "Codificadora",
+      "familia": "Portátil Wi-Fi",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Codificación inalámbrica para productos secos, húmedos y congelados.",
+      "descripcion": "Equipo portátil controlado mediante aplicación para Android o iOS. Su conexión Wi-Fi y tinta solvente permiten una operación sencilla y flexible en distintas líneas de trabajo.",
+      "imagen": "/assets/productos/b15/principal.webp",
+      "galeria": [
+        "/assets/productos/b15/galeria-1.webp",
+        "/assets/productos/b15/galeria-2.webp",
+        "/assets/productos/b15/galeria-3.webp",
+        "/assets/productos/b15/galeria-4.webp",
+        "/assets/productos/b15/galeria-5.webp",
+        "/assets/productos/b15/galeria-6.webp",
+        "/assets/productos/b15/galeria-7.webp",
+        "/assets/productos/b15/galeria-8.webp"
+      ],
+      "ficha": "/assets/productos/b15/ficha-tecnica.pdf",
+      "video": "https://www.youtube.com/watch?v=EAKc1gC-TPA",
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Conexión Wi-Fi",
+        "Aplicación Android e iOS",
+        "De 1 a 5 líneas",
+        "Tinta solvente de secado rápido"
+      ],
+      "incluye": [
+        "Cartucho de tinta solvente",
+        "Manual de usuario",
+        "Cable USB tipo C",
+        "Pendrive"
+      ],
+      "especificaciones": [
+        [
+          "Garantía",
+          "1 año por fallas de fábrica"
+        ],
+        [
+          "Conectividad",
+          "Wi-Fi"
+        ],
+        [
+          "Interfaz",
+          "Aplicación para Android e iOS"
+        ],
+        [
+          "Líneas de impresión",
+          "1 a 5 líneas"
+        ],
+        [
+          "Altura de impresión",
+          "12,7 mm"
+        ],
+        [
+          "Longitud de impresión",
+          "1 m"
+        ],
+        [
+          "Distancia de impresión",
+          "2 a 5 mm"
+        ],
+        [
+          "Resolución",
+          "300 DPI"
+        ],
+        [
+          "Velocidad",
+          "30 m/min"
+        ],
+        [
+          "Capacidad de tinta",
+          "42 ml"
+        ],
+        [
+          "Colores de tinta",
+          "Negro, azul, rojo, amarillo y blanco"
+        ],
+        [
+          "Formatos de imagen",
+          "JPG, BMP y PNG"
+        ],
+        [
+          "Batería",
+          "500 mAh / 4 a 6 horas"
+        ],
+        [
+          "Peso",
+          "195 g"
+        ],
+        [
+          "Dimensiones",
+          "110 × 40 × 90 mm"
+        ],
+        [
+          "Temperatura de trabajo",
+          "5 °C a 35 °C"
+        ]
+      ],
+      "compatibles": [
+        "BB22B"
+      ],
+      "fichaEn": "/assets/productos/b15/technical-data-sheet.pdf"
+    },
+    "en": {
+      "slug": "b15",
+      "nombre": "B15 Coding Printer",
+      "modelo": "B15",
+      "tipo": "Coding printer",
+      "familia": "Wi-Fi handheld",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "Wireless coding for dry, wet and frozen products.",
+      "descripcion": "Compact printer controlled from an Android or iOS app through Wi-Fi, with fast-drying solvent ink for flexible production work.",
+      "imagen": "/assets/productos/b15/principal.webp",
+      "galeria": [
+        "/assets/productos/b15/galeria-1.webp",
+        "/assets/productos/b15/galeria-2.webp",
+        "/assets/productos/b15/galeria-3.webp",
+        "/assets/productos/b15/galeria-4.webp",
+        "/assets/productos/b15/galeria-5.webp",
+        "/assets/productos/b15/galeria-6.webp",
+        "/assets/productos/b15/galeria-7.webp",
+        "/assets/productos/b15/galeria-8.webp"
+      ],
+      "ficha": "/assets/productos/b15/technical-data-sheet.pdf",
+      "video": "https://www.youtube.com/watch?v=EAKc1gC-TPA",
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Wi-Fi connection",
+        "Android and iOS app",
+        "1 to 5 print lines",
+        "Fast-drying solvent ink"
+      ],
+      "incluye": [
+        "Solvent ink cartridge",
+        "Manual de usuario",
+        "Cable USB tipo C",
+        "Pendrive"
+      ],
+      "especificaciones": [
+        [
+          "Warranty",
+          "1 year against manufacturing defects"
+        ],
+        [
+          "Connectivity",
+          "Wi-Fi"
+        ],
+        [
+          "Interface",
+          "Android and iOS app"
+        ],
+        [
+          "Print lines",
+          "1 to 5 lines"
+        ],
+        [
+          "Print height",
+          "12,7 mm"
+        ],
+        [
+          "Print length",
+          "1 m"
+        ],
+        [
+          "Print distance",
+          "2 to 5 mm"
+        ],
+        [
+          "Resolution",
+          "300 DPI"
+        ],
+        [
+          "Print speed",
+          "30 m/min"
+        ],
+        [
+          "Ink capacity",
+          "42 ml"
+        ],
+        [
+          "Ink colors",
+          "Black, blue, red, yellow and white"
+        ],
+        [
+          "Image formats",
+          "JPG, BMP and PNG"
+        ],
+        [
+          "Battery",
+          "500 mAh / 4 to 6 hours"
+        ],
+        [
+          "Weight",
+          "195 g"
+        ],
+        [
+          "Dimensions",
+          "110 × 40 × 90 mm"
+        ],
+        [
+          "Working temperature",
+          "5 °C a 35 °C"
+        ]
+      ],
+      "compatibles": [
+        "BB22B"
+      ],
+      "fichaEn": "/assets/productos/b15/technical-data-sheet.pdf"
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 2
+  },
+  {
+    "slug": "bt6205bl",
+    "es": {
+      "slug": "bt6205bl",
+      "nombre": "Codificadora BT6205BL",
+      "modelo": "BT6205BL",
+      "tipo": "Codificadora",
+      "familia": "Manual y automática",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Equipo tipo pistola para impresión manual o integrada a una banda transportadora.",
+      "descripcion": "Codificadora ligera con pantalla de alta definición y puerto para fotosensor. Se adapta a trabajos manuales y a procesos automáticos de producción.",
+      "imagen": "/assets/productos/bt6205bl/principal.webp",
+      "galeria": [
+        "/assets/productos/bt6205bl/galeria-1.webp",
+        "/assets/productos/bt6205bl/galeria-2.webp",
+        "/assets/productos/bt6205bl/galeria-3.webp",
+        "/assets/productos/bt6205bl/galeria-4.webp",
+        "/assets/productos/bt6205bl/galeria-5.webp",
+        "/assets/productos/bt6205bl/galeria-6.webp",
+        "/assets/productos/bt6205bl/galeria-7.webp",
+        "/assets/productos/bt6205bl/galeria-8.webp"
+      ],
+      "ficha": "/assets/productos/bt6205bl/ficha-tecnica.pdf",
+      "video": "https://www.youtube.com/watch?v=hQ1XnHxlezo",
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Uso manual o automático",
+        "Batería de hasta 16 horas",
+        "Pantalla HD de 4,3 pulgadas",
+        "Puerto para fotosensor"
+      ],
+      "incluye": [
+        "Cartucho",
+        "Lápiz óptico",
+        "Pendrive",
+        "Manual",
+        "Regla de precisión",
+        "Adaptador",
+        "Cargador",
+        "Sensor"
+      ],
+      "especificaciones": [
+        [
+          "Garantía",
+          "2 años por fallas de fábrica"
+        ],
+        [
+          "Sistema operativo",
+          "Linux"
+        ],
+        [
+          "Líneas de impresión",
+          "1 a 6 líneas"
+        ],
+        [
+          "Altura de impresión",
+          "12,7 mm"
+        ],
+        [
+          "Longitud de impresión",
+          "1 m"
+        ],
+        [
+          "Distancia de impresión",
+          "2 a 5 mm"
+        ],
+        [
+          "Pantalla",
+          "4,3 pulgadas de alta definición"
+        ],
+        [
+          "Resolución",
+          "600 / 300 DPI"
+        ],
+        [
+          "Velocidad",
+          "30 m/min"
+        ],
+        [
+          "Memoria",
+          "128 MB"
+        ],
+        [
+          "Batería",
+          "Hasta 16 horas"
+        ],
+        [
+          "Peso",
+          "420 g"
+        ],
+        [
+          "Dimensiones",
+          "126 × 41 × 204 mm"
+        ],
+        [
+          "Superficies",
+          "Plástico, vidrio, metal, cables, aluminio, cartón corrugado, algodón y más"
+        ]
+      ],
+      "compatibles": [
+        "BB22B"
+      ],
+      "fichaEn": "/assets/productos/bt6205bl/technical-data-sheet.pdf"
+    },
+    "en": {
+      "slug": "bt6205bl",
+      "nombre": "BT6205BL Coding Printer",
+      "modelo": "BT6205BL",
+      "tipo": "Coding printer",
+      "familia": "Handheld and automatic",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "Dual-use printer for handheld work or conveyor integration.",
+      "descripcion": "Lightweight coding printer with a 4.3-inch display, photoelectric sensor port and removable battery for manual or automatic operation.",
+      "imagen": "/assets/productos/bt6205bl/principal.webp",
+      "galeria": [
+        "/assets/productos/bt6205bl/galeria-1.webp",
+        "/assets/productos/bt6205bl/galeria-2.webp",
+        "/assets/productos/bt6205bl/galeria-3.webp",
+        "/assets/productos/bt6205bl/galeria-4.webp",
+        "/assets/productos/bt6205bl/galeria-5.webp",
+        "/assets/productos/bt6205bl/galeria-6.webp",
+        "/assets/productos/bt6205bl/galeria-7.webp",
+        "/assets/productos/bt6205bl/galeria-8.webp"
+      ],
+      "ficha": "/assets/productos/bt6205bl/technical-data-sheet.pdf",
+      "video": "https://www.youtube.com/watch?v=hQ1XnHxlezo",
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Handheld or automatic use",
+        "Up to 16 hours of battery life",
+        "4.3-inch HD display",
+        "Photoelectric sensor port"
+      ],
+      "incluye": [
+        "Cartucho",
+        "Lápiz óptico",
+        "Pendrive",
+        "Manual",
+        "Regla de precisión",
+        "Adaptador",
+        "Cargador",
+        "Sensor"
+      ],
+      "especificaciones": [
+        [
+          "Warranty",
+          "2 years against manufacturing defects"
+        ],
+        [
+          "Operating system",
+          "Linux"
+        ],
+        [
+          "Print lines",
+          "1 to 6 lines"
+        ],
+        [
+          "Print height",
+          "12,7 mm"
+        ],
+        [
+          "Print length",
+          "1 m"
+        ],
+        [
+          "Print distance",
+          "2 to 5 mm"
+        ],
+        [
+          "Display",
+          "4.3-inch high-definition display"
+        ],
+        [
+          "Resolution",
+          "600 / 300 DPI"
+        ],
+        [
+          "Print speed",
+          "30 m/min"
+        ],
+        [
+          "Memory",
+          "128 MB"
+        ],
+        [
+          "Battery",
+          "Up to 16 hours"
+        ],
+        [
+          "Weight",
+          "420 g"
+        ],
+        [
+          "Dimensions",
+          "126 × 41 × 204 mm"
+        ],
+        [
+          "Materials",
+          "Plastic, glass, metal, cables, aluminum, corrugated cardboard, cotton and more"
+        ]
+      ],
+      "compatibles": [
+        "BB22B"
+      ],
+      "fichaEn": "/assets/productos/bt6205bl/technical-data-sheet.pdf"
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 3
+  },
+  {
+    "slug": "bt6210bl",
+    "es": {
+      "slug": "bt6210bl",
+      "nombre": "Codificadora BT6210BL",
+      "modelo": "BT6210BL",
+      "tipo": "Codificadora",
+      "familia": "Manual y automática",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Mayor altura de impresión para producciones que requieren más información por pasada.",
+      "descripcion": "Codificadora tipo pistola con altura de 25,4 mm, pantalla de alta definición y conexión para fotosensor. Puede trabajar de forma manual o acoplada a una banda transportadora.",
+      "imagen": "/assets/productos/bt6210bl/principal.webp",
+      "galeria": [
+        "/assets/productos/bt6210bl/galeria-1.webp",
+        "/assets/productos/bt6210bl/galeria-2.webp",
+        "/assets/productos/bt6210bl/galeria-3.png",
+        "/assets/productos/bt6210bl/galeria-4.webp",
+        "/assets/productos/bt6210bl/galeria-5.webp",
+        "/assets/productos/bt6210bl/galeria-6.webp",
+        "/assets/productos/bt6210bl/galeria-7.webp",
+        "/assets/productos/bt6210bl/galeria-8.webp"
+      ],
+      "ficha": "/assets/productos/bt6210bl/ficha-tecnica.pdf",
+      "video": "https://www.youtube.com/watch?v=kITvkkMcnz4",
+      "altura": "25,4 mm",
+      "alturaFiltro": "25,4 mm",
+      "destacados": [
+        "Hasta 10 líneas",
+        "Longitud de hasta 2 m",
+        "Batería de 16 horas",
+        "Trabajo manual y automático"
+      ],
+      "incluye": [
+        "Cartucho",
+        "Lápiz óptico",
+        "Pendrive",
+        "Manual",
+        "Regla de precisión",
+        "Adaptador",
+        "Cargador",
+        "Sensor"
+      ],
+      "especificaciones": [
+        [
+          "Garantía",
+          "2 años por fallas de fábrica"
+        ],
+        [
+          "Sistema operativo",
+          "Linux"
+        ],
+        [
+          "Líneas de impresión",
+          "1 a 10 líneas"
+        ],
+        [
+          "Altura de impresión",
+          "25,4 mm"
+        ],
+        [
+          "Longitud de impresión",
+          "2 m"
+        ],
+        [
+          "Distancia de impresión",
+          "2 a 5 mm"
+        ],
+        [
+          "Pantalla",
+          "4,3 pulgadas de alta definición"
+        ],
+        [
+          "Resolución",
+          "300 DPI"
+        ],
+        [
+          "Velocidad",
+          "15 m/min"
+        ],
+        [
+          "Memoria",
+          "128 MB"
+        ],
+        [
+          "Batería",
+          "Hasta 16 horas"
+        ],
+        [
+          "Peso",
+          "430 g"
+        ],
+        [
+          "Dimensiones",
+          "126 × 41 × 204 mm"
+        ],
+        [
+          "Tamaño máximo de impresión",
+          "25,4 × 406 mm"
+        ]
+      ],
+      "compatibles": [
+        "EB21B",
+        "EB22BL"
+      ],
+      "fichaEn": "/assets/productos/bt6210bl/technical-data-sheet.pdf"
+    },
+    "en": {
+      "slug": "bt6210bl",
+      "nombre": "BT6210BL Coding Printer",
+      "modelo": "BT6210BL",
+      "tipo": "Coding printer",
+      "familia": "Handheld and automatic",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "A 25.4 mm print height for applications that need more information per pass.",
+      "descripcion": "Dual-use coding printer with a 25.4 mm print height, HD display and sensor connection for handheld or conveyor work.",
+      "imagen": "/assets/productos/bt6210bl/principal.webp",
+      "galeria": [
+        "/assets/productos/bt6210bl/galeria-1.webp",
+        "/assets/productos/bt6210bl/galeria-2.webp",
+        "/assets/productos/bt6210bl/galeria-3.png",
+        "/assets/productos/bt6210bl/galeria-4.webp",
+        "/assets/productos/bt6210bl/galeria-5.webp",
+        "/assets/productos/bt6210bl/galeria-6.webp",
+        "/assets/productos/bt6210bl/galeria-7.webp",
+        "/assets/productos/bt6210bl/galeria-8.webp"
+      ],
+      "ficha": "/assets/productos/bt6210bl/technical-data-sheet.pdf",
+      "video": "https://www.youtube.com/watch?v=kITvkkMcnz4",
+      "altura": "25,4 mm",
+      "alturaFiltro": "25,4 mm",
+      "destacados": [
+        "Up to 10 print lines",
+        "Up to 2 m print length",
+        "16-hour battery",
+        "Handheld and automatic operation"
+      ],
+      "incluye": [
+        "Cartucho",
+        "Lápiz óptico",
+        "Pendrive",
+        "Manual",
+        "Regla de precisión",
+        "Adaptador",
+        "Cargador",
+        "Sensor"
+      ],
+      "especificaciones": [
+        [
+          "Warranty",
+          "2 years against manufacturing defects"
+        ],
+        [
+          "Operating system",
+          "Linux"
+        ],
+        [
+          "Print lines",
+          "1 to 10 lines"
+        ],
+        [
+          "Print height",
+          "25,4 mm"
+        ],
+        [
+          "Print length",
+          "2 m"
+        ],
+        [
+          "Print distance",
+          "2 to 5 mm"
+        ],
+        [
+          "Display",
+          "4.3-inch high-definition display"
+        ],
+        [
+          "Resolution",
+          "300 DPI"
+        ],
+        [
+          "Print speed",
+          "15 m/min"
+        ],
+        [
+          "Memory",
+          "128 MB"
+        ],
+        [
+          "Battery",
+          "Up to 16 hours"
+        ],
+        [
+          "Weight",
+          "430 g"
+        ],
+        [
+          "Dimensions",
+          "126 × 41 × 204 mm"
+        ],
+        [
+          "Maximum print size",
+          "25,4 × 406 mm"
+        ]
+      ],
+      "compatibles": [
+        "EB21B",
+        "EB22BL"
+      ],
+      "fichaEn": "/assets/productos/bt6210bl/technical-data-sheet.pdf"
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 4
+  },
+  {
+    "slug": "b45",
+    "es": {
+      "slug": "b45",
+      "nombre": "Codificadora B45",
+      "modelo": "B45",
+      "tipo": "Codificadora",
+      "familia": "Industrial",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Disponible bajo pedido",
+      "resumen": "Codificadora industrial de gran formato para textos, logotipos y señalética.",
+      "descripcion": "Solución manual o automática con dos cartuchos y una altura de impresión de hasta 50 mm. Indicada para operaciones de mayor volumen y personalización industrial.",
+      "imagen": "/assets/productos/b45/principal.webp",
+      "galeria": [
+        "/assets/productos/b45/galeria-1.webp",
+        "/assets/productos/b45/galeria-2.webp",
+        "/assets/productos/b45/galeria-3.webp",
+        "/assets/productos/b45/galeria-4.webp",
+        "/assets/productos/b45/galeria-5.webp",
+        "/assets/productos/b45/galeria-6.webp",
+        "/assets/productos/b45/galeria-7.webp",
+        "/assets/productos/b45/galeria-8.webp"
+      ],
+      "ficha": "/assets/productos/b45/ficha-tecnica.pdf",
+      "altura": "50 mm",
+      "alturaFiltro": "50 mm",
+      "destacados": [
+        "Hasta 20 líneas",
+        "Altura de impresión de 50 mm",
+        "Dos cartuchos",
+        "Uso manual o automático"
+      ],
+      "incluye": [
+        "Dos cartuchos",
+        "Inyector y adaptador",
+        "Lápiz óptico",
+        "Pendrive",
+        "Manual",
+        "Regla",
+        "Cargador"
+      ],
+      "especificaciones": [
+        [
+          "Garantía",
+          "2 años por fallas de fábrica"
+        ],
+        [
+          "Sistema operativo",
+          "Linux"
+        ],
+        [
+          "Líneas de impresión",
+          "1 a 20 líneas"
+        ],
+        [
+          "Altura de impresión",
+          "50 mm"
+        ],
+        [
+          "Longitud de impresión",
+          "2 m"
+        ],
+        [
+          "Distancia de impresión",
+          "2 a 5 mm"
+        ],
+        [
+          "Pantalla",
+          "5 pulgadas de alta definición"
+        ],
+        [
+          "Resolución",
+          "300 DPI"
+        ],
+        [
+          "Velocidad",
+          "15 m/min"
+        ],
+        [
+          "Memoria",
+          "4 GB"
+        ],
+        [
+          "Batería",
+          "Hasta 8 horas"
+        ],
+        [
+          "Peso",
+          "860 g"
+        ],
+        [
+          "Dimensiones",
+          "160 × 80 × 280 mm"
+        ],
+        [
+          "Nivel de gris",
+          "1 a 10 ajustable"
+        ]
+      ],
+      "compatibles": [
+        "EB21B",
+        "EB22BL"
+      ],
+      "fichaEn": "/assets/productos/b45/technical-data-sheet.pdf"
+    },
+    "en": {
+      "slug": "b45",
+      "nombre": "B45 Coding Printer",
+      "modelo": "B45",
+      "tipo": "Coding printer",
+      "familia": "Industrial",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Available on request",
+      "resumen": "Large-format coding for text, logos and industrial marking.",
+      "descripcion": "Two-cartridge industrial printer with a print height of up to 50 mm for handheld or automated production.",
+      "imagen": "/assets/productos/b45/principal.webp",
+      "galeria": [
+        "/assets/productos/b45/galeria-1.webp",
+        "/assets/productos/b45/galeria-2.webp",
+        "/assets/productos/b45/galeria-3.webp",
+        "/assets/productos/b45/galeria-4.webp",
+        "/assets/productos/b45/galeria-5.webp",
+        "/assets/productos/b45/galeria-6.webp",
+        "/assets/productos/b45/galeria-7.webp",
+        "/assets/productos/b45/galeria-8.webp"
+      ],
+      "ficha": "/assets/productos/b45/technical-data-sheet.pdf",
+      "altura": "50 mm",
+      "alturaFiltro": "50 mm",
+      "destacados": [
+        "Up to 20 print lines",
+        "50 mm print height",
+        "Two cartridges",
+        "Handheld or automatic use"
+      ],
+      "incluye": [
+        "Dos cartuchos",
+        "Inyector and adaptador",
+        "Lápiz óptico",
+        "Pendrive",
+        "Manual",
+        "Regla",
+        "Cargador"
+      ],
+      "especificaciones": [
+        [
+          "Warranty",
+          "2 years against manufacturing defects"
+        ],
+        [
+          "Operating system",
+          "Linux"
+        ],
+        [
+          "Print lines",
+          "1 to 20 lines"
+        ],
+        [
+          "Print height",
+          "50 mm"
+        ],
+        [
+          "Print length",
+          "2 m"
+        ],
+        [
+          "Print distance",
+          "2 to 5 mm"
+        ],
+        [
+          "Display",
+          "5-inch high-definition display"
+        ],
+        [
+          "Resolution",
+          "300 DPI"
+        ],
+        [
+          "Print speed",
+          "15 m/min"
+        ],
+        [
+          "Memory",
+          "4 GB"
+        ],
+        [
+          "Battery",
+          "Up to 8 hours"
+        ],
+        [
+          "Weight",
+          "860 g"
+        ],
+        [
+          "Dimensions",
+          "160 × 80 × 280 mm"
+        ],
+        [
+          "Gray level",
+          "1 to 10 adjustable"
+        ]
+      ],
+      "compatibles": [
+        "EB21B",
+        "EB22BL"
+      ],
+      "fichaEn": "/assets/productos/b45/technical-data-sheet.pdf"
+    },
+    "status": "bajo-pedido",
+    "stock_quantity": null,
+    "sort_order": 5
+  },
+  {
+    "slug": "b85",
+    "es": {
+      "slug": "b85",
+      "nombre": "Codificadora B85",
+      "modelo": "B85",
+      "tipo": "Codificadora",
+      "familia": "Industrial gran formato",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Disponible bajo pedido",
+      "resumen": "La mayor altura de la línea Rigel para codificación y personalización industrial.",
+      "descripcion": "Equipo de cuatro cartuchos capaz de imprimir hasta 40 líneas y cubrir formatos de gran altura. Se adapta a procesos manuales y automáticos.",
+      "imagen": "/assets/productos/b85/principal.webp",
+      "galeria": [
+        "/assets/productos/b85/galeria-1.webp",
+        "/assets/productos/b85/galeria-2.webp",
+        "/assets/productos/b85/galeria-3.webp",
+        "/assets/productos/b85/galeria-4.webp",
+        "/assets/productos/b85/galeria-5.webp",
+        "/assets/productos/b85/galeria-6.webp",
+        "/assets/productos/b85/galeria-7.webp"
+      ],
+      "ficha": "/assets/productos/b85/ficha-tecnica.pdf",
+      "altura": "100 mm",
+      "alturaFiltro": "100 mm",
+      "destacados": [
+        "Hasta 40 líneas",
+        "Altura de impresión de 100 mm",
+        "Cuatro cartuchos",
+        "Resolución 600 / 300 DPI"
+      ],
+      "incluye": [
+        "Cuatro cartuchos",
+        "Accesorios de precisión",
+        "Pendrive",
+        "Manual",
+        "Adaptador",
+        "Cargador"
+      ],
+      "especificaciones": [
+        [
+          "Garantía",
+          "2 años por fallas de fábrica"
+        ],
+        [
+          "Sistema operativo",
+          "Linux"
+        ],
+        [
+          "Líneas de impresión",
+          "1 a 40 líneas"
+        ],
+        [
+          "Altura de impresión",
+          "100 mm"
+        ],
+        [
+          "Longitud de impresión",
+          "2 m"
+        ],
+        [
+          "Distancia de impresión",
+          "2 a 5 mm"
+        ],
+        [
+          "Pantalla",
+          "4,3 pulgadas de alta definición"
+        ],
+        [
+          "Resolución",
+          "600 / 300 DPI"
+        ],
+        [
+          "Velocidad",
+          "30 m/min"
+        ],
+        [
+          "Memoria",
+          "128 MB"
+        ],
+        [
+          "Batería",
+          "Hasta 16 horas"
+        ],
+        [
+          "Peso",
+          "420 g"
+        ],
+        [
+          "Dimensiones",
+          "232 × 110 × 180 mm"
+        ],
+        [
+          "Nivel de gris",
+          "1 a 5"
+        ]
+      ],
+      "compatibles": [
+        "EB21B",
+        "EB22BL"
+      ],
+      "fichaEn": "/assets/productos/b85/technical-data-sheet.pdf"
+    },
+    "en": {
+      "slug": "b85",
+      "nombre": "B85 Coding Printer",
+      "modelo": "B85",
+      "tipo": "Coding printer",
+      "familia": "Industrial large format",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Available on request",
+      "resumen": "The largest print height in the Rigel handheld range.",
+      "descripcion": "Four-cartridge industrial printer for up to 40 lines and large-format customization in handheld or automatic mode.",
+      "imagen": "/assets/productos/b85/principal.webp",
+      "galeria": [
+        "/assets/productos/b85/galeria-1.webp",
+        "/assets/productos/b85/galeria-2.webp",
+        "/assets/productos/b85/galeria-3.webp",
+        "/assets/productos/b85/galeria-4.webp",
+        "/assets/productos/b85/galeria-5.webp",
+        "/assets/productos/b85/galeria-6.webp",
+        "/assets/productos/b85/galeria-7.webp"
+      ],
+      "ficha": "/assets/productos/b85/technical-data-sheet.pdf",
+      "altura": "100 mm",
+      "alturaFiltro": "100 mm",
+      "destacados": [
+        "Up to 40 print lines",
+        "100 mm print height",
+        "Four cartridges",
+        "600 / 300 DPI resolution"
+      ],
+      "incluye": [
+        "Cuatro cartuchos",
+        "Accesorios de precisión",
+        "Pendrive",
+        "Manual",
+        "Adaptador",
+        "Cargador"
+      ],
+      "especificaciones": [
+        [
+          "Warranty",
+          "2 years against manufacturing defects"
+        ],
+        [
+          "Operating system",
+          "Linux"
+        ],
+        [
+          "Print lines",
+          "1 to 40 lines"
+        ],
+        [
+          "Print height",
+          "100 mm"
+        ],
+        [
+          "Print length",
+          "2 m"
+        ],
+        [
+          "Print distance",
+          "2 to 5 mm"
+        ],
+        [
+          "Display",
+          "4.3-inch high-definition display"
+        ],
+        [
+          "Resolution",
+          "600 / 300 DPI"
+        ],
+        [
+          "Print speed",
+          "30 m/min"
+        ],
+        [
+          "Memory",
+          "128 MB"
+        ],
+        [
+          "Battery",
+          "Up to 16 hours"
+        ],
+        [
+          "Weight",
+          "420 g"
+        ],
+        [
+          "Dimensions",
+          "232 × 110 × 180 mm"
+        ],
+        [
+          "Gray level",
+          "1 to 5"
+        ]
+      ],
+      "compatibles": [
+        "EB21B",
+        "EB22BL"
+      ],
+      "fichaEn": "/assets/productos/b85/technical-data-sheet.pdf"
+    },
+    "status": "bajo-pedido",
+    "stock_quantity": null,
+    "sort_order": 6
+  },
+  {
+    "slug": "bb22b",
+    "es": {
+      "slug": "bb22b",
+      "nombre": "Cartucho BENTSAI BB22B",
+      "modelo": "BB22B",
+      "tipo": "Cartucho",
+      "familia": "Tinta solvente",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Cartucho de tinta solvente de secado rápido para impresiones de 12,7 mm.",
+      "descripcion": "Consumible original BENTSAI para mantener una impresión nítida, estable y de rápida adherencia sobre distintas superficies.",
+      "imagen": "/assets/productos/bb22b/principal.webp",
+      "galeria": [],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Tinta solvente",
+        "Secado rápido",
+        "Impresión de 12,7 mm",
+        "Cartucho original"
+      ],
+      "especificaciones": [
+        [
+          "Tecnología",
+          "Inyección térmica TIJ"
+        ],
+        [
+          "Altura",
+          "12,7 mm / 0,5 pulg"
+        ],
+        [
+          "Tipo de tinta",
+          "Solvente de secado rápido"
+        ],
+        [
+          "Compatibilidad",
+          "B15 y BT6205BL"
+        ]
+      ],
+      "compatibles": [
+        "B15",
+        "BT6205BL"
+      ]
+    },
+    "en": {
+      "slug": "bb22b",
+      "nombre": "BENTSAI BB22B Cartridge",
+      "modelo": "BB22B",
+      "tipo": "Cartridge",
+      "familia": "Solvent ink",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "Fast-drying solvent cartridge for 12.7 mm printing.",
+      "descripcion": "Original BENTSAI cartridge for sharp and reliable printing on multiple materials.",
+      "imagen": "/assets/productos/bb22b/principal.webp",
+      "galeria": [],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Solvent ink",
+        "Fast drying",
+        "12.7 mm print height",
+        "Original cartridge"
+      ],
+      "especificaciones": [
+        [
+          "Technology",
+          "Thermal inkjet TIJ"
+        ],
+        [
+          "Print height",
+          "12,7 mm / 0,5 in"
+        ],
+        [
+          "Ink type",
+          "Fast-drying solvent ink"
+        ],
+        [
+          "Compatibility",
+          "B15 and BT6205BL"
+        ]
+      ],
+      "compatibles": [
+        "B15",
+        "BT6205BL"
+      ],
+      "incluye": []
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 7
+  },
+  {
+    "slug": "eb21b",
+    "es": {
+      "slug": "eb21b",
+      "nombre": "Cartucho BENTSAI EB21B",
+      "modelo": "EB21B",
+      "tipo": "Cartucho",
+      "familia": "Tinta solvente",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Cartucho solvente para equipos de mayor altura y aplicaciones industriales.",
+      "descripcion": "Cartucho original BENTSAI de secado rápido para impresiones consistentes sobre plástico, vidrio, metal, cartón y otros materiales.",
+      "imagen": "/assets/productos/eb21b/principal.webp",
+      "galeria": [],
+      "altura": "25,4 mm",
+      "alturaFiltro": "25,4 mm",
+      "destacados": [
+        "Tinta solvente",
+        "Secado rápido",
+        "Uso industrial",
+        "Cartucho original"
+      ],
+      "especificaciones": [
+        [
+          "Tecnología",
+          "Inyección térmica TIJ"
+        ],
+        [
+          "Altura",
+          "25,4 mm / 1 pulg"
+        ],
+        [
+          "Tipo de tinta",
+          "Solvente de secado rápido"
+        ],
+        [
+          "Compatibilidad",
+          "BT6210BL, B45 y B85"
+        ]
+      ],
+      "compatibles": [
+        "BT6210BL",
+        "B45",
+        "B85"
+      ]
+    },
+    "en": {
+      "slug": "eb21b",
+      "nombre": "BENTSAI EB21B Cartridge",
+      "modelo": "EB21B",
+      "tipo": "Cartridge",
+      "familia": "Solvent ink",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "Solvent cartridge for larger print heights and industrial applications.",
+      "descripcion": "Original fast-drying BENTSAI cartridge for plastic, glass, metal, cardboard and other materials.",
+      "imagen": "/assets/productos/eb21b/principal.webp",
+      "galeria": [],
+      "altura": "25,4 mm",
+      "alturaFiltro": "25,4 mm",
+      "destacados": [
+        "Solvent ink",
+        "Fast drying",
+        "Industrial use",
+        "Original cartridge"
+      ],
+      "especificaciones": [
+        [
+          "Technology",
+          "Thermal inkjet TIJ"
+        ],
+        [
+          "Print height",
+          "25,4 mm / 1 in"
+        ],
+        [
+          "Ink type",
+          "Fast-drying solvent ink"
+        ],
+        [
+          "Compatibility",
+          "BT6210BL, B45 and B85"
+        ]
+      ],
+      "compatibles": [
+        "BT6210BL",
+        "B45",
+        "B85"
+      ],
+      "incluye": []
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 8
+  },
+  {
+    "slug": "eb22bl",
+    "es": {
+      "slug": "eb22bl",
+      "nombre": "Cartucho BENTSAI EB22BL",
+      "modelo": "EB22BL",
+      "tipo": "Cartucho",
+      "familia": "Tinta solvente",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Consumible original de larga duración para codificación industrial.",
+      "descripcion": "Cartucho BENTSAI para líneas de impresión de mayor altura, con tinta solvente de rápida adherencia y acabado definido.",
+      "imagen": "/assets/productos/eb22bl/principal.webp",
+      "galeria": [],
+      "altura": "25,4 mm",
+      "alturaFiltro": "25,4 mm",
+      "destacados": [
+        "Tinta solvente",
+        "Larga duración",
+        "Uso industrial",
+        "Cartucho original"
+      ],
+      "especificaciones": [
+        [
+          "Tecnología",
+          "Inyección térmica TIJ"
+        ],
+        [
+          "Altura",
+          "25,4 mm / 1 pulg"
+        ],
+        [
+          "Tipo de tinta",
+          "Solvente de secado rápido"
+        ],
+        [
+          "Compatibilidad",
+          "BT6210BL, B45 y B85"
+        ]
+      ],
+      "compatibles": [
+        "BT6210BL",
+        "B45",
+        "B85"
+      ]
+    },
+    "en": {
+      "slug": "eb22bl",
+      "nombre": "BENTSAI EB22BL Cartridge",
+      "modelo": "EB22BL",
+      "tipo": "Cartridge",
+      "familia": "Solvent ink",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "Long-lasting original cartridge for industrial coding.",
+      "descripcion": "BENTSAI solvent cartridge for larger print heights with fast adhesion and a defined finish.",
+      "imagen": "/assets/productos/eb22bl/principal.webp",
+      "galeria": [],
+      "altura": "25,4 mm",
+      "alturaFiltro": "25,4 mm",
+      "destacados": [
+        "Solvent ink",
+        "Long lasting",
+        "Industrial use",
+        "Original cartridge"
+      ],
+      "especificaciones": [
+        [
+          "Technology",
+          "Thermal inkjet TIJ"
+        ],
+        [
+          "Print height",
+          "25,4 mm / 1 in"
+        ],
+        [
+          "Ink type",
+          "Fast-drying solvent ink"
+        ],
+        [
+          "Compatibility",
+          "BT6210BL, B45 and B85"
+        ]
+      ],
+      "compatibles": [
+        "BT6210BL",
+        "B45",
+        "B85"
+      ],
+      "incluye": []
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 9
+  },
+  {
+    "slug": "s70",
+    "es": {
+      "slug": "s70",
+      "nombre": "Cartucho S70",
+      "modelo": "S70",
+      "tipo": "Cartucho",
+      "familia": "Tinta solvente",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Cartucho solvente de 12,7 mm compatible con la codificadora M1.",
+      "descripcion": "Consumible para impresión de fechas, lotes, textos, logotipos y códigos sobre diversas superficies.",
+      "imagen": "/assets/productos/s70/principal.webp",
+      "galeria": [],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Tinta solvente",
+        "Secado rápido",
+        "12,7 mm",
+        "Compatible con M1"
+      ],
+      "especificaciones": [
+        [
+          "Tecnología",
+          "Inyección térmica TIJ"
+        ],
+        [
+          "Altura",
+          "12,7 mm / 0,5 pulg"
+        ],
+        [
+          "Tipo de tinta",
+          "Solvente de secado rápido"
+        ],
+        [
+          "Compatibilidad",
+          "M1"
+        ]
+      ],
+      "compatibles": [
+        "M1"
+      ]
+    },
+    "en": {
+      "slug": "s70",
+      "nombre": "S70 Cartridge",
+      "modelo": "S70",
+      "tipo": "Cartridge",
+      "familia": "Solvent ink",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "12.7 mm solvent cartridge compatible with the M1.",
+      "descripcion": "Consumable for dates, batches, text, logos and codes on different materials.",
+      "imagen": "/assets/productos/s70/principal.webp",
+      "galeria": [],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Solvent ink",
+        "Fast drying",
+        "12.7 mm",
+        "Compatible with M1"
+      ],
+      "especificaciones": [
+        [
+          "Technology",
+          "Thermal inkjet TIJ"
+        ],
+        [
+          "Print height",
+          "12,7 mm / 0,5 in"
+        ],
+        [
+          "Ink type",
+          "Fast-drying solvent ink"
+        ],
+        [
+          "Compatibility",
+          "M1"
+        ]
+      ],
+      "compatibles": [
+        "M1"
+      ],
+      "incluye": []
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 10
+  },
+  {
+    "slug": "sk10",
+    "es": {
+      "slug": "sk10",
+      "nombre": "Cartucho SK10",
+      "modelo": "SK10",
+      "tipo": "Cartucho",
+      "familia": "Tinta solvente",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Cartucho de 12,7 mm para codificación portátil con el equipo M1.",
+      "descripcion": "Tinta solvente de secado rápido para resultados nítidos en papel, plástico, cartón, metal y otras superficies.",
+      "imagen": "/assets/productos/sk10/principal.webp",
+      "galeria": [],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Tinta solvente",
+        "Secado rápido",
+        "12,7 mm",
+        "Compatible con M1"
+      ],
+      "especificaciones": [
+        [
+          "Tecnología",
+          "Inyección térmica TIJ"
+        ],
+        [
+          "Altura",
+          "12,7 mm / 0,5 pulg"
+        ],
+        [
+          "Tipo de tinta",
+          "Solvente de secado rápido"
+        ],
+        [
+          "Compatibilidad",
+          "M1"
+        ]
+      ],
+      "compatibles": [
+        "M1"
+      ]
+    },
+    "en": {
+      "slug": "sk10",
+      "nombre": "SK10 Cartridge",
+      "modelo": "SK10",
+      "tipo": "Cartridge",
+      "familia": "Solvent ink",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "12.7 mm cartridge for handheld coding with the M1.",
+      "descripcion": "Fast-drying solvent ink for sharp results on paper, plastic, cardboard and metal.",
+      "imagen": "/assets/productos/sk10/principal.webp",
+      "galeria": [],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Solvent ink",
+        "Fast drying",
+        "12.7 mm",
+        "Compatible with M1"
+      ],
+      "especificaciones": [
+        [
+          "Technology",
+          "Thermal inkjet TIJ"
+        ],
+        [
+          "Print height",
+          "12,7 mm / 0,5 in"
+        ],
+        [
+          "Ink type",
+          "Fast-drying solvent ink"
+        ],
+        [
+          "Compatibility",
+          "M1"
+        ]
+      ],
+      "compatibles": [
+        "M1"
+      ],
+      "incluye": []
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 11
+  },
+  {
+    "slug": "m2",
+    "es": {
+      "slug": "m2",
+      "nombre": "Codificadora M2",
+      "modelo": "M2",
+      "tipo": "Codificadora",
+      "familia": "Portátil compacta",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Disponible",
+      "resumen": "Codificadora portátil compacta con pantalla táctil y hasta seis líneas de impresión.",
+      "descripcion": "Equipo manual ligero para imprimir fechas, lotes, textos, logotipos y códigos sobre superficies planas, curvas, rugosas y espacios reducidos.",
+      "imagen": "/assets/productos/m2/principal.webp",
+      "galeria": [
+        "/assets/productos/m2/galeria-1.webp",
+        "/assets/productos/m2/galeria-2.webp"
+      ],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Pantalla táctil de 2,4 pulgadas",
+        "De 1 a 6 líneas",
+        "Resolución de 300 a 600 DPI",
+        "Peso de 185 g"
+      ],
+      "especificaciones": [
+        [
+          "Garantía",
+          "6 meses por fallas de fábrica"
+        ],
+        [
+          "Pantalla",
+          "Táctil de 2,4 pulgadas"
+        ],
+        [
+          "Líneas de impresión",
+          "1 a 6 líneas"
+        ],
+        [
+          "Altura de impresión",
+          "12,7 mm"
+        ],
+        [
+          "Resolución",
+          "300 / 600 DPI"
+        ],
+        [
+          "Capacidad de tinta",
+          "42 ml"
+        ],
+        [
+          "Tipo de tinta",
+          "Cartucho de tinta solvente"
+        ],
+        [
+          "Formatos de imagen",
+          "JPG, PNG y BMP"
+        ],
+        [
+          "Batería",
+          "4 a 6 horas"
+        ],
+        [
+          "Peso",
+          "185 g"
+        ],
+        [
+          "Dimensiones",
+          "70 × 97 × 45 mm"
+        ],
+        [
+          "Voltaje",
+          "110 V - 220 V / carga tipo C"
+        ]
+      ],
+      "compatibles": [
+        "S70",
+        "SK10"
+      ]
+    },
+    "en": {
+      "slug": "m2",
+      "nombre": "M2 Coding Printer",
+      "modelo": "M2",
+      "tipo": "Coding printer",
+      "familia": "Compact handheld",
+      "disponibilidad": "disponible",
+      "disponibilidadTexto": "Available",
+      "resumen": "Compact touchscreen printer with up to six print lines.",
+      "descripcion": "Lightweight handheld printer for dates, batches, text, logos and codes on flat, curved and rough surfaces.",
+      "imagen": "/assets/productos/m2/principal.webp",
+      "galeria": [
+        "/assets/productos/m2/galeria-1.webp",
+        "/assets/productos/m2/galeria-2.webp"
+      ],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "2.4-inch touchscreen",
+        "1 to 6 print lines",
+        "300 to 600 DPI",
+        "185 g weight"
+      ],
+      "especificaciones": [
+        [
+          "Warranty",
+          "6 months against manufacturing defects"
+        ],
+        [
+          "Display",
+          "2.4-inch touchscreen"
+        ],
+        [
+          "Print lines",
+          "1 to 6 lines"
+        ],
+        [
+          "Print height",
+          "12,7 mm"
+        ],
+        [
+          "Resolution",
+          "300 / 600 DPI"
+        ],
+        [
+          "Ink capacity",
+          "42 ml"
+        ],
+        [
+          "Ink type",
+          "Solvent ink cartridge"
+        ],
+        [
+          "Image formats",
+          "JPG, PNG and BMP"
+        ],
+        [
+          "Battery",
+          "4 to 6 hours"
+        ],
+        [
+          "Weight",
+          "185 g"
+        ],
+        [
+          "Dimensions",
+          "70 × 97 × 45 mm"
+        ],
+        [
+          "Voltage",
+          "110 V - 220 V / USB-C charging"
+        ]
+      ],
+      "compatibles": [
+        "S70",
+        "SK10"
+      ],
+      "incluye": []
+    },
+    "status": "disponible",
+    "stock_quantity": null,
+    "sort_order": 12
+  },
+  {
+    "slug": "f61",
+    "es": {
+      "slug": "f61",
+      "nombre": "Codificadora F61",
+      "modelo": "F61",
+      "tipo": "Codificadora",
+      "familia": "Industrial en línea",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Disponible bajo pedido",
+      "resumen": "Solución de alta velocidad adaptable a distintas líneas de producción.",
+      "descripcion": "Codificadora industrial con pantalla táctil de 7 pulgadas, gestión de accesos, conectividad externa y velocidad de impresión de hasta 120 m/min.",
+      "imagen": "/assets/productos/f61/principal.webp",
+      "galeria": [
+        "/assets/productos/f61/galeria-1.webp",
+        "/assets/productos/f61/galeria-2.webp"
+      ],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Velocidad de hasta 120 m/min",
+        "Pantalla táctil HD de 7 pulgadas",
+        "8 GB de memoria",
+        "Integración con sensor y codificador"
+      ],
+      "especificaciones": [
+        [
+          "Sistema operativo",
+          "Basado en Linux"
+        ],
+        [
+          "Pantalla",
+          "Táctil HD de 7 pulgadas"
+        ],
+        [
+          "Altura de impresión",
+          "12,7 mm"
+        ],
+        [
+          "Distancia de impresión",
+          "2 a 5 mm"
+        ],
+        [
+          "Cartucho",
+          "Tinta solvente de secado rápido, 42 ml"
+        ],
+        [
+          "Velocidad",
+          "120 m/min"
+        ],
+        [
+          "Resolución horizontal",
+          "100 / 120 / 150 / 200 / 300 / 600 DPI"
+        ],
+        [
+          "Resolución vertical",
+          "300 / 600 DPI"
+        ],
+        [
+          "Códigos",
+          "Code 128, Code 39, EAN8, EAN13, UPCA, ITF, QR, GS1DM y PDF417"
+        ],
+        [
+          "Puertos",
+          "USB, alimentación, sensor fotoeléctrico y codificador"
+        ],
+        [
+          "Memoria",
+          "8 GB"
+        ],
+        [
+          "Temperatura de trabajo",
+          "5 °C a 35 °C"
+        ],
+        [
+          "Peso de embalaje",
+          "4,60 kg"
+        ]
+      ]
+    },
+    "en": {
+      "slug": "f61",
+      "nombre": "F61 Coding Printer",
+      "modelo": "F61",
+      "tipo": "Coding printer",
+      "familia": "Industrial inline",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Available on request",
+      "resumen": "High-speed solution designed for multiple production lines.",
+      "descripcion": "Industrial printer with a 7-inch touchscreen, access control, external ports and a print speed of up to 120 m/min.",
+      "imagen": "/assets/productos/f61/principal.webp",
+      "galeria": [
+        "/assets/productos/f61/galeria-1.webp",
+        "/assets/productos/f61/galeria-2.webp"
+      ],
+      "altura": "12,7 mm",
+      "alturaFiltro": "12,7 mm",
+      "destacados": [
+        "Up to 120 m/min",
+        "7-inch HD touchscreen",
+        "8 GB memory",
+        "Sensor and encoder integration"
+      ],
+      "especificaciones": [
+        [
+          "Operating system",
+          "Linux-based"
+        ],
+        [
+          "Display",
+          "7-inch HD touchscreen"
+        ],
+        [
+          "Print height",
+          "12,7 mm"
+        ],
+        [
+          "Print distance",
+          "2 to 5 mm"
+        ],
+        [
+          "Cartridge",
+          "42 ml fast-drying solvent ink"
+        ],
+        [
+          "Print speed",
+          "120 m/min"
+        ],
+        [
+          "Horizontal resolution",
+          "100 / 120 / 150 / 200 / 300 / 600 DPI"
+        ],
+        [
+          "Vertical resolution",
+          "300 / 600 DPI"
+        ],
+        [
+          "Codes",
+          "Code 128, Code 39, EAN8, EAN13, UPCA, ITF, QR, GS1DM and PDF417"
+        ],
+        [
+          "Ports",
+          "USB, power, photoelectric sensor and encoder"
+        ],
+        [
+          "Memory",
+          "8 GB"
+        ],
+        [
+          "Working temperature",
+          "5 °C a 35 °C"
+        ],
+        [
+          "Package weight",
+          "4,60 kg"
+        ]
+      ],
+      "incluye": []
+    },
+    "status": "bajo-pedido",
+    "stock_quantity": null,
+    "sort_order": 13
+  },
+  {
+    "slug": "banda-transportadora",
+    "es": {
+      "slug": "banda-transportadora",
+      "nombre": "Banda transportadora",
+      "modelo": "BANDA-1500",
+      "tipo": "Accesorio",
+      "familia": "Automatización",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Disponible bajo pedido",
+      "resumen": "Se integra con codificadoras compatibles para mantener una producción continua.",
+      "descripcion": "Banda de acero inoxidable con velocidad ajustable, cinta de PVC y estructura preparada para integrar sensores y equipos de codificación.",
+      "imagen": "/assets/productos/banda-transportadora/principal.webp",
+      "galeria": [
+        "/assets/productos/banda-transportadora/galeria-1.webp",
+        "/assets/productos/banda-transportadora/galeria-2.webp"
+      ],
+      "altura": "No aplica",
+      "alturaFiltro": "No aplica",
+      "destacados": [
+        "Estructura de acero inoxidable",
+        "Velocidad ajustable de 0 a 25 m/min",
+        "Longitud de 1500 mm",
+        "Carga máxima de 5 kg"
+      ],
+      "especificaciones": [
+        [
+          "Garantía",
+          "1 año por fallas de fábrica"
+        ],
+        [
+          "Material",
+          "Acero inoxidable"
+        ],
+        [
+          "Longitud",
+          "1500 mm"
+        ],
+        [
+          "Altura desde el suelo",
+          "750 mm"
+        ],
+        [
+          "Ancho de banda",
+          "200 mm con cinta de PVC negra de 2 mm"
+        ],
+        [
+          "Potencia del motor",
+          "60 W"
+        ],
+        [
+          "Velocidad",
+          "0 a 25 m/min, ajustable"
+        ],
+        [
+          "Tensión nominal",
+          "220 V / 50 Hz"
+        ],
+        [
+          "Carga máxima",
+          "5 kg"
+        ],
+        [
+          "Accionamiento",
+          "Motor paso a paso"
+        ]
+      ],
+      "compatibles": [
+        "BT6205BL",
+        "BT6210BL",
+        "F61"
+      ]
+    },
+    "en": {
+      "slug": "banda-transportadora",
+      "nombre": "Conveyor Belt",
+      "modelo": "BANDA-1500",
+      "tipo": "Accessory",
+      "familia": "Automation",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Available on request",
+      "resumen": "Integrates with compatible printers for continuous production.",
+      "descripcion": "Stainless-steel conveyor with adjustable speed, PVC belt and support for sensors and coding equipment.",
+      "imagen": "/assets/productos/banda-transportadora/principal.webp",
+      "galeria": [
+        "/assets/productos/banda-transportadora/galeria-1.webp",
+        "/assets/productos/banda-transportadora/galeria-2.webp"
+      ],
+      "altura": "Not applicable",
+      "alturaFiltro": "Not applicable",
+      "destacados": [
+        "Stainless-steel structure",
+        "0 to 25 m/min adjustable speed",
+        "1500 mm length",
+        "5 kg maximum load"
+      ],
+      "especificaciones": [
+        [
+          "Warranty",
+          "1 year against manufacturing defects"
+        ],
+        [
+          "Material",
+          "Stainless steel"
+        ],
+        [
+          "Length",
+          "1500 mm"
+        ],
+        [
+          "Height from floor",
+          "750 mm"
+        ],
+        [
+          "Belt width",
+          "200 mm with a 2 mm black PVC belt"
+        ],
+        [
+          "Motor power",
+          "60 W"
+        ],
+        [
+          "Print speed",
+          "0 to 25 m/min, adjustable"
+        ],
+        [
+          "Rated voltage",
+          "220 V / 50 Hz"
+        ],
+        [
+          "Maximum load",
+          "5 kg"
+        ],
+        [
+          "Drive",
+          "Stepper motor"
+        ]
+      ],
+      "compatibles": [
+        "BT6205BL",
+        "BT6210BL",
+        "F61"
+      ],
+      "incluye": []
+    },
+    "status": "bajo-pedido",
+    "stock_quantity": null,
+    "sort_order": 14
+  },
+  {
+    "slug": "codificadora-huevos",
+    "es": {
+      "slug": "codificadora-huevos",
+      "nombre": "Codificadora de huevos",
+      "modelo": "EGG-CODER",
+      "tipo": "Codificadora",
+      "familia": "Especializada",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Disponible bajo pedido",
+      "resumen": "Sistema especializado para marcar huevos con fechas, textos, imágenes y logotipos.",
+      "descripcion": "Equipo metálico de codificación con boquillas TIJ, interfaz USB y capacidad aproximada de hasta 21.000 impresiones por hora.",
+      "imagen": "/assets/productos/codificadora-huevos/principal.webp",
+      "galeria": [
+        "/assets/productos/codificadora-huevos/galeria-1.webp",
+        "/assets/productos/codificadora-huevos/galeria-2.webp",
+        "/assets/productos/codificadora-huevos/galeria-3.webp"
+      ],
+      "altura": "2 a 12,7 mm",
+      "alturaFiltro": "Variable",
+      "destacados": [
+        "Hasta 21.000 impresiones por hora",
+        "Altura ajustable de 2 a 12,7 mm",
+        "Pantalla de 4,3 pulgadas",
+        "Interfaz USB"
+      ],
+      "especificaciones": [
+        [
+          "Altura de impresión",
+          "Ajustable de 2 a 12,7 mm"
+        ],
+        [
+          "Tecnología",
+          "Inyección térmica TIJ"
+        ],
+        [
+          "Distancia de marcación",
+          "2 a 5 mm"
+        ],
+        [
+          "Interfaz",
+          "USB"
+        ],
+        [
+          "Pantalla",
+          "4,3 pulgadas"
+        ],
+        [
+          "Material",
+          "Estructura metálica"
+        ],
+        [
+          "Información imprimible",
+          "Textos, fechas, imágenes y logotipos"
+        ],
+        [
+          "Tintas aplicables",
+          "Base de aceite, base de agua y tinta UV"
+        ],
+        [
+          "Resolución",
+          "150 a 300 DPI"
+        ],
+        [
+          "Eficiencia",
+          "Aproximadamente 21.000 impresiones por hora"
+        ],
+        [
+          "Potencia",
+          "60 W"
+        ],
+        [
+          "Dimensiones",
+          "500 × 500 × 220 mm"
+        ],
+        [
+          "Peso",
+          "15 kg"
+        ]
+      ]
+    },
+    "en": {
+      "slug": "codificadora-huevos",
+      "nombre": "Egg Coding Printer",
+      "modelo": "EGG-CODER",
+      "tipo": "Coding printer",
+      "familia": "Specialized",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Available on request",
+      "resumen": "Specialized system for printing dates, text, images and logos on eggs.",
+      "descripcion": "Metal coding system with TIJ printheads, USB interface and an output of approximately 21,000 prints per hour.",
+      "imagen": "/assets/productos/codificadora-huevos/principal.webp",
+      "galeria": [
+        "/assets/productos/codificadora-huevos/galeria-1.webp",
+        "/assets/productos/codificadora-huevos/galeria-2.webp",
+        "/assets/productos/codificadora-huevos/galeria-3.webp"
+      ],
+      "altura": "2 to 12,7 mm",
+      "alturaFiltro": "Variable",
+      "destacados": [
+        "About 21,000 prints per hour",
+        "2 to 12.7 mm adjustable height",
+        "4.3-inch display",
+        "USB interface"
+      ],
+      "especificaciones": [
+        [
+          "Print height",
+          "Adjustable from 2 to 12.7 mm"
+        ],
+        [
+          "Technology",
+          "Thermal inkjet TIJ"
+        ],
+        [
+          "Marking distance",
+          "2 to 5 mm"
+        ],
+        [
+          "Interface",
+          "USB"
+        ],
+        [
+          "Display",
+          "4,3 inadas"
+        ],
+        [
+          "Material",
+          "Metal structure"
+        ],
+        [
+          "Printable content",
+          "Text, dates, images and logos"
+        ],
+        [
+          "Supported inks",
+          "Oil-based, water-based and UV ink cartridges"
+        ],
+        [
+          "Resolution",
+          "150 to 300 DPI"
+        ],
+        [
+          "Output",
+          "Approximately 21,000 prints per hour"
+        ],
+        [
+          "Power",
+          "60 W"
+        ],
+        [
+          "Dimensions",
+          "500 × 500 × 220 mm"
+        ],
+        [
+          "Weight",
+          "15 kg"
+        ]
+      ],
+      "incluye": []
+    },
+    "status": "bajo-pedido",
+    "stock_quantity": null,
+    "sort_order": 15
+  },
+  {
+    "slug": "g7",
+    "es": {
+      "slug": "g7",
+      "nombre": "Codificadora de etiquetas G7",
+      "modelo": "G7",
+      "tipo": "Codificadora",
+      "familia": "Inkjet tipo tableta",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Disponible bajo pedido",
+      "resumen": "Solución tipo tableta para etiquetas, disponible para integración con banda transportadora.",
+      "descripcion": "Codificadora industrial con pantalla táctil de 7 pulgadas, cabezal configurable y compatibilidad con bases de datos y múltiples códigos.",
+      "imagen": "/assets/productos/g7/principal.webp",
+      "galeria": [
+        "/assets/productos/g7/galeria-1.webp",
+        "/assets/productos/g7/galeria-2.webp"
+      ],
+      "altura": "12,7 / 25,4 mm",
+      "alturaFiltro": "Variable",
+      "destacados": [
+        "Pantalla táctil de 7 pulgadas",
+        "Altura de 12,7 o 25,4 mm",
+        "Longitud de hasta 2000 mm",
+        "Datos XLS, CSV, TXT y LOG"
+      ],
+      "especificaciones": [
+        [
+          "Pantalla",
+          "Táctil de 7 pulgadas"
+        ],
+        [
+          "Cabezales",
+          "1"
+        ],
+        [
+          "Distancia de impresión",
+          "2 a 2,5 mm"
+        ],
+        [
+          "Altura de impresión",
+          "12,7 / 25,4 mm"
+        ],
+        [
+          "Longitud de impresión",
+          "2000 mm"
+        ],
+        [
+          "Resolución",
+          "150 / 200 / 300 / 400 / 600 DPI"
+        ],
+        [
+          "Niveles de gris",
+          "7"
+        ],
+        [
+          "Sistema operativo",
+          "Linux"
+        ],
+        [
+          "Interfaz de datos",
+          "Memoria USB"
+        ],
+        [
+          "Códigos",
+          "QR, PDF417, Data Matrix, GS1, UPCA, UPCE, EAN13, EAN8, Code 39 y Code 128"
+        ],
+        [
+          "Formatos de imagen",
+          "JPG, PNG y BMP"
+        ],
+        [
+          "Formatos de datos",
+          "XLS, CSV, TXT y LOG"
+        ],
+        [
+          "Dimensiones del controlador",
+          "179 × 115 × 34 mm"
+        ],
+        [
+          "Peso",
+          "1,2 kg"
+        ]
+      ]
+    },
+    "en": {
+      "slug": "g7",
+      "nombre": "G7 Label Coding Printer",
+      "modelo": "G7",
+      "tipo": "Coding printer",
+      "familia": "Tablet-type inkjet",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Available on request",
+      "resumen": "Tablet-type solution for labels and conveyor integration.",
+      "descripcion": "Industrial printer with a 7-inch touchscreen, configurable printhead and support for databases and multiple code formats.",
+      "imagen": "/assets/productos/g7/principal.webp",
+      "galeria": [
+        "/assets/productos/g7/galeria-1.webp",
+        "/assets/productos/g7/galeria-2.webp"
+      ],
+      "altura": "12,7 / 25,4 mm",
+      "alturaFiltro": "Variable",
+      "destacados": [
+        "7-inch touchscreen",
+        "12.7 or 25.4 mm height",
+        "Up to 2000 mm length",
+        "XLS, CSV, TXT and LOG data"
+      ],
+      "especificaciones": [
+        [
+          "Display",
+          "7-inch touchscreen"
+        ],
+        [
+          "Printheads",
+          "1"
+        ],
+        [
+          "Print distance",
+          "2 to 2,5 mm"
+        ],
+        [
+          "Print height",
+          "12,7 / 25,4 mm"
+        ],
+        [
+          "Print length",
+          "2000 mm"
+        ],
+        [
+          "Resolution",
+          "150 / 200 / 300 / 400 / 600 DPI"
+        ],
+        [
+          "Gray levels",
+          "7"
+        ],
+        [
+          "Operating system",
+          "Linux"
+        ],
+        [
+          "Data interface",
+          "USB drive"
+        ],
+        [
+          "Codes",
+          "QR, PDF417, Data Matrix, GS1, UPCA, UPCE, EAN13, EAN8, Code 39 and Code 128"
+        ],
+        [
+          "Image formats",
+          "JPG, PNG and BMP"
+        ],
+        [
+          "Data formats",
+          "XLS, CSV, TXT and LOG"
+        ],
+        [
+          "Controller size",
+          "179 × 115 × 34 mm"
+        ],
+        [
+          "Weight",
+          "1,2 kg"
+        ]
+      ],
+      "incluye": []
+    },
+    "status": "bajo-pedido",
+    "stock_quantity": null,
+    "sort_order": 16
+  },
+  {
+    "slug": "k600",
+    "es": {
+      "slug": "k600",
+      "nombre": "Codificadora industrial UKCM K600",
+      "modelo": "UKCM K600",
+      "tipo": "Codificadora",
+      "familia": "Industrial CIJ",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Disponible bajo pedido",
+      "resumen": "Solución industrial de codificación continua para líneas de producción de alta velocidad.",
+      "descripcion": "Equipo industrial adaptable a líneas alimenticias, químicas y farmacéuticas, con impresión continua, protección IP55 y múltiples interfaces de datos.",
+      "imagen": "/assets/productos/k600/principal.webp",
+      "galeria": [
+        "/assets/productos/k600/galeria-1.webp",
+        "/assets/productos/k600/galeria-2.webp",
+        "/assets/productos/k600/galeria-3.webp"
+      ],
+      "altura": "1 a 15 mm",
+      "alturaFiltro": "Variable",
+      "destacados": [
+        "Impresión industrial continua",
+        "Protección IP55",
+        "Más de 1000 mensajes",
+        "USB, RS485 y Ethernet"
+      ],
+      "especificaciones": [
+        [
+          "Garantía",
+          "2 años por fallas de fábrica"
+        ],
+        [
+          "Material",
+          "Acero inoxidable con recubrimiento de precisión"
+        ],
+        [
+          "Líneas de impresión",
+          "1 a 5 líneas según matriz"
+        ],
+        [
+          "Altura de carácter",
+          "1 a 15 mm"
+        ],
+        [
+          "Distancia de impresión",
+          "2 a 30 mm; óptima de 10 mm"
+        ],
+        [
+          "Sistema",
+          "Basado en Linux, pantalla táctil y varios idiomas"
+        ],
+        [
+          "Interfaces",
+          "USB, RS485 y Ethernet"
+        ],
+        [
+          "Almacenamiento",
+          "Más de 1000 mensajes"
+        ],
+        [
+          "Protección",
+          "IP55"
+        ],
+        [
+          "Cabezal",
+          "3 m, 50 / 60 / 70 μm"
+        ],
+        [
+          "Dirección de impresión",
+          "Rotación completa de 360°"
+        ],
+        [
+          "Tinta / solvente",
+          "500 ml / 750 ml"
+        ],
+        [
+          "Temperatura de trabajo",
+          "0 °C a 45 °C"
+        ],
+        [
+          "Alimentación",
+          "AC 100 - 240 V, 50/60 Hz, 80 VA"
+        ]
+      ]
+    },
+    "en": {
+      "slug": "k600",
+      "nombre": "UKCM K600 Industrial Coding Printer",
+      "modelo": "UKCM K600",
+      "tipo": "Coding printer",
+      "familia": "Industrial CIJ",
+      "disponibilidad": "bajo-pedido",
+      "disponibilidadTexto": "Available on request",
+      "resumen": "Continuous industrial coding for high-speed production lines.",
+      "descripcion": "Industrial UKCM system for food, chemical and pharmaceutical lines, with IP55 protection and multiple data interfaces.",
+      "imagen": "/assets/productos/k600/principal.webp",
+      "galeria": [
+        "/assets/productos/k600/galeria-1.webp",
+        "/assets/productos/k600/galeria-2.webp",
+        "/assets/productos/k600/galeria-3.webp"
+      ],
+      "altura": "1 to 15 mm",
+      "alturaFiltro": "Variable",
+      "destacados": [
+        "Continuous industrial printing",
+        "IP55 protection",
+        "More than 1,000 messages",
+        "USB, RS485 and Ethernet"
+      ],
+      "especificaciones": [
+        [
+          "Warranty",
+          "2 years against manufacturing defects"
+        ],
+        [
+          "Material",
+          "Stainless steel with precision coating"
+        ],
+        [
+          "Print lines",
+          "1 to 5 lines depending on the matrix"
+        ],
+        [
+          "Character height",
+          "1 to 15 mm"
+        ],
+        [
+          "Print distance",
+          "2 to 30 mm; optimum 10 mm"
+        ],
+        [
+          "System",
+          "Linux-based, touchscreen and multilingual"
+        ],
+        [
+          "Interfaces",
+          "USB, RS485 and Ethernet"
+        ],
+        [
+          "Storage",
+          "More than 1,000 messages"
+        ],
+        [
+          "Protection",
+          "IP55"
+        ],
+        [
+          "Printhead",
+          "3 m, 50 / 60 / 70 μm"
+        ],
+        [
+          "Print direction",
+          "Full 360° rotation"
+        ],
+        [
+          "Ink / solvent",
+          "500 ml / 750 ml"
+        ],
+        [
+          "Working temperature",
+          "0 °C a 45 °C"
+        ],
+        [
+          "Power supply",
+          "AC 100 - 240 V, 50/60 Hz, 80 VA"
+        ]
+      ],
+      "incluye": []
+    },
+    "status": "bajo-pedido",
+    "stock_quantity": null,
+    "sort_order": 17
+  }
+]

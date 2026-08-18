@@ -1,0 +1,44 @@
+name: Publicar frontend en GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v6
+
+      - name: Configurar Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparar únicamente el frontend público
+        run: |
+          mkdir -p "$RUNNER_TEMP/rigel-site"
+          cp ./*.html ./og.png "$RUNNER_TEMP/rigel-site/"
+          cp -R ./assets ./css ./js "$RUNNER_TEMP/rigel-site/"
+          touch "$RUNNER_TEMP/rigel-site/.nojekyll"
+
+      - name: Cargar sitio
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/rigel-site
+
+      - name: Publicar
+        id: deployment
+        uses: actions/deploy-pages@v4
