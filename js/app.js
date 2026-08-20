@@ -62,6 +62,13 @@
 
   var clientes = [
     { nombre: "La Casa del Encebollado", imagen: "assets/clientes/la-casa-del-encebollado.jpg" },
+    { nombre: "Biopremix", imagen: "assets/clientes/biopremix.jpg" },
+    { nombre: "Industrias Omega", imagen: "assets/clientes/industrias-omega.jpg" },
+    { nombre: "Indunidas", imagen: "assets/clientes/indunidas.jpg" },
+    { nombre: "Tutto Freddo", imagen: "assets/clientes/tutto-freddo.jpg" },
+    { nombre: "Ecuatorianita Import & Export", imagen: "assets/clientes/ecuatorianita-import-export.jpg" },
+    { nombre: "Ala Cena", imagen: "assets/clientes/ala-cena.jpg" },
+    { nombre: "La Cuencana", imagen: "assets/clientes/la-cuencana.jpg" },
     { nombre: "Zara Import", imagen: "assets/clientes/zara-import.jpg" },
     { nombre: "Furia ST", imagen: "assets/clientes/furia-st.jpg" },
     { nombre: "El Café de Tere", imagen: "assets/clientes/el-cafe-de-tere.jpg" },
@@ -69,7 +76,8 @@
     { nombre: "El Sanduchón", imagen: "assets/clientes/el-sanduchon.jpg" },
     { nombre: "Configolsa", imagen: "assets/clientes/configolsa.jpg" },
     { nombre: "Agricampo S.A.", imagen: "assets/clientes/agricampo.jpg" },
-    { nombre: "Fritamoro", imagen: "assets/clientes/fritamoro.jpg" }
+    { nombre: "Fritamoro", imagen: "assets/clientes/fritamoro.jpg" },
+    { nombre: "El Buco a Casa", imagen: "assets/clientes/el-buco-a-casa.jpg" }
   ];
 
   function asset(ruta) { return String(ruta || "").replace(/^\//, ""); }
@@ -177,7 +185,7 @@
   }
 
   function seccionClientes() {
-    return '<section id="clientes" class="seccion clientes-seccion clientes-inicio"><div class="contenedor"><div class="clientes-encabezado"><div><p class="eyebrow">' + texto.clientsEyebrow + '</p><h2>' + texto.clientsTitle + '</h2></div><p>' + texto.clientsText + '</p></div><div class="clientes-carrusel" aria-roledescription="carousel" aria-label="' + texto.clients + '"><button id="cliente-anterior" type="button" aria-label="' + texto.clientPrevious + '">‹</button><div id="cliente-actual" class="cliente-logo" aria-live="polite"></div><button id="cliente-siguiente" type="button" aria-label="' + texto.clientNext + '">›</button><div id="clientes-indicadores" class="clientes-indicadores"></div></div></div></section>';
+    return '<section id="clientes" class="seccion clientes-seccion clientes-inicio"><div class="contenedor"><div class="clientes-encabezado"><div><p class="eyebrow">' + texto.clientsEyebrow + '</p><h2>' + texto.clientsTitle + '</h2></div><p>' + texto.clientsText + '</p></div><div class="clientes-carrusel" aria-roledescription="carousel" aria-label="' + texto.clients + '"><button id="cliente-anterior" class="clientes-flecha" type="button" aria-label="' + texto.clientPrevious + '"><span aria-hidden="true">←</span></button><div class="clientes-ventana"><div class="clientes-marco"><div id="cliente-actual" class="cliente-logo" aria-live="polite"></div></div><div class="clientes-pie"><strong id="cliente-nombre"></strong><span id="cliente-contador"></span></div><div class="clientes-progreso" aria-hidden="true"><span id="clientes-progreso-activo"></span></div></div><button id="cliente-siguiente" class="clientes-flecha" type="button" aria-label="' + texto.clientNext + '"><span aria-hidden="true">→</span></button></div></div></section>';
   }
 
   function renderInicio() {
@@ -220,23 +228,33 @@
 
   function iniciarClientes() {
     var marco = document.getElementById("cliente-actual");
-    var indicadores = document.getElementById("clientes-indicadores");
+    var nombre = document.getElementById("cliente-nombre");
+    var contador = document.getElementById("cliente-contador");
+    var progreso = document.getElementById("clientes-progreso-activo");
     var carrusel = document.querySelector(".clientes-carrusel");
-    if (!marco || !indicadores || !carrusel || !clientes.length) return;
+    if (!marco || !nombre || !contador || !progreso || !carrusel || !clientes.length) return;
     var indice = 0, temporizador;
-    indicadores.innerHTML = clientes.map(function (cliente, i) { return '<button type="button" data-cliente="' + i + '" aria-label="' + cliente.nombre + '"></button>'; }).join("");
-    function mostrar(nuevo) {
+    function mostrar(nuevo, direccion) {
       indice = (nuevo + clientes.length) % clientes.length;
       var cliente = clientes[indice];
+      marco.setAttribute("data-direccion", direccion || "siguiente");
       marco.innerHTML = '<img src="' + asset(cliente.imagen) + '" alt="' + cliente.nombre + '" loading="lazy">';
-      Array.prototype.forEach.call(indicadores.querySelectorAll("button"), function (punto, i) { punto.classList.toggle("activo", i === indice); });
+      nombre.textContent = cliente.nombre;
+      contador.textContent = String(indice + 1).padStart(2, "0") + " / " + String(clientes.length).padStart(2, "0");
+      progreso.style.width = ((indice + 1) / clientes.length * 100) + "%";
+      var siguiente = new Image();
+      siguiente.src = asset(clientes[(indice + 1) % clientes.length].imagen);
     }
-    function iniciar() { window.clearInterval(temporizador); temporizador = window.setInterval(function () { mostrar(indice + 1); }, 2100); }
-    document.getElementById("cliente-anterior").addEventListener("click", function () { mostrar(indice - 1); iniciar(); });
-    document.getElementById("cliente-siguiente").addEventListener("click", function () { mostrar(indice + 1); iniciar(); });
-    indicadores.addEventListener("click", function (evento) { if (evento.target.matches("button")) { mostrar(Number(evento.target.getAttribute("data-cliente"))); iniciar(); } });
-    carrusel.addEventListener("mouseenter", function () { window.clearInterval(temporizador); }); carrusel.addEventListener("mouseleave", iniciar);
-    mostrar(0); iniciar();
+    function detener() { window.clearInterval(temporizador); }
+    function iniciar() { detener(); temporizador = window.setInterval(function () { mostrar(indice + 1, "siguiente"); }, 1800); }
+    document.getElementById("cliente-anterior").addEventListener("click", function () { mostrar(indice - 1, "anterior"); iniciar(); });
+    document.getElementById("cliente-siguiente").addEventListener("click", function () { mostrar(indice + 1, "siguiente"); iniciar(); });
+    carrusel.addEventListener("mouseenter", detener);
+    carrusel.addEventListener("mouseleave", iniciar);
+    carrusel.addEventListener("focusin", detener);
+    carrusel.addEventListener("focusout", function (evento) { if (!carrusel.contains(evento.relatedTarget)) iniciar(); });
+    document.addEventListener("visibilitychange", function () { if (document.hidden) detener(); else iniciar(); });
+    mostrar(0, "siguiente"); iniciar();
   }
 
   function youtubeDirecto(url) {
