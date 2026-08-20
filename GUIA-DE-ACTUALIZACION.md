@@ -32,27 +32,25 @@ No es necesario crear una página HTML por cada artículo: `articulo.html` carga
 
 ## Logotipos de clientes
 
-Los archivos suministrados corresponden a la marca Rigel, no a clientes individuales. Por eso el carrusel contiene seis espacios identificados como Cliente 01–06.
+Los nueve logotipos oficiales están en `assets/clientes/` y aparecen, uno por uno, en el carrusel ubicado al final de Inicio.
 
 1. Copia cada logo en `assets/clientes/`, preferiblemente PNG, WebP o SVG con fondo transparente.
 2. Abre `js/app.js` y localiza el arreglo `clientes` al principio del archivo.
-3. Sustituye un elemento así:
-
-```js
-{ nombre: "Cliente 01" }
-```
-
-por:
+3. Añade o sustituye un elemento así:
 
 ```js
 { nombre: "Nombre del cliente", imagen: "assets/clientes/nombre-del-cliente.png" }
 ```
 
-El carrusel muestra un solo logo a la vez y avanza automáticamente.
+El carrusel muestra un solo logo a la vez y avanza automáticamente cada 2,1 segundos.
+
+## Quiénes somos y preguntas frecuentes
+
+La página bilingüe `quienes-somos.html` contiene la presentación internacional de Rigel, el mapa `assets/nosotros/mapa-presencia.png` y todas las preguntas frecuentes. El menú y el pie enlazan esta página; ya no existen páginas independientes de Clientes ni de Preguntas frecuentes.
 
 ## Slides principales
 
-Los slides se encuentran en `assets/slides/`. Existen versiones de escritorio (`desktop-1.webp`) y móvil (`movil-1.webp`). Puedes reemplazarlas manteniendo exactamente los mismos nombres.
+Los slides se encuentran en `assets/slides/`. Existen versiones de escritorio (`desktop-1.webp`) y móvil (`movil-1.webp`). Puedes reemplazarlas manteniendo exactamente los mismos nombres. En móvil se muestran completos, sin recortar los textos incorporados en la imagen.
 
 ## Diseño y contacto
 

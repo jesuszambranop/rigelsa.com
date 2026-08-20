@@ -562,8 +562,8 @@ def uploaded_media(filename: str):
 @app.get("/<path:filename>")
 def static_files(filename: str):
     public_pages = {
-        "index.html", "productos.html", "catalogo.html", "clientes.html", "producto.html",
-        "blog.html", "articulo.html", "preguntas-frecuentes.html", "contacto.html", "og.png",
+        "index.html", "productos.html", "catalogo.html", "quienes-somos.html", "producto.html",
+        "blog.html", "articulo.html", "contacto.html", "og.png",
     }
     first_part = Path(filename).parts[0] if Path(filename).parts else ""
     if filename not in public_pages and first_part not in {"assets", "css", "js"}:

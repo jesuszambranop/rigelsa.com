@@ -52,14 +52,16 @@ El inventario administrable se guarda en `backend/data/rigel.sqlite3`. El formul
 
 ## Contenido incluido
 
-- Inicio, Productos y Clientes en páginas independientes.
+- Inicio, Productos, Quiénes somos, Blog y Contacto en páginas independientes.
 - 17 productos bilingües, incluida la Codificadora industrial UKCM K600.
 - Catálogo público con búsqueda y filtros de tipo y altura, sin mostrar estados ni cantidades de stock.
 - Imágenes mostradas completas mediante `object-fit: contain`.
 - Favicon cuadrado oficial proporcionado.
 - Burbuja permanente de WhatsApp a `wa.me/593939474695`.
 - Facebook, Instagram, TikTok, YouTube y LinkedIn de Rigel.
-- Carrusel principal y carrusel de clientes automáticos, uno por uno.
+- Carrusel principal adaptable a móvil sin recortar sus textos.
+- Carrusel de nueve clientes integrado al final del Inicio, automático y uno por uno.
+- Preguntas frecuentes integradas en la página bilingüe Quiénes somos.
 - Blog y fichas de producto dinámicas.
 
 ## Google Forms y Google Sheets

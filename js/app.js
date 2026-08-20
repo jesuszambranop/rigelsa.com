@@ -21,7 +21,7 @@
 
   var texto = {
     es: {
-      skip: "Ir al contenido", home: "Inicio", products: "Productos", clients: "Clientes", faq: "Preguntas frecuentes", blog: "Blog", support: "Soporte",
+      skip: "Ir al contenido", home: "Inicio", products: "Productos", about: "Quiénes somos", clients: "Clientes", faq: "Preguntas frecuentes", blog: "Blog", support: "Soporte",
       advice: "Asesoría especializada", adviceText: "para elegir el equipo correcto.", technical: "Soporte técnico", technicalText: "antes y después de la implementación.", coverage: "Cobertura internacional", coverageText: "para proyectos de codificación.",
       footerText: "Soluciones de marcaje y codificación manual y automática para productos, empaques y líneas de producción.", contactUs: "Contáctanos", printers: "Codificadoras", cartridges: "Cartuchos", accessories: "Accesorios", contact: "Contacto",
       heroAlt: ["Soluciones Rigel para codificación industrial", "Codificación portátil sobre diferentes superficies", "Equipos Rigel para líneas de producción"],
@@ -29,9 +29,10 @@
       applicationsEyebrow: "UNA SOLUCIÓN PARA CADA PROCESO", applicationsTitle: "Del marcaje manual a la línea automatizada", applicationsText: "Elige por altura, velocidad, superficie y volumen de producción. Cada producto dispone de características técnicas claras y asesoría directa.",
       portable: "Portátiles", portableText: "Equipos ligeros para trabajar en distintos espacios y superficies.", automatic: "Automatización", automaticText: "Codificadoras, sensores y bandas para producción continua.", industrial: "Industrial", industrialText: "Soluciones de alta velocidad para líneas exigentes.",
       knowledge: "CONOCIMIENTO RIGEL", guides: "Guías para codificar mejor", allArticles: "Ver todos los artículos", read: "Leer artículo",
-      inventory: "INVENTARIO RIGEL", inventoryTitle: "Productos para cada escala de producción", inventoryText: "Consulta equipos, consumibles y accesorios. Filtra por tipo, disponibilidad y altura de impresión.",
+      inventory: "INVENTARIO RIGEL", inventoryTitle: "Productos para cada escala de producción", inventoryText: "Consulta equipos, consumibles y accesorios. Filtra por tipo y altura de impresión.",
       search: "Buscar por modelo o aplicación", searchPlaceholder: "Ej.: UKCM K600, industrial, cartucho…", availability: "Disponibilidad", all: "Todos", available: "Disponible", onRequest: "Bajo pedido", unavailable: "No disponible", stock: "Stock", height: "Altura de impresión", allHeights: "Todas", results: "resultados", oneResult: "resultado", noResults: "No encontramos coincidencias", tryAgain: "Prueba otra búsqueda o restablece los filtros.", reset: "Restablecer filtros", viewFeatures: "Ver características",
-      clientsEyebrow: "NUESTROS CLIENTES", clientsTitle: "Confianza que avanza de marca en marca", clientsText: "Cada logotipo se presenta individualmente y avanza de forma automática. Los espacios están listos para incorporar los archivos oficiales de cada cliente.", clientPrevious: "Cliente anterior", clientNext: "Cliente siguiente",
+      clientsEyebrow: "NUESTROS CLIENTES", clientsTitle: "Marcas que confían en Rigel", clientsText: "Empresas que incorporan nuestras soluciones de marcaje y codificación en sus procesos.", clientPrevious: "Cliente anterior", clientNext: "Cliente siguiente",
+      aboutEyebrow: "RIGEL INTERNACIONAL", aboutTitle: "Quiénes somos", aboutParagraphOne: "Somos una empresa dedicada a la venta de equipos de marcaje y codificación. Ofrecemos soluciones tecnológicas innovadoras para pequeñas, medianas y grandes empresas, con enfoque en productos de alta calidad y respeto por el medio ambiente.", aboutParagraphTwo: "Nuestra empresa fue fundada en Ecuador y tiene presencia en Brasil, Colombia, Venezuela, Chile y México. Contamos con más de siete años de experiencia en el mercado de impresoras de codificación.", aboutMapAlt: "Mapa de presencia de Rigel en América Latina",
       breadcrumbHome: "Inicio", breadcrumbProducts: "Productos", information: "INFORMACIÓN TÉCNICA", features: "Características", includes: "Incluye", sheet: "Abrir ficha técnica", consultProduct: "Cotiza con nosotros", demonstration: "DEMOSTRACIÓN", watchWorking: "Mira el equipo en funcionamiento", youtube: "Ver video público en YouTube", related: "COMPATIBLES Y RELACIONADOS", completeSolution: "Completa tu solución", directAdvice: "ASESORÍA DIRECTA", talkModel: "¿Necesitas este modelo?", talkModelText: "Escríbenos por WhatsApp y te ayudaremos a confirmar el equipo, cartucho y configuración adecuados.",
       blogEyebrow: "CONOCIMIENTO RIGEL", blogTitle: "Ideas para una codificación más eficiente", blogText: "Guías prácticas sobre equipos, tintas, trazabilidad, mantenimiento y buenas prácticas de producción.", keepReading: "SEGUIR LEYENDO", otherArticles: "Otros artículos", needAdvice: "¿NECESITAS ASESORÍA?", findPrinter: "Encuentra la solución adecuada", findPrinterText: "Revisa el inventario o cuéntanos tu proceso de impresión.",
       faqEyebrow: "SOPORTE", faqTitle: "Preguntas frecuentes", faqText: "Información esencial para utilizar, mantener e integrar tu solución de codificación.", stillQuestions: "¿Todavía tienes dudas?", stillQuestionsText: "Cuéntanos qué equipo utilizas y qué necesitas resolver.",
@@ -39,7 +40,7 @@
       notFound: "Contenido no encontrado", backProducts: "Volver a productos", backBlog: "Volver al blog"
     },
     en: {
-      skip: "Skip to content", home: "Home", products: "Products", clients: "Clients", faq: "Frequently asked questions", blog: "Blog", support: "Support",
+      skip: "Skip to content", home: "Home", products: "Products", about: "About us", clients: "Clients", faq: "Frequently asked questions", blog: "Blog", support: "Support",
       advice: "Specialized guidance", adviceText: "to choose the right equipment.", technical: "Technical support", technicalText: "before and after implementation.", coverage: "International coverage", coverageText: "for coding projects.",
       footerText: "Manual and automatic marking and coding solutions for products, packaging and production lines.", contactUs: "Contact us", printers: "Coding printers", cartridges: "Ink cartridges", accessories: "Accessories", contact: "Contact",
       heroAlt: ["Rigel industrial coding solutions", "Handheld coding on different materials", "Rigel equipment for production lines"],
@@ -47,9 +48,10 @@
       applicationsEyebrow: "A SOLUTION FOR EVERY PROCESS", applicationsTitle: "From handheld marking to automated lines", applicationsText: "Choose by height, speed, material and production volume. Every product includes clear technical details and direct guidance.",
       portable: "Handheld", portableText: "Lightweight equipment for different spaces and materials.", automatic: "Automation", automaticText: "Printers, sensors and conveyors for continuous production.", industrial: "Industrial", industrialText: "High-speed solutions for demanding production lines.",
       knowledge: "RIGEL KNOWLEDGE", guides: "Guides for better coding", allArticles: "View all articles", read: "Read article",
-      inventory: "RIGEL INVENTORY", inventoryTitle: "Products for every production scale", inventoryText: "Browse equipment, consumables and accessories. Filter by type, availability and print height.",
+      inventory: "RIGEL INVENTORY", inventoryTitle: "Products for every production scale", inventoryText: "Browse equipment, consumables and accessories. Filter by type and print height.",
       search: "Search by model or application", searchPlaceholder: "E.g. UKCM K600, industrial, cartridge…", availability: "Availability", all: "All", available: "Available", onRequest: "On request", unavailable: "Unavailable", stock: "Stock", height: "Print height", allHeights: "All", results: "results", oneResult: "result", noResults: "No matches found", tryAgain: "Try a different search or reset the filters.", reset: "Reset filters", viewFeatures: "View features",
-      clientsEyebrow: "OUR CLIENTS", clientsTitle: "Trust that moves from brand to brand", clientsText: "Each client logo appears individually and advances automatically. The slots are ready for the official logo files.", clientPrevious: "Previous client", clientNext: "Next client",
+      clientsEyebrow: "OUR CLIENTS", clientsTitle: "Brands that trust Rigel", clientsText: "Companies that use our marking and coding solutions in their operations.", clientPrevious: "Previous client", clientNext: "Next client",
+      aboutEyebrow: "RIGEL INTERNATIONAL", aboutTitle: "About us", aboutParagraphOne: "We are a company dedicated to supplying marking and coding equipment. We offer innovative technology solutions for small, medium and large businesses, focused on high-quality products and respect for the environment.", aboutParagraphTwo: "Our company was founded in Ecuador and has a presence in Brazil, Colombia, Venezuela, Chile and Mexico. We have more than seven years of experience in the coding printer market.", aboutMapAlt: "Map of Rigel's presence in Latin America",
       breadcrumbHome: "Home", breadcrumbProducts: "Products", information: "TECHNICAL INFORMATION", features: "Features", includes: "Included", sheet: "Open technical data sheet", consultProduct: "Request a quote", demonstration: "DEMONSTRATION", watchWorking: "See the equipment in action", youtube: "Watch the public video on YouTube", related: "COMPATIBLE & RELATED", completeSolution: "Complete your solution", directAdvice: "DIRECT GUIDANCE", talkModel: "Need this model?", talkModelText: "Message us on WhatsApp and we will help you confirm the right equipment, cartridge and setup.",
       blogEyebrow: "RIGEL KNOWLEDGE", blogTitle: "Ideas for more efficient coding", blogText: "Practical guides about equipment, inks, traceability, maintenance and production best practices.", keepReading: "KEEP READING", otherArticles: "More articles", needAdvice: "NEED GUIDANCE?", findPrinter: "Find the right solution", findPrinterText: "Browse the inventory or tell us about your printing process.",
       faqEyebrow: "SUPPORT", faqTitle: "Frequently asked questions", faqText: "Essential information for using, maintaining and integrating your coding solution.", stillQuestions: "Still have questions?", stillQuestionsText: "Tell us which equipment you use and what you need to solve.",
@@ -59,9 +61,15 @@
   }[lang];
 
   var clientes = [
-    { nombre: (lang === "en" ? "Client" : "Cliente") + " 01" }, { nombre: (lang === "en" ? "Client" : "Cliente") + " 02" },
-    { nombre: (lang === "en" ? "Client" : "Cliente") + " 03" }, { nombre: (lang === "en" ? "Client" : "Cliente") + " 04" },
-    { nombre: (lang === "en" ? "Client" : "Cliente") + " 05" }, { nombre: (lang === "en" ? "Client" : "Cliente") + " 06" }
+    { nombre: "La Casa del Encebollado", imagen: "assets/clientes/la-casa-del-encebollado.jpg" },
+    { nombre: "Zara Import", imagen: "assets/clientes/zara-import.jpg" },
+    { nombre: "Furia ST", imagen: "assets/clientes/furia-st.jpg" },
+    { nombre: "El Café de Tere", imagen: "assets/clientes/el-cafe-de-tere.jpg" },
+    { nombre: "RapiDiagnostics", imagen: "assets/clientes/rapi-diagnostics.jpg" },
+    { nombre: "El Sanduchón", imagen: "assets/clientes/el-sanduchon.jpg" },
+    { nombre: "Configolsa", imagen: "assets/clientes/configolsa.jpg" },
+    { nombre: "Agricampo S.A.", imagen: "assets/clientes/agricampo.jpg" },
+    { nombre: "Fritamoro", imagen: "assets/clientes/fritamoro.jpg" }
   ];
 
   function asset(ruta) { return String(ruta || "").replace(/^\//, ""); }
@@ -110,8 +118,7 @@
       '<nav id="menu-principal" class="navegacion" aria-label="Menu">' +
         '<a href="' + conIdioma("index.html") + '"' + rutaActiva("index.html") + '>' + texto.home + '</a>' +
         '<a href="' + conIdioma("productos.html") + '"' + rutaActiva("productos.html") + '>' + texto.products + '</a>' +
-        '<a href="' + conIdioma("clientes.html") + '"' + rutaActiva("clientes.html") + '>' + texto.clients + '</a>' +
-        '<a href="' + conIdioma("preguntas-frecuentes.html") + '"' + rutaActiva("preguntas-frecuentes.html") + '>' + texto.faq + '</a>' +
+        '<a href="' + conIdioma("quienes-somos.html") + '"' + rutaActiva("quienes-somos.html") + '>' + texto.about + '</a>' +
         '<a href="' + conIdioma("blog.html") + '"' + rutaActiva("blog.html") + '>' + texto.blog + '</a>' +
         '<a href="' + conIdioma("contacto.html") + '"' + rutaActiva("contacto.html") + '>' + texto.support + '</a>' +
         '<a class="idioma-cambio" href="' + cambiarIdioma() + '" lang="' + (lang === "es" ? "en" : "es") + '">' + (lang === "es" ? "EN" : "ES") + '</a>' +
@@ -131,9 +138,9 @@
       '<div><span>02</span><p><strong>' + texto.technical + '</strong> ' + texto.technicalText + '</p></div>' +
       '<div><span>03</span><p><strong>' + texto.coverage + '</strong> ' + texto.coverageText + '</p></div>' +
       '</div></div><div class="contenedor pie-principal"><div class="pie-marca"><a class="marca marca-imagen" href="' + conIdioma("index.html") + '">' + marca() + '</a><p>' + texto.footerText + '</p><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a>' + enlacesSociales() + '</div>' +
-      '<div class="pie-columnas"><div><h2>Rigel</h2><a href="' + conIdioma("index.html") + '">' + texto.home + '</a><a href="' + conIdioma("clientes.html") + '">' + texto.clients + '</a><a href="' + conIdioma("blog.html") + '">' + texto.blog + '</a></div>' +
+      '<div class="pie-columnas"><div><h2>Rigel</h2><a href="' + conIdioma("index.html") + '">' + texto.home + '</a><a href="' + conIdioma("quienes-somos.html") + '">' + texto.about + '</a><a href="' + conIdioma("blog.html") + '">' + texto.blog + '</a></div>' +
       '<div><h2>' + texto.products + '</h2><a href="' + conIdioma("productos.html?tipo=Codificadora") + '">' + texto.printers + '</a><a href="' + conIdioma("productos.html?tipo=Cartucho") + '">' + texto.cartridges + '</a><a href="' + conIdioma("productos.html?tipo=Accesorio") + '">' + texto.accessories + '</a></div>' +
-      '<div><h2>' + texto.support + '</h2><a href="' + conIdioma("preguntas-frecuentes.html") + '">' + texto.faq + '</a><a href="' + conIdioma("contacto.html") + '">' + texto.contact + '</a><a href="mailto:' + correo + '">' + correo + '</a></div></div></div>' +
+      '<div><h2>' + texto.support + '</h2><a href="' + conIdioma("quienes-somos.html#preguntas") + '">' + texto.faq + '</a><a href="' + conIdioma("contacto.html") + '">' + texto.contact + '</a><a href="mailto:' + correo + '">' + correo + '</a></div></div></div>' +
       '<div class="contenedor pie-legal"><p>© Rigel 2026.</p></div>';
 
     if (!document.querySelector(".whatsapp-flotante")) {
@@ -169,6 +176,10 @@
     mostrar(0); iniciar();
   }
 
+  function seccionClientes() {
+    return '<section id="clientes" class="seccion clientes-seccion clientes-inicio"><div class="contenedor"><div class="clientes-encabezado"><div><p class="eyebrow">' + texto.clientsEyebrow + '</p><h2>' + texto.clientsTitle + '</h2></div><p>' + texto.clientsText + '</p></div><div class="clientes-carrusel" aria-roledescription="carousel" aria-label="' + texto.clients + '"><button id="cliente-anterior" type="button" aria-label="' + texto.clientPrevious + '">‹</button><div id="cliente-actual" class="cliente-logo" aria-live="polite"></div><button id="cliente-siguiente" type="button" aria-label="' + texto.clientNext + '">›</button><div id="clientes-indicadores" class="clientes-indicadores"></div></div></div></section>';
+  }
+
   function renderInicio() {
     var prefijo = lang === "en" ? "en-" : "";
     var slides = [1, 2, 3].map(function (numero, i) { return { desktop: "assets/slides/" + prefijo + "desktop-" + numero + ".webp", mobile: "assets/slides/" + prefijo + "movil-" + numero + ".webp", alt: texto.heroAlt[i] }; });
@@ -176,8 +187,10 @@
       '<section class="seccion inicio-presentacion"><div class="contenedor inicio-presentacion-grid"><div><p class="eyebrow">' + texto.heroEyebrow + '</p><h1>' + texto.heroTitle + '</h1></div><div><p>' + texto.heroText + '</p><div class="inicio-acciones"><a class="boton boton-azul" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.quote + '</a></div></div></div></section>' +
       '<section class="franja-industrial"><div class="contenedor franja-contenido"><div><p class="eyebrow eyebrow-claro">' + texto.applicationsEyebrow + '</p><h2>' + texto.applicationsTitle + '</h2></div><div class="franja-texto"><p>' + texto.applicationsText + '</p><a href="' + conIdioma("productos.html") + '">' + texto.seeProducts + ' →</a></div></div><div class="contenedor cifras"><div><strong>' + texto.portable + '</strong><span>' + texto.portableText + '</span></div><div><strong>' + texto.automatic + '</strong><span>' + texto.automaticText + '</span></div><div><strong>' + texto.industrial + '</strong><span>' + texto.industrialText + '</span></div></div></section>' +
       '<section class="seccion blog-inicio"><div class="contenedor"><div class="titulo-fila titulo-fila-compacta"><div><p class="eyebrow">' + texto.knowledge + '</p><h2>' + texto.guides + '</h2></div><a class="enlace-flecha" href="' + conIdioma("blog.html") + '">' + texto.allArticles + ' →</a></div><div class="rejilla-blog">' + articulos.slice(0, 3).map(tarjetaArticulo).join("") + '</div></div></section>' +
-      '<section class="cta-final"><div class="contenedor"><div><p class="eyebrow eyebrow-claro">WHATSAPP</p><h2>' + texto.quote + '</h2></div><a class="boton boton-blanco" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></section>';
+      '<section class="cta-final"><div class="contenedor"><div><p class="eyebrow eyebrow-claro">WHATSAPP</p><h2>' + texto.quote + '</h2></div><a class="boton boton-blanco" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></section>' +
+      seccionClientes();
     iniciarHero();
+    iniciarClientes();
   }
 
   function renderProductos() {
@@ -209,25 +222,21 @@
     var marco = document.getElementById("cliente-actual");
     var indicadores = document.getElementById("clientes-indicadores");
     var carrusel = document.querySelector(".clientes-carrusel");
+    if (!marco || !indicadores || !carrusel || !clientes.length) return;
     var indice = 0, temporizador;
     indicadores.innerHTML = clientes.map(function (cliente, i) { return '<button type="button" data-cliente="' + i + '" aria-label="' + cliente.nombre + '"></button>'; }).join("");
     function mostrar(nuevo) {
       indice = (nuevo + clientes.length) % clientes.length;
       var cliente = clientes[indice];
-      marco.innerHTML = cliente.imagen ? '<img src="' + asset(cliente.imagen) + '" alt="' + cliente.nombre + '">' : '<span>LOGO</span><strong>' + cliente.nombre + '</strong>';
+      marco.innerHTML = '<img src="' + asset(cliente.imagen) + '" alt="' + cliente.nombre + '" loading="lazy">';
       Array.prototype.forEach.call(indicadores.querySelectorAll("button"), function (punto, i) { punto.classList.toggle("activo", i === indice); });
     }
-    function iniciar() { window.clearInterval(temporizador); temporizador = window.setInterval(function () { mostrar(indice + 1); }, 3200); }
+    function iniciar() { window.clearInterval(temporizador); temporizador = window.setInterval(function () { mostrar(indice + 1); }, 2100); }
     document.getElementById("cliente-anterior").addEventListener("click", function () { mostrar(indice - 1); iniciar(); });
     document.getElementById("cliente-siguiente").addEventListener("click", function () { mostrar(indice + 1); iniciar(); });
     indicadores.addEventListener("click", function (evento) { if (evento.target.matches("button")) { mostrar(Number(evento.target.getAttribute("data-cliente"))); iniciar(); } });
     carrusel.addEventListener("mouseenter", function () { window.clearInterval(temporizador); }); carrusel.addEventListener("mouseleave", iniciar);
     mostrar(0); iniciar();
-  }
-
-  function renderClientes() {
-    contenido.innerHTML = '<section class="cabecera-pagina"><div class="contenedor"><p class="eyebrow">' + texto.clientsEyebrow + '</p><h1>' + texto.clientsTitle + '</h1><p>' + texto.clientsText + '</p></div></section><section class="seccion clientes-pagina"><div class="contenedor"><div class="clientes-carrusel" aria-roledescription="carousel"><button id="cliente-anterior" type="button" aria-label="' + texto.clientPrevious + '">‹</button><div id="cliente-actual" class="cliente-logo"></div><button id="cliente-siguiente" type="button" aria-label="' + texto.clientNext + '">›</button><div id="clientes-indicadores" class="clientes-indicadores"></div></div></div></section><section class="cta-final"><div class="contenedor"><div><p class="eyebrow eyebrow-claro">RIGEL</p><h2>' + texto.quote + '</h2></div><a class="boton boton-blanco" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></section>';
-    iniciarClientes();
   }
 
   function youtubeDirecto(url) {
@@ -267,8 +276,8 @@
     contenido.innerHTML = '<article><header class="contenedor articulo-cabecera"><p class="eyebrow">' + articulo.categoria.toUpperCase() + '</p><h1>' + articulo.titulo + '</h1><p>' + articulo.extracto + '</p></header><div class="contenedor articulo-portada"><img src="' + asset(articulo.imagen) + '" alt="' + articulo.titulo + '"></div><div class="contenedor articulo-cuerpo">' + secciones + (articulo.video ? '<section><h2>Video</h2><a class="boton boton-azul" href="' + youtubeDirecto(articulo.video) + '" target="_blank" rel="noreferrer">' + texto.youtube + '</a></section>' : "") + '<aside class="articulo-cta"><p class="eyebrow">' + texto.needAdvice + '</p><h2>' + texto.findPrinter + '</h2><p>' + texto.findPrinterText + '</p><div><a class="boton boton-azul" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></aside></div></article><section class="seccion otros-articulos"><div class="contenedor"><p class="eyebrow">' + texto.keepReading + '</p><h2>' + texto.otherArticles + '</h2><div class="rejilla-blog">' + otros.map(tarjetaArticulo).join("") + '</div></div></section>';
   }
 
-  function renderPreguntas() {
-    var preguntas = lang === "en" ? [
+  function obtenerPreguntas() {
+    return lang === "en" ? [
       ["Does the equipment require maintenance?", "Frequent technical maintenance is not required. Correct cartridge cleaning and proper care help preserve print quality."],
       ["Do you supply consumables?", "Yes. Contact our team to confirm cartridge and consumable availability."],
       ["Is technical support available?", "Yes. Email <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> or message +593 93 947 4695 on WhatsApp."],
@@ -291,7 +300,12 @@
       ["¿Cómo funciona la garantía?", "La garantía cubre fallas de fábrica después de una evaluación técnica. Golpes, contacto con agua y uso incorrecto no están cubiertos."],
       ["¿Imprime a color?", "La disponibilidad de colores depende del cartucho y del modelo. Consulta opciones en negro, azul, rojo, amarillo, verde, magenta o blanco."]
     ];
-    contenido.innerHTML = '<section class="cabecera-pagina"><div class="contenedor"><p class="eyebrow">' + texto.faqEyebrow + '</p><h1>' + texto.faqTitle + '</h1><p>' + texto.faqText + '</p></div></section><section class="seccion"><div class="contenedor faq-rejilla">' + preguntas.map(function (item, i) { return '<details' + (i === 0 ? " open" : "") + '><summary><span>' + String(i + 1).padStart(2, "0") + '</span>' + item[0] + '<b>+</b></summary><p>' + item[1] + '</p></details>'; }).join("") + '</div><div class="contenedor faq-contacto"><h2>' + texto.stillQuestions + '</h2><p>' + texto.stillQuestionsText + '</p><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></section>';
+  }
+
+  function renderNosotros() {
+    var preguntas = obtenerPreguntas();
+    contenido.innerHTML = '<section class="seccion nosotros-presentacion"><div class="contenedor nosotros-rejilla"><div class="nosotros-mapa"><img src="assets/nosotros/mapa-presencia.png" alt="' + texto.aboutMapAlt + '"></div><div class="nosotros-contenido"><p class="eyebrow">' + texto.aboutEyebrow + '</p><h1>' + texto.aboutTitle + '</h1><p>' + texto.aboutParagraphOne + '</p><p>' + texto.aboutParagraphTwo + '</p></div></div></section>' +
+      '<section id="preguntas" class="seccion faq-nosotros"><div class="contenedor faq-encabezado"><p class="eyebrow">' + texto.faqEyebrow + '</p><h2>' + texto.faqTitle + '</h2><p>' + texto.faqText + '</p></div><div class="contenedor faq-rejilla">' + preguntas.map(function (item, i) { return '<details' + (i === 0 ? " open" : "") + '><summary><span>' + String(i + 1).padStart(2, "0") + '</span>' + item[0] + '<b>+</b></summary><p>' + item[1] + '</p></details>'; }).join("") + '</div><div class="contenedor faq-contacto"><h2>' + texto.stillQuestions + '</h2><p>' + texto.stillQuestionsText + '</p><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></section>';
   }
 
   function renderContacto() {
@@ -337,20 +351,19 @@
   dibujarEstructura();
   var pagina = document.body.getAttribute("data-page");
   var titulos = lang === "en" ? {
-    inicio: "Rigel | Marking & coding", productos: "Products | Rigel", clientes: "Clients | Rigel",
-    blog: "Blog | Rigel", preguntas: "Frequently asked questions | Rigel", contacto: "Contact & support | Rigel"
+    inicio: "Rigel | Marking & coding", productos: "Products | Rigel", nosotros: "About us | Rigel",
+    blog: "Blog | Rigel", contacto: "Contact & support | Rigel"
   } : {
-    inicio: "Rigel | Marcaje y codificación", productos: "Productos | Rigel", clientes: "Clientes | Rigel",
-    blog: "Blog | Rigel", preguntas: "Preguntas frecuentes | Rigel", contacto: "Contacto y soporte | Rigel"
+    inicio: "Rigel | Marcaje y codificación", productos: "Productos | Rigel", nosotros: "Quiénes somos | Rigel",
+    blog: "Blog | Rigel", contacto: "Contacto y soporte | Rigel"
   };
   if (titulos[pagina]) document.title = titulos[pagina];
   if (pagina === "inicio") renderInicio();
   else if (pagina === "productos") renderProductos();
-  else if (pagina === "clientes") renderClientes();
+  else if (pagina === "nosotros") renderNosotros();
   else if (pagina === "producto") renderProducto();
   else if (pagina === "blog") renderBlog();
   else if (pagina === "articulo") renderArticulo();
-  else if (pagina === "preguntas") renderPreguntas();
   else if (pagina === "contacto") renderContacto();
   else noEncontrado(texto.home, conIdioma("index.html"));
 }());

@@ -17,11 +17,10 @@ REQUIRED_PAGES = {
     "index.html",
     "productos.html",
     "catalogo.html",
-    "clientes.html",
+    "quienes-somos.html",
     "producto.html",
     "blog.html",
     "articulo.html",
-    "preguntas-frecuentes.html",
     "contacto.html",
 }
 
