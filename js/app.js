@@ -30,7 +30,7 @@
       portable: "Portátiles", portableText: "Equipos ligeros para trabajar en distintos espacios y superficies.", automatic: "Automatización", automaticText: "Codificadoras, sensores y bandas para producción continua.", industrial: "Industrial", industrialText: "Soluciones de alta velocidad para líneas exigentes.",
       knowledge: "CONOCIMIENTO RIGEL", guides: "Guías para codificar mejor", allArticles: "Ver todos los artículos", read: "Leer artículo",
       inventory: "INVENTARIO RIGEL", inventoryTitle: "Productos para cada escala de producción", inventoryText: "Consulta equipos, consumibles y accesorios. Filtra por tipo y altura de impresión.",
-      search: "Buscar por modelo o aplicación", searchPlaceholder: "Ej.: UKCM K600, industrial, tinta…", availability: "Disponibilidad", all: "Todos", available: "Disponible", onRequest: "Bajo pedido", unavailable: "No disponible", stock: "Stock", height: "Altura de impresión", allHeights: "Todas", results: "resultados", oneResult: "resultado", noResults: "No encontramos coincidencias", tryAgain: "Prueba otra búsqueda o restablece los filtros.", reset: "Restablecer filtros", viewFeatures: "Ver características",
+      search: "Buscar por modelo o aplicación", searchPlaceholder: "Ej.: K600, industrial, tinta…", availability: "Disponibilidad", all: "Todos", available: "Disponible", onRequest: "Bajo pedido", unavailable: "No disponible", stock: "Stock", height: "Altura de impresión", allHeights: "Todas", results: "resultados", oneResult: "resultado", noResults: "No encontramos coincidencias", tryAgain: "Prueba otra búsqueda o restablece los filtros.", reset: "Restablecer filtros", viewFeatures: "Ver características",
       clientsEyebrow: "NUESTROS CLIENTES", clientsTitle: "Marcas que confían en Rigel", clientPrevious: "Cliente anterior", clientNext: "Cliente siguiente", clientPause: "Pausar carrusel", clientPlay: "Reanudar carrusel",
       aboutEyebrow: "RIGEL INTERNACIONAL", aboutTitle: "Quiénes somos", aboutParagraphOne: "Somos una empresa dedicada a la venta de equipos de marcaje y codificación. Ofrecemos soluciones tecnológicas innovadoras para pequeñas, medianas y grandes empresas, con enfoque en productos de alta calidad y respeto por el medio ambiente.", aboutParagraphTwo: "Nuestra empresa fue fundada en Ecuador y tiene presencia en Brasil, Colombia, Venezuela, Chile y México. Contamos con más de siete años de experiencia en el mercado.", aboutMapAlt: "Mapa de presencia de Rigel en América Latina",
       breadcrumbHome: "Inicio", breadcrumbProducts: "Productos", information: "INFORMACIÓN TÉCNICA", features: "Características", includes: "Incluye", sheet: "Abrir ficha técnica", consultProduct: "Cotiza con nosotros", demonstration: "DEMOSTRACIÓN", watchWorking: "Mira el equipo en funcionamiento", youtube: "Ver video público en YouTube", related: "COMPATIBLES Y RELACIONADOS", completeSolution: "Completa tu solución",
@@ -49,7 +49,7 @@
       portable: "Handheld", portableText: "Lightweight equipment for different spaces and materials.", automatic: "Automation", automaticText: "Printers, sensors and conveyors for continuous production.", industrial: "Industrial", industrialText: "High-speed solutions for demanding production lines.",
       knowledge: "RIGEL KNOWLEDGE", guides: "Guides for better coding", allArticles: "View all articles", read: "Read article",
       inventory: "RIGEL INVENTORY", inventoryTitle: "Products for every production scale", inventoryText: "Browse equipment, consumables and accessories. Filter by type and print height.",
-      search: "Search by model or application", searchPlaceholder: "E.g. UKCM K600, industrial, ink…", availability: "Availability", all: "All", available: "Available", onRequest: "On request", unavailable: "Unavailable", stock: "Stock", height: "Print height", allHeights: "All", results: "results", oneResult: "result", noResults: "No matches found", tryAgain: "Try a different search or reset the filters.", reset: "Reset filters", viewFeatures: "View features",
+      search: "Search by model or application", searchPlaceholder: "E.g. K600, industrial, ink…", availability: "Availability", all: "All", available: "Available", onRequest: "On request", unavailable: "Unavailable", stock: "Stock", height: "Print height", allHeights: "All", results: "results", oneResult: "result", noResults: "No matches found", tryAgain: "Try a different search or reset the filters.", reset: "Reset filters", viewFeatures: "View features",
       clientsEyebrow: "OUR CLIENTS", clientsTitle: "Brands that trust Rigel", clientPrevious: "Previous client", clientNext: "Next client", clientPause: "Pause carousel", clientPlay: "Resume carousel",
       aboutEyebrow: "RIGEL INTERNATIONAL", aboutTitle: "About us", aboutParagraphOne: "We are a company dedicated to supplying marking and coding equipment. We offer innovative technology solutions for small, medium and large businesses, focused on high-quality products and respect for the environment.", aboutParagraphTwo: "Our company was founded in Ecuador and has a presence in Brazil, Colombia, Venezuela, Chile and Mexico. We have more than seven years of experience in the market.", aboutMapAlt: "Map of Rigel's presence in Latin America",
       breadcrumbHome: "Home", breadcrumbProducts: "Products", information: "TECHNICAL INFORMATION", features: "Features", includes: "Included", sheet: "Open technical data sheet", consultProduct: "Request a quote", demonstration: "DEMONSTRATION", watchWorking: "See the equipment in action", youtube: "Watch the public video on YouTube", related: "COMPATIBLE & RELATED", completeSolution: "Complete your solution",
@@ -57,6 +57,45 @@
       faqEyebrow: "FREQUENTLY ASKED QUESTIONS", faqTitle: "Frequently asked questions", faqText: "Essential information for using, maintaining and integrating your coding solution.", stillQuestions: "Still have questions?", stillQuestionsText: "Tell us which equipment you use and what you need to solve.",
       contactEyebrow: "CONTACT", contactTitle: "Let’s talk about your coding process", contactText: "Get guidance to choose a model, confirm compatibility or solve a technical question.", personalized: "PERSONALIZED ASSISTANCE", supportTitle: "Rigel assistance", supportText: "Describe the product, material and information you need to print. You can also include your approximate production volume.", email: "Email", channel: "Channel", name: "Full name", message: "How can we help?", phone: "WhatsApp", send: "Send message", formKicker: "CONTACT FORM", formTitle: "Tell us how we can help", formRequired: "All fields are required.", namePlaceholder: "Enter your name", emailPlaceholder: "name@company.com", phonePlaceholder: "+593 99 999 9999", messagePlaceholder: "Write your message or request here…", formNote: "By sending this form, you agree that we may use your data only to respond to your request.", sending: "Sending…", received: "MESSAGE RECEIVED", thankYou: "Thank you for contacting us.", sent: "Your information was successfully sent to Rigel.", sendAnother: "Send another message", required: "Complete the required fields.",
       notFound: "Content not found", backProducts: "Back to products", backBlog: "Back to blog"
+    }
+  }[lang];
+
+  var inicio = {
+    es: {
+      slides: [
+        { imagen: "todas-maquinas.jpg", alt: "Equipos de codificación Rigel", eyebrow: "SOLUCIONES PARA CADA PROCESO", titulo: "Codificación para cada necesidad", texto: "Ofrecemos soluciones portátiles, automáticas e industriales según tu producto, superficie y ritmo de producción.", boton: "Productos", enlace: "productos.html" },
+        { imagen: "k600.jpg", alt: "Codificadora industrial K600", eyebrow: "PRODUCCIÓN INDUSTRIAL", titulo: "K600: codificación continua para líneas exigentes", texto: "Marca fechas, lotes, códigos y datos variables con precisión y estabilidad en procesos de alta velocidad.", boton: "Conoce la K600", enlace: "producto.html?slug=k600" },
+        { imagen: "cafe.jpg", alt: "Bolsa de café con fecha y lote impresos", eyebrow: "EMPAQUES FLEXIBLES", titulo: "Información clara desde el primer empaque", texto: "Imprime fechas, lotes y códigos definidos sobre bolsas de café, snacks y productos secos.", boton: "Ver codificadoras", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "cosmetica.jpg", alt: "Envases cosméticos con códigos impresos", eyebrow: "COSMÉTICA Y CUIDADO PERSONAL", titulo: "Trazabilidad que acompaña a tu marca", texto: "Consigue impresiones legibles y discretas en tubos, frascos y envases de múltiples materiales.", boton: "Explorar soluciones", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "metal.jpg", alt: "Latas metálicas con códigos impresos", eyebrow: "METAL Y SUPERFICIES NO POROSAS", titulo: "Códigos nítidos sobre metal", texto: "Selecciona equipos y tintas para lograr adherencia, contraste y lectura confiable en cada lote.", boton: "Ver productos", enlace: "productos.html" },
+        { imagen: "lacteos.jpg", alt: "Envase de yogur con fecha, lote y código", eyebrow: "ALIMENTOS Y LÁCTEOS", titulo: "Fechas y lotes legibles en cada envase", texto: "Integra información esencial para control, trazabilidad y confianza del consumidor.", boton: "Ver soluciones", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "automatizacion.jpg", alt: "Sistema automático de codificación para huevos", eyebrow: "AUTOMATIZACIÓN", titulo: "Más velocidad, control y consistencia", texto: "Integramos codificación automática para líneas continuas y aplicaciones especializadas.", boton: "Ver automatización", enlace: "productos.html?tipo=Accesorio" }
+      ],
+      industrialAlt: "Codificadora industrial K600",
+      industrialCaption: "Codificación industrial continua",
+      supportEyebrow: "SOPORTE TÉCNICO RIGEL",
+      supportTitle: "Acompañamiento para mantener tu producción en marcha",
+      supportText: "Brindamos instalación, mantenimiento preventivo y correctivo, capacitación y visitas técnicas a empresas para asegurar el rendimiento de cada equipo.",
+      supportItems: ["Visitas técnicas en planta", "Mantenimiento preventivo y correctivo", "Capacitación y asistencia especializada"],
+      supportButton: "Solicitar soporte"
+    },
+    en: {
+      slides: [
+        { imagen: "todas-maquinas.jpg", alt: "Rigel coding equipment", eyebrow: "SOLUTIONS FOR EVERY PROCESS", titulo: "Coding for every production need", texto: "We provide handheld, automatic and industrial solutions according to your product, material and production pace.", boton: "Products", enlace: "productos.html" },
+        { imagen: "k600.jpg", alt: "K600 industrial coding printer", eyebrow: "INDUSTRIAL PRODUCTION", titulo: "K600: continuous coding for demanding lines", texto: "Print dates, batches, codes and variable data with precision and stability in high-speed processes.", boton: "Discover the K600", enlace: "producto.html?slug=k600" },
+        { imagen: "cafe.jpg", alt: "Coffee pouch with printed date and batch", eyebrow: "FLEXIBLE PACKAGING", titulo: "Clear information from the first package", texto: "Print defined dates, batches and codes on coffee bags, snacks and dry products.", boton: "View coding printers", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "cosmetica.jpg", alt: "Cosmetic containers with printed codes", eyebrow: "COSMETICS & PERSONAL CARE", titulo: "Traceability that supports your brand", texto: "Achieve readable and discreet prints on tubes, bottles and containers made of different materials.", boton: "Explore solutions", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "metal.jpg", alt: "Metal cans with printed codes", eyebrow: "METAL & NON-POROUS MATERIALS", titulo: "Sharp codes on metal", texto: "Choose equipment and inks for reliable adhesion, contrast and readability in every batch.", boton: "View products", enlace: "productos.html" },
+        { imagen: "lacteos.jpg", alt: "Yogurt container with date, batch and code", eyebrow: "FOOD & DAIRY", titulo: "Readable dates and batches on every container", texto: "Integrate essential information for control, traceability and consumer confidence.", boton: "View solutions", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "automatizacion.jpg", alt: "Automatic egg coding system", eyebrow: "AUTOMATION", titulo: "More speed, control and consistency", texto: "We integrate automatic coding for continuous lines and specialized applications.", boton: "View automation", enlace: "productos.html?tipo=Accesorio" }
+      ],
+      industrialAlt: "K600 industrial coding printer",
+      industrialCaption: "Continuous industrial coding",
+      supportEyebrow: "RIGEL TECHNICAL SUPPORT",
+      supportTitle: "Support that keeps your production moving",
+      supportText: "We provide installation, preventive and corrective maintenance, training and on-site technical visits to ensure the performance of every machine.",
+      supportItems: ["On-site technical visits", "Preventive and corrective maintenance", "Training and specialized assistance"],
+      supportButton: "Request support"
     }
   }[lang];
 
@@ -184,14 +223,13 @@
     var puntos = Array.prototype.slice.call(document.querySelectorAll(".hero-control button"));
     if (!slides.length) return;
     var indice = 0, temporizador;
+    var movimientoReducido = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     function mostrar(nuevo) {
       indice = (nuevo + slides.length) % slides.length;
-      slides.forEach(function (slide, i) { slide.classList.toggle("hero-slide-activo", i === indice); slide.setAttribute("aria-hidden", String(i !== indice)); });
-      puntos.forEach(function (punto, i) { punto.classList.toggle("activo", i === indice); });
+      slides.forEach(function (slide, i) { var activo = i === indice; slide.classList.toggle("hero-slide-activo", activo); slide.setAttribute("aria-hidden", String(!activo)); slide.inert = !activo; });
+      puntos.forEach(function (punto, i) { var activo = i === indice; punto.classList.toggle("activo", activo); punto.setAttribute("aria-pressed", String(activo)); });
     }
-    function iniciar() { window.clearInterval(temporizador); temporizador = window.setInterval(function () { mostrar(indice + 1); }, 5200); }
-    document.querySelector(".hero-anterior").addEventListener("click", function () { mostrar(indice - 1); iniciar(); });
-    document.querySelector(".hero-siguiente").addEventListener("click", function () { mostrar(indice + 1); iniciar(); });
+    function iniciar() { window.clearInterval(temporizador); if (!movimientoReducido) temporizador = window.setInterval(function () { mostrar(indice + 1); }, 6000); }
     puntos.forEach(function (punto, i) { punto.addEventListener("click", function () { mostrar(i); iniciar(); }); });
     mostrar(0); iniciar();
   }
@@ -202,18 +240,21 @@
       var prioritaria = i >= clientes.length && i < clientes.length + 5;
       return '<div class="cliente-tarjeta"' + (original ? '' : ' aria-hidden="true"') + '><div class="cliente-logo-marco"><img src="' + asset(cliente.imagen) + '" alt="' + (original ? cliente.nombre : '') + '" loading="' + (prioritaria ? 'eager' : 'lazy') + '"></div></div>';
     }).join("");
-    return '<section id="clientes" class="seccion clientes-seccion clientes-inicio"><div class="contenedor clientes-encabezado"><div><p class="eyebrow">' + texto.clientsEyebrow + '</p><h2>' + texto.clientsTitle + '</h2></div></div><div class="clientes-banda" aria-roledescription="carousel" aria-label="' + texto.clients + '"><div id="clientes-ventana" class="clientes-ventana"><div id="clientes-pista" class="clientes-pista">' + tarjetas + '</div></div></div></section>';
+    return '<section id="clientes" class="seccion clientes-seccion clientes-inicio"><div class="contenedor"><div class="clientes-encabezado"><p class="eyebrow">' + texto.clientsEyebrow + '</p><h2>' + texto.clientsTitle + '</h2></div><div class="clientes-banda" aria-roledescription="carousel" aria-label="' + texto.clients + '"><div id="clientes-ventana" class="clientes-ventana"><div id="clientes-pista" class="clientes-pista">' + tarjetas + '</div></div></div></div></section>';
+  }
+
+  function seccionSoporte() {
+    return '<section class="seccion soporte-inicio"><div class="contenedor soporte-rejilla"><div class="soporte-visual"><span>K600</span><img src="assets/productos/k600/principal.png" alt="' + inicio.industrialAlt + '" loading="lazy"></div><div class="soporte-contenido"><p class="eyebrow">' + inicio.supportEyebrow + '</p><h2>' + inicio.supportTitle + '</h2><p>' + inicio.supportText + '</p><ul>' + inicio.supportItems.map(function (item) { return '<li>' + item + '</li>'; }).join("") + '</ul><a class="boton boton-azul" href="' + conIdioma("contacto.html") + '">' + inicio.supportButton + '</a></div></div></section>';
   }
 
   function renderInicio() {
-    var prefijo = lang === "en" ? "en-" : "";
-    var slides = [1, 2, 3].map(function (numero, i) { return { desktop: "assets/slides/" + prefijo + "desktop-" + numero + ".webp", mobile: "assets/slides/" + prefijo + "movil-" + numero + ".webp", alt: texto.heroAlt[i] }; });
-    contenido.innerHTML = '<section class="hero" aria-roledescription="carousel"><div class="hero-pista">' + slides.map(function (slide, i) { return '<picture class="hero-slide' + (i === 0 ? " hero-slide-activo" : "") + '" aria-hidden="' + (i !== 0) + '"><source media="(max-width:700px)" srcset="' + slide.mobile + '"><img src="' + slide.desktop + '" alt="' + slide.alt + '"></picture>'; }).join("") + '</div><button class="hero-flecha hero-anterior" type="button" aria-label="Previous">‹</button><button class="hero-flecha hero-siguiente" type="button" aria-label="Next">›</button><div class="hero-control">' + slides.map(function (_, i) { return '<button type="button" class="' + (i === 0 ? "activo" : "") + '" aria-label="Slide ' + (i + 1) + '"></button>'; }).join("") + '</div></section>' +
+    var slides = inicio.slides;
+    contenido.innerHTML = '<section class="hero" aria-roledescription="carousel" aria-label="' + texto.heroTitle + '"><div class="hero-pista">' + slides.map(function (slide, i) { return '<article class="hero-slide' + (i === 0 ? " hero-slide-activo" : "") + '" aria-hidden="' + (i !== 0) + '"' + (i === 0 ? '' : ' inert') + '><img src="assets/slides/nuevos/' + slide.imagen + '" alt="' + slide.alt + '" loading="' + (i === 0 ? 'eager' : 'lazy') + '"><div class="contenedor hero-contenido"><div class="hero-texto"><p class="eyebrow">' + slide.eyebrow + '</p><h1>' + slide.titulo + '</h1><p>' + slide.texto + '</p><a class="boton boton-azul" href="' + conIdioma(slide.enlace) + '">' + slide.boton + '</a></div></div></article>'; }).join("") + '</div><div class="hero-control" aria-label="' + (lang === "es" ? "Seleccionar diapositiva" : "Select slide") + '">' + slides.map(function (_, i) { return '<button type="button" class="' + (i === 0 ? "activo" : "") + '" aria-label="' + (lang === "es" ? "Mostrar diapositiva " : "Show slide ") + (i + 1) + '" aria-pressed="' + (i === 0) + '"></button>'; }).join("") + '</div></section>' +
       '<section class="seccion inicio-presentacion"><div class="contenedor inicio-presentacion-grid"><div><p class="eyebrow">' + texto.heroEyebrow + '</p><h1>' + texto.heroTitle + '</h1></div><div><p>' + texto.heroText + '</p><div class="inicio-acciones"><a class="boton boton-azul" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.quote + '</a></div></div></div></section>' +
-      '<section class="franja-industrial"><div class="contenedor franja-contenido"><div><p class="eyebrow eyebrow-claro">' + texto.applicationsEyebrow + '</p><h2>' + texto.applicationsTitle + '</h2></div><div class="franja-texto"><p>' + texto.applicationsText + '</p><a href="' + conIdioma("productos.html") + '">' + texto.seeProducts + ' →</a></div></div><div class="contenedor cifras"><div><strong>' + texto.portable + '</strong><span>' + texto.portableText + '</span></div><div><strong>' + texto.automatic + '</strong><span>' + texto.automaticText + '</span></div><div><strong>' + texto.industrial + '</strong><span>' + texto.industrialText + '</span></div></div></section>' +
+      '<section class="franja-industrial"><div class="contenedor franja-contenido"><div><p class="eyebrow eyebrow-claro">' + texto.applicationsEyebrow + '</p><h2>' + texto.applicationsTitle + '</h2></div><div class="franja-texto"><p>' + texto.applicationsText + '</p><a href="' + conIdioma("productos.html") + '">' + texto.seeProducts + ' →</a></div><figure class="franja-k600"><img src="assets/productos/k600/principal.png" alt="' + inicio.industrialAlt + '" loading="lazy"><figcaption><strong>K600</strong><span>' + inicio.industrialCaption + '</span></figcaption></figure></div><div class="contenedor cifras"><div><strong>' + texto.portable + '</strong><span>' + texto.portableText + '</span></div><div><strong>' + texto.automatic + '</strong><span>' + texto.automaticText + '</span></div><div><strong>' + texto.industrial + '</strong><span>' + texto.industrialText + '</span></div></div></section>' +
       '<section class="seccion blog-inicio"><div class="contenedor"><div class="titulo-fila titulo-fila-compacta"><div><p class="eyebrow">' + texto.knowledge + '</p><h2>' + texto.guides + '</h2></div><a class="enlace-flecha" href="' + conIdioma("blog.html") + '">' + texto.allArticles + ' →</a></div><div class="rejilla-blog">' + articulos.slice(0, 3).map(tarjetaArticulo).join("") + '</div></div></section>' +
       '<section class="cta-final"><div class="contenedor"><div><p class="eyebrow eyebrow-claro">WHATSAPP</p><h2>' + texto.quote + '</h2></div><a class="boton boton-blanco" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></section>' +
-      seccionClientes();
+      seccionClientes() + seccionSoporte();
     iniciarHero();
     iniciarClientes();
   }
@@ -411,4 +452,3 @@
   else if (pagina === "contacto") renderContacto();
   else noEncontrado(texto.home, conIdioma("index.html"));
 }());
-
