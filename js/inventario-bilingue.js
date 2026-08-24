@@ -186,11 +186,11 @@
       ]
     },
     {
-      slug: "k600", nombre: "Codificadora industrial UKCM K600", modelo: "UKCM K600", tipo: "Codificadora", familia: "Industrial CIJ",
+      slug: "k600", nombre: "Codificadora industrial K600", modelo: "K600", tipo: "Codificadora", familia: "Industrial CIJ",
       disponibilidad: "bajo-pedido", disponibilidadTexto: "Disponible bajo pedido",
       resumen: "Solución industrial de codificación continua para líneas de producción de alta velocidad.",
       descripcion: "Equipo industrial adaptable a líneas alimenticias, químicas y farmacéuticas, con impresión continua, protección IP55 y múltiples interfaces de datos.",
-      imagen: "/assets/productos/k600/principal.webp",
+      imagen: "/assets/productos/k600/principal.png",
       galeria: ["/assets/productos/k600/galeria-1.webp", "/assets/productos/k600/galeria-2.webp", "/assets/productos/k600/galeria-3.webp"],
       altura: "1 a 15 mm", alturaFiltro: "Variable",
       destacados: ["Impresión industrial continua", "Protección IP55", "Más de 1000 mensajes", "USB, RS485 y Ethernet"],
@@ -223,7 +223,7 @@
     "banda-transportadora": ["Conveyor Belt", "Automation", "Integrates with compatible printers for continuous production.", "Stainless-steel conveyor with adjustable speed, PVC belt and support for sensors and coding equipment.", ["Stainless-steel structure", "0 to 25 m/min adjustable speed", "1500 mm length", "5 kg maximum load"]],
     "codificadora-huevos": ["Egg Coding Printer", "Specialized", "Specialized system for printing dates, text, images and logos on eggs.", "Metal coding system with TIJ printheads, USB interface and an output of approximately 21,000 prints per hour.", ["About 21,000 prints per hour", "2 to 12.7 mm adjustable height", "4.3-inch display", "USB interface"]],
     g7: ["G7 Label Coding Printer", "Tablet-type inkjet", "Tablet-type solution for labels and conveyor integration.", "Industrial printer with a 7-inch touchscreen, configurable printhead and support for databases and multiple code formats.", ["7-inch touchscreen", "12.7 or 25.4 mm height", "Up to 2000 mm length", "XLS, CSV, TXT and LOG data"]],
-    k600: ["UKCM K600 Industrial Coding Printer", "Industrial CIJ", "Continuous industrial coding for high-speed production lines.", "Industrial UKCM system for food, chemical and pharmaceutical lines, with IP55 protection and multiple data interfaces.", ["Continuous industrial printing", "IP55 protection", "More than 1,000 messages", "USB, RS485 and Ethernet"]]
+    k600: ["K600 Industrial Coding Printer", "Industrial CIJ", "Continuous industrial coding for high-speed production lines.", "Industrial system for food, chemical and pharmaceutical lines, with IP55 protection and multiple data interfaces.", ["Continuous industrial printing", "IP55 protection", "More than 1,000 messages", "USB, RS485 and Ethernet"]]
   };
 
   var imagenesEn = {
@@ -413,4 +413,3 @@
     });
   });
 }());
-

@@ -2521,15 +2521,15 @@
     "slug": "k600",
     "es": {
       "slug": "k600",
-      "nombre": "Codificadora industrial UKCM K600",
-      "modelo": "UKCM K600",
+      "nombre": "Codificadora industrial K600",
+      "modelo": "K600",
       "tipo": "Codificadora",
       "familia": "Industrial CIJ",
       "disponibilidad": "bajo-pedido",
       "disponibilidadTexto": "Disponible bajo pedido",
       "resumen": "Solución industrial de codificación continua para líneas de producción de alta velocidad.",
       "descripcion": "Equipo industrial adaptable a líneas alimenticias, químicas y farmacéuticas, con impresión continua, protección IP55 y múltiples interfaces de datos.",
-      "imagen": "/assets/productos/k600/principal.webp",
+      "imagen": "/assets/productos/k600/principal.png",
       "galeria": [
         "/assets/productos/k600/galeria-1.webp",
         "/assets/productos/k600/galeria-2.webp",
@@ -2604,15 +2604,15 @@
     },
     "en": {
       "slug": "k600",
-      "nombre": "UKCM K600 Industrial Coding Printer",
-      "modelo": "UKCM K600",
+      "nombre": "K600 Industrial Coding Printer",
+      "modelo": "K600",
       "tipo": "Coding printer",
       "familia": "Industrial CIJ",
       "disponibilidad": "bajo-pedido",
       "disponibilidadTexto": "Available on request",
       "resumen": "Continuous industrial coding for high-speed production lines.",
-      "descripcion": "Industrial UKCM system for food, chemical and pharmaceutical lines, with IP55 protection and multiple data interfaces.",
-      "imagen": "/assets/productos/k600/principal.webp",
+      "descripcion": "Industrial system for food, chemical and pharmaceutical lines, with IP55 protection and multiple data interfaces.",
+      "imagen": "/assets/productos/k600/principal.png",
       "galeria": [
         "/assets/productos/k600/galeria-1.webp",
         "/assets/productos/k600/galeria-2.webp",
@@ -2691,4 +2691,3 @@
     "sort_order": 17
   }
 ]
-
