@@ -202,7 +202,7 @@
       var prioritaria = i >= clientes.length && i < clientes.length + 5;
       return '<div class="cliente-tarjeta"' + (original ? '' : ' aria-hidden="true"') + '><div class="cliente-logo-marco"><img src="' + asset(cliente.imagen) + '" alt="' + (original ? cliente.nombre : '') + '" loading="' + (prioritaria ? 'eager' : 'lazy') + '"></div></div>';
     }).join("");
-    return '<section id="clientes" class="seccion clientes-seccion clientes-inicio"><div class="contenedor"><div class="clientes-encabezado"><div><p class="eyebrow">' + texto.clientsEyebrow + '</p><h2>' + texto.clientsTitle + '</h2></div><div class="clientes-controles"><button id="cliente-anterior" class="clientes-flecha" type="button" aria-label="' + texto.clientPrevious + '"><span aria-hidden="true">←</span></button><button id="clientes-pausa" class="clientes-flecha clientes-pausa" type="button" aria-label="' + texto.clientPause + '"><span aria-hidden="true">Ⅱ</span></button><button id="cliente-siguiente" class="clientes-flecha" type="button" aria-label="' + texto.clientNext + '"><span aria-hidden="true">→</span></button></div></div><div class="clientes-banda" aria-roledescription="carousel" aria-label="' + texto.clients + '"><div id="clientes-ventana" class="clientes-ventana"><div id="clientes-pista" class="clientes-pista">' + tarjetas + '</div></div></div></div></section>';
+    return '<section id="clientes" class="seccion clientes-seccion clientes-inicio"><div class="contenedor clientes-encabezado"><div><p class="eyebrow">' + texto.clientsEyebrow + '</p><h2>' + texto.clientsTitle + '</h2></div></div><div class="clientes-banda" aria-roledescription="carousel" aria-label="' + texto.clients + '"><div id="clientes-ventana" class="clientes-ventana"><div id="clientes-pista" class="clientes-pista">' + tarjetas + '</div></div></div></section>';
   }
 
   function renderInicio() {
@@ -245,12 +245,9 @@
 
   function iniciarClientes() {
     var pista = document.getElementById("clientes-pista");
-    var ventana = document.getElementById("clientes-ventana");
-    var anterior = document.getElementById("cliente-anterior");
-    var siguiente = document.getElementById("cliente-siguiente");
-    var pausa = document.getElementById("clientes-pausa");
-    if (!pista || !ventana || !anterior || !siguiente || !pausa || !clientes.length) return;
-    var desplazamiento = 0, ultimoTiempo = 0, animacion = 0, pausado = false, sobreCarrusel = false, direccion = 1;
+    if (!pista || !clientes.length) return;
+    var desplazamiento = 0, ultimoTiempo = 0, animacion = 0;
+    var movimientoReducido = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     var velocidad = 64;
     function anchoColeccion() {
       var tarjetas = pista.querySelectorAll(".cliente-tarjeta");
@@ -272,32 +269,15 @@
       if (!ultimoTiempo) ultimoTiempo = tiempo;
       var delta = Math.min((tiempo - ultimoTiempo) / 1000, .05);
       ultimoTiempo = tiempo;
-      if (!pausado && !sobreCarrusel && !document.hidden) {
-        desplazamiento += velocidad * direccion * delta;
+      if (!movimientoReducido && !document.hidden) {
+        desplazamiento += velocidad * delta;
         normalizar();
         dibujar();
       }
       animacion = window.requestAnimationFrame(cuadro);
     }
-    function impulsar(nuevaDireccion) {
-      direccion = nuevaDireccion;
-      pausado = false;
-      mostrarEstadoPausa();
-    }
-    function mostrarEstadoPausa() {
-      pausa.setAttribute("aria-label", pausado ? texto.clientPlay : texto.clientPause);
-      pausa.innerHTML = '<span aria-hidden="true">' + (pausado ? '▶' : 'Ⅱ') + '</span>';
-      pausa.classList.toggle("activo", pausado);
-    }
-    anterior.addEventListener("click", function () { impulsar(-1); });
-    siguiente.addEventListener("click", function () { impulsar(1); });
-    pausa.addEventListener("click", function () { pausado = !pausado; mostrarEstadoPausa(); });
-    ventana.addEventListener("mouseenter", function () { sobreCarrusel = true; });
-    ventana.addEventListener("mouseleave", function () { sobreCarrusel = false; ultimoTiempo = 0; });
     window.addEventListener("resize", function () { normalizar(); dibujar(); });
     document.addEventListener("visibilitychange", function () { ultimoTiempo = 0; });
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) pausado = true;
-    mostrarEstadoPausa();
     desplazamiento = anchoColeccion();
     dibujar();
     window.cancelAnimationFrame(animacion);
