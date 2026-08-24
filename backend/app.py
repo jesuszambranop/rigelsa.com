@@ -307,7 +307,7 @@ def save_upload(file_storage, slug: str) -> str | None:
 def type_in_english(type_es: str) -> str:
     return {
         "Codificadora": "Coding printer",
-        "Cartucho": "Cartridge",
+        "Tinta": "Ink",
         "Accesorio": "Accessory",
     }.get(type_es, type_es or "Product")
 
@@ -584,3 +584,4 @@ if __name__ == "__main__":
         port=int(os.environ.get("PORT", "5000")),
         debug=os.environ.get("RIGEL_DEBUG", "0") == "1",
     )
+

@@ -21,41 +21,41 @@
 
   var texto = {
     es: {
-      skip: "Ir al contenido", home: "Inicio", products: "Productos", about: "Quiénes somos", clients: "Clientes", faq: "Preguntas frecuentes", blog: "Blog", support: "Soporte",
+      skip: "Ir al contenido", home: "Inicio", products: "Productos", about: "Quiénes somos", clients: "Clientes", faq: "Preguntas frecuentes", blog: "Blog", support: "Contáctanos",
       advice: "Asesoría especializada", adviceText: "para elegir el equipo correcto.", technical: "Soporte técnico", technicalText: "antes y después de la implementación.", coverage: "Cobertura internacional", coverageText: "para proyectos de codificación.",
-      footerText: "Soluciones de marcaje y codificación manual y automática para productos, empaques y líneas de producción.", contactUs: "Contáctanos", printers: "Codificadoras", cartridges: "Cartuchos", accessories: "Accesorios", contact: "Contacto",
+      footerText: "Empresa especializada en sistemas de marcación y codificación con sede en Ecuador, operamos en varios países de Latinoamérica.", contactUs: "Contáctanos", printers: "Codificadoras", inks: "Tintas", accessories: "Accesorios", contact: "Contacto",
       heroAlt: ["Soluciones Rigel para codificación industrial", "Codificación portátil sobre diferentes superficies", "Equipos Rigel para líneas de producción"],
       heroEyebrow: "MARCAJE Y CODIFICACIÓN", heroTitle: "Soluciones que avanzan al ritmo de tu producción", heroText: "Equipos portátiles, automáticos e industriales para imprimir fechas, lotes, códigos, textos y logotipos sobre múltiples superficies.", seeProducts: "Ver productos", quote: "Cotiza con nosotros",
       applicationsEyebrow: "UNA SOLUCIÓN PARA CADA PROCESO", applicationsTitle: "Del marcaje manual a la línea automatizada", applicationsText: "Elige por altura, velocidad, superficie y volumen de producción. Cada producto dispone de características técnicas claras y asesoría directa.",
       portable: "Portátiles", portableText: "Equipos ligeros para trabajar en distintos espacios y superficies.", automatic: "Automatización", automaticText: "Codificadoras, sensores y bandas para producción continua.", industrial: "Industrial", industrialText: "Soluciones de alta velocidad para líneas exigentes.",
       knowledge: "CONOCIMIENTO RIGEL", guides: "Guías para codificar mejor", allArticles: "Ver todos los artículos", read: "Leer artículo",
       inventory: "INVENTARIO RIGEL", inventoryTitle: "Productos para cada escala de producción", inventoryText: "Consulta equipos, consumibles y accesorios. Filtra por tipo y altura de impresión.",
-      search: "Buscar por modelo o aplicación", searchPlaceholder: "Ej.: UKCM K600, industrial, cartucho…", availability: "Disponibilidad", all: "Todos", available: "Disponible", onRequest: "Bajo pedido", unavailable: "No disponible", stock: "Stock", height: "Altura de impresión", allHeights: "Todas", results: "resultados", oneResult: "resultado", noResults: "No encontramos coincidencias", tryAgain: "Prueba otra búsqueda o restablece los filtros.", reset: "Restablecer filtros", viewFeatures: "Ver características",
+      search: "Buscar por modelo o aplicación", searchPlaceholder: "Ej.: UKCM K600, industrial, tinta…", availability: "Disponibilidad", all: "Todos", available: "Disponible", onRequest: "Bajo pedido", unavailable: "No disponible", stock: "Stock", height: "Altura de impresión", allHeights: "Todas", results: "resultados", oneResult: "resultado", noResults: "No encontramos coincidencias", tryAgain: "Prueba otra búsqueda o restablece los filtros.", reset: "Restablecer filtros", viewFeatures: "Ver características",
       clientsEyebrow: "NUESTROS CLIENTES", clientsTitle: "Marcas que confían en Rigel", clientPrevious: "Cliente anterior", clientNext: "Cliente siguiente", clientPause: "Pausar carrusel", clientPlay: "Reanudar carrusel",
-      aboutEyebrow: "RIGEL INTERNACIONAL", aboutTitle: "Quiénes somos", aboutParagraphOne: "Somos una empresa dedicada a la venta de equipos de marcaje y codificación. Ofrecemos soluciones tecnológicas innovadoras para pequeñas, medianas y grandes empresas, con enfoque en productos de alta calidad y respeto por el medio ambiente.", aboutParagraphTwo: "Nuestra empresa fue fundada en Ecuador y tiene presencia en Brasil, Colombia, Venezuela, Chile y México. Contamos con más de siete años de experiencia en el mercado de impresoras de codificación.", aboutMapAlt: "Mapa de presencia de Rigel en América Latina",
-      breadcrumbHome: "Inicio", breadcrumbProducts: "Productos", information: "INFORMACIÓN TÉCNICA", features: "Características", includes: "Incluye", sheet: "Abrir ficha técnica", consultProduct: "Cotiza con nosotros", demonstration: "DEMOSTRACIÓN", watchWorking: "Mira el equipo en funcionamiento", youtube: "Ver video público en YouTube", related: "COMPATIBLES Y RELACIONADOS", completeSolution: "Completa tu solución", directAdvice: "ASESORÍA DIRECTA", talkModel: "¿Necesitas este modelo?", talkModelText: "Escríbenos por WhatsApp y te ayudaremos a confirmar el equipo, cartucho y configuración adecuados.",
+      aboutEyebrow: "RIGEL INTERNACIONAL", aboutTitle: "Quiénes somos", aboutParagraphOne: "Somos una empresa dedicada a la venta de equipos de marcaje y codificación. Ofrecemos soluciones tecnológicas innovadoras para pequeñas, medianas y grandes empresas, con enfoque en productos de alta calidad y respeto por el medio ambiente.", aboutParagraphTwo: "Nuestra empresa fue fundada en Ecuador y tiene presencia en Brasil, Colombia, Venezuela, Chile y México. Contamos con más de siete años de experiencia en el mercado.", aboutMapAlt: "Mapa de presencia de Rigel en América Latina",
+      breadcrumbHome: "Inicio", breadcrumbProducts: "Productos", information: "INFORMACIÓN TÉCNICA", features: "Características", includes: "Incluye", sheet: "Abrir ficha técnica", consultProduct: "Cotiza con nosotros", demonstration: "DEMOSTRACIÓN", watchWorking: "Mira el equipo en funcionamiento", youtube: "Ver video público en YouTube", related: "COMPATIBLES Y RELACIONADOS", completeSolution: "Completa tu solución",
       blogEyebrow: "CONOCIMIENTO RIGEL", blogTitle: "Ideas para una codificación más eficiente", blogText: "Guías prácticas sobre equipos, tintas, trazabilidad, mantenimiento y buenas prácticas de producción.", keepReading: "SEGUIR LEYENDO", otherArticles: "Otros artículos", needAdvice: "¿NECESITAS ASESORÍA?", findPrinter: "Encuentra la solución adecuada", findPrinterText: "Revisa el inventario o cuéntanos tu proceso de impresión.",
-      faqEyebrow: "SOPORTE", faqTitle: "Preguntas frecuentes", faqText: "Información esencial para utilizar, mantener e integrar tu solución de codificación.", stillQuestions: "¿Todavía tienes dudas?", stillQuestionsText: "Cuéntanos qué equipo utilizas y qué necesitas resolver.",
-      contactEyebrow: "CONTACTO", contactTitle: "Hablemos de tu proceso de codificación", contactText: "Recibe asesoría para elegir un modelo, confirmar compatibilidad o resolver una consulta técnica.", personalized: "ATENCIÓN PERSONALIZADA", supportTitle: "Soporte Rigel", supportText: "Describe el producto, la superficie y la información que necesitas imprimir. También puedes indicar el volumen aproximado de producción.", email: "Correo", channel: "Canal", name: "Nombre completo", message: "¿Cómo podemos ayudarte?", phone: "WhatsApp", send: "Enviar mensaje", formKicker: "FORMULARIO DE CONTACTO", formTitle: "Cuéntanos cómo podemos ayudarte", formRequired: "Todos los campos son obligatorios.", namePlaceholder: "Escribe tu nombre", emailPlaceholder: "nombre@empresa.com", phonePlaceholder: "+593 99 999 9999", messagePlaceholder: "Escribe aquí tu mensaje o requerimiento…", formNote: "Al enviar este formulario aceptas que usemos tus datos únicamente para responder tu solicitud.", sending: "Enviando…", received: "MENSAJE RECIBIDO", thankYou: "Gracias por contactarnos.", sent: "Tu información fue enviada correctamente a Rigel.", sendAnother: "Enviar otro mensaje", required: "Completa los campos obligatorios.",
+      faqEyebrow: "PREGUNTAS FRECUENTES", faqTitle: "Preguntas frecuentes", faqText: "Información esencial para utilizar, mantener e integrar tu solución de codificación.", stillQuestions: "¿Todavía tienes dudas?", stillQuestionsText: "Cuéntanos qué equipo utilizas y qué necesitas resolver.",
+      contactEyebrow: "CONTACTO", contactTitle: "Hablemos de tu proceso de codificación", contactText: "Recibe asesoría para elegir un modelo, confirmar compatibilidad o resolver una consulta técnica.", personalized: "ATENCIÓN PERSONALIZADA", supportTitle: "Atención Rigel", supportText: "Describe el producto, la superficie y la información que necesitas imprimir. También puedes indicar el volumen aproximado de producción.", email: "Correo", channel: "Canal", name: "Nombre completo", message: "¿Cómo podemos ayudarte?", phone: "WhatsApp", send: "Enviar mensaje", formKicker: "FORMULARIO DE CONTACTO", formTitle: "Cuéntanos cómo podemos ayudarte", formRequired: "Todos los campos son obligatorios.", namePlaceholder: "Escribe tu nombre", emailPlaceholder: "nombre@empresa.com", phonePlaceholder: "+593 99 999 9999", messagePlaceholder: "Escribe aquí tu mensaje o requerimiento…", formNote: "Al enviar este formulario aceptas que usemos tus datos únicamente para responder tu solicitud.", sending: "Enviando…", received: "MENSAJE RECIBIDO", thankYou: "Gracias por contactarnos.", sent: "Tu información fue enviada correctamente a Rigel.", sendAnother: "Enviar otro mensaje", required: "Completa los campos obligatorios.",
       notFound: "Contenido no encontrado", backProducts: "Volver a productos", backBlog: "Volver al blog"
     },
     en: {
-      skip: "Skip to content", home: "Home", products: "Products", about: "About us", clients: "Clients", faq: "Frequently asked questions", blog: "Blog", support: "Support",
+      skip: "Skip to content", home: "Home", products: "Products", about: "About us", clients: "Clients", faq: "Frequently asked questions", blog: "Blog", support: "Contact us",
       advice: "Specialized guidance", adviceText: "to choose the right equipment.", technical: "Technical support", technicalText: "before and after implementation.", coverage: "International coverage", coverageText: "for coding projects.",
-      footerText: "Manual and automatic marking and coding solutions for products, packaging and production lines.", contactUs: "Contact us", printers: "Coding printers", cartridges: "Ink cartridges", accessories: "Accessories", contact: "Contact",
+      footerText: "Company specialized in marking and coding systems, headquartered in Ecuador and operating in several Latin American countries.", contactUs: "Contact us", printers: "Coding printers", inks: "Inks", accessories: "Accessories", contact: "Contact",
       heroAlt: ["Rigel industrial coding solutions", "Handheld coding on different materials", "Rigel equipment for production lines"],
       heroEyebrow: "MARKING & CODING", heroTitle: "Solutions that keep pace with your production", heroText: "Handheld, automatic and industrial equipment for dates, batches, codes, text and logos on multiple materials.", seeProducts: "View products", quote: "Request a quote",
       applicationsEyebrow: "A SOLUTION FOR EVERY PROCESS", applicationsTitle: "From handheld marking to automated lines", applicationsText: "Choose by height, speed, material and production volume. Every product includes clear technical details and direct guidance.",
       portable: "Handheld", portableText: "Lightweight equipment for different spaces and materials.", automatic: "Automation", automaticText: "Printers, sensors and conveyors for continuous production.", industrial: "Industrial", industrialText: "High-speed solutions for demanding production lines.",
       knowledge: "RIGEL KNOWLEDGE", guides: "Guides for better coding", allArticles: "View all articles", read: "Read article",
       inventory: "RIGEL INVENTORY", inventoryTitle: "Products for every production scale", inventoryText: "Browse equipment, consumables and accessories. Filter by type and print height.",
-      search: "Search by model or application", searchPlaceholder: "E.g. UKCM K600, industrial, cartridge…", availability: "Availability", all: "All", available: "Available", onRequest: "On request", unavailable: "Unavailable", stock: "Stock", height: "Print height", allHeights: "All", results: "results", oneResult: "result", noResults: "No matches found", tryAgain: "Try a different search or reset the filters.", reset: "Reset filters", viewFeatures: "View features",
+      search: "Search by model or application", searchPlaceholder: "E.g. UKCM K600, industrial, ink…", availability: "Availability", all: "All", available: "Available", onRequest: "On request", unavailable: "Unavailable", stock: "Stock", height: "Print height", allHeights: "All", results: "results", oneResult: "result", noResults: "No matches found", tryAgain: "Try a different search or reset the filters.", reset: "Reset filters", viewFeatures: "View features",
       clientsEyebrow: "OUR CLIENTS", clientsTitle: "Brands that trust Rigel", clientPrevious: "Previous client", clientNext: "Next client", clientPause: "Pause carousel", clientPlay: "Resume carousel",
-      aboutEyebrow: "RIGEL INTERNATIONAL", aboutTitle: "About us", aboutParagraphOne: "We are a company dedicated to supplying marking and coding equipment. We offer innovative technology solutions for small, medium and large businesses, focused on high-quality products and respect for the environment.", aboutParagraphTwo: "Our company was founded in Ecuador and has a presence in Brazil, Colombia, Venezuela, Chile and Mexico. We have more than seven years of experience in the coding printer market.", aboutMapAlt: "Map of Rigel's presence in Latin America",
-      breadcrumbHome: "Home", breadcrumbProducts: "Products", information: "TECHNICAL INFORMATION", features: "Features", includes: "Included", sheet: "Open technical data sheet", consultProduct: "Request a quote", demonstration: "DEMONSTRATION", watchWorking: "See the equipment in action", youtube: "Watch the public video on YouTube", related: "COMPATIBLE & RELATED", completeSolution: "Complete your solution", directAdvice: "DIRECT GUIDANCE", talkModel: "Need this model?", talkModelText: "Message us on WhatsApp and we will help you confirm the right equipment, cartridge and setup.",
+      aboutEyebrow: "RIGEL INTERNATIONAL", aboutTitle: "About us", aboutParagraphOne: "We are a company dedicated to supplying marking and coding equipment. We offer innovative technology solutions for small, medium and large businesses, focused on high-quality products and respect for the environment.", aboutParagraphTwo: "Our company was founded in Ecuador and has a presence in Brazil, Colombia, Venezuela, Chile and Mexico. We have more than seven years of experience in the market.", aboutMapAlt: "Map of Rigel's presence in Latin America",
+      breadcrumbHome: "Home", breadcrumbProducts: "Products", information: "TECHNICAL INFORMATION", features: "Features", includes: "Included", sheet: "Open technical data sheet", consultProduct: "Request a quote", demonstration: "DEMONSTRATION", watchWorking: "See the equipment in action", youtube: "Watch the public video on YouTube", related: "COMPATIBLE & RELATED", completeSolution: "Complete your solution",
       blogEyebrow: "RIGEL KNOWLEDGE", blogTitle: "Ideas for more efficient coding", blogText: "Practical guides about equipment, inks, traceability, maintenance and production best practices.", keepReading: "KEEP READING", otherArticles: "More articles", needAdvice: "NEED GUIDANCE?", findPrinter: "Find the right solution", findPrinterText: "Browse the inventory or tell us about your printing process.",
-      faqEyebrow: "SUPPORT", faqTitle: "Frequently asked questions", faqText: "Essential information for using, maintaining and integrating your coding solution.", stillQuestions: "Still have questions?", stillQuestionsText: "Tell us which equipment you use and what you need to solve.",
-      contactEyebrow: "CONTACT", contactTitle: "Let’s talk about your coding process", contactText: "Get guidance to choose a model, confirm compatibility or solve a technical question.", personalized: "PERSONALIZED ASSISTANCE", supportTitle: "Rigel support", supportText: "Describe the product, material and information you need to print. You can also include your approximate production volume.", email: "Email", channel: "Channel", name: "Full name", message: "How can we help?", phone: "WhatsApp", send: "Send message", formKicker: "CONTACT FORM", formTitle: "Tell us how we can help", formRequired: "All fields are required.", namePlaceholder: "Enter your name", emailPlaceholder: "name@company.com", phonePlaceholder: "+593 99 999 9999", messagePlaceholder: "Write your message or request here…", formNote: "By sending this form, you agree that we may use your data only to respond to your request.", sending: "Sending…", received: "MESSAGE RECEIVED", thankYou: "Thank you for contacting us.", sent: "Your information was successfully sent to Rigel.", sendAnother: "Send another message", required: "Complete the required fields.",
+      faqEyebrow: "FREQUENTLY ASKED QUESTIONS", faqTitle: "Frequently asked questions", faqText: "Essential information for using, maintaining and integrating your coding solution.", stillQuestions: "Still have questions?", stillQuestionsText: "Tell us which equipment you use and what you need to solve.",
+      contactEyebrow: "CONTACT", contactTitle: "Let’s talk about your coding process", contactText: "Get guidance to choose a model, confirm compatibility or solve a technical question.", personalized: "PERSONALIZED ASSISTANCE", supportTitle: "Rigel assistance", supportText: "Describe the product, material and information you need to print. You can also include your approximate production volume.", email: "Email", channel: "Channel", name: "Full name", message: "How can we help?", phone: "WhatsApp", send: "Send message", formKicker: "CONTACT FORM", formTitle: "Tell us how we can help", formRequired: "All fields are required.", namePlaceholder: "Enter your name", emailPlaceholder: "name@company.com", phonePlaceholder: "+593 99 999 9999", messagePlaceholder: "Write your message or request here…", formNote: "By sending this form, you agree that we may use your data only to respond to your request.", sending: "Sending…", received: "MESSAGE RECEIVED", thankYou: "Thank you for contacting us.", sent: "Your information was successfully sent to Rigel.", sendAnother: "Send another message", required: "Complete the required fields.",
       notFound: "Content not found", backProducts: "Back to products", backBlog: "Back to blog"
     }
   }[lang];
@@ -159,7 +159,7 @@
       '<div><span>03</span><p><strong>' + texto.coverage + '</strong> ' + texto.coverageText + '</p></div>' +
       '</div></div><div class="contenedor pie-principal"><div class="pie-marca"><a class="marca marca-imagen" href="' + conIdioma("index.html") + '">' + marca() + '</a><p>' + texto.footerText + '</p><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a>' + enlacesSociales() + '</div>' +
       '<div class="pie-columnas"><div><h2>Rigel</h2><a href="' + conIdioma("index.html") + '">' + texto.home + '</a><a href="' + conIdioma("quienes-somos.html") + '">' + texto.about + '</a><a href="' + conIdioma("blog.html") + '">' + texto.blog + '</a></div>' +
-      '<div><h2>' + texto.products + '</h2><a href="' + conIdioma("productos.html?tipo=Codificadora") + '">' + texto.printers + '</a><a href="' + conIdioma("productos.html?tipo=Cartucho") + '">' + texto.cartridges + '</a><a href="' + conIdioma("productos.html?tipo=Accesorio") + '">' + texto.accessories + '</a></div>' +
+      '<div><h2>' + texto.products + '</h2><a href="' + conIdioma("productos.html?tipo=Codificadora") + '">' + texto.printers + '</a><a href="' + conIdioma("productos.html?tipo=Tinta") + '">' + texto.inks + '</a><a href="' + conIdioma("productos.html?tipo=Accesorio") + '">' + texto.accessories + '</a></div>' +
       '<div><h2>' + texto.support + '</h2><a href="' + conIdioma("quienes-somos.html#preguntas") + '">' + texto.faq + '</a><a href="' + conIdioma("contacto.html") + '">' + texto.contact + '</a><a href="mailto:' + correo + '">' + correo + '</a></div></div></div>' +
       '<div class="contenedor pie-legal"><p>© Rigel 2026.</p></div>';
 
@@ -226,7 +226,7 @@
     var alturas = Array.from(new Set(productos.map(function (p) { return p.alturaFiltro; })));
     alturas.forEach(function (opcion) { altura.insertAdjacentHTML("beforeend", '<option value="' + opcion + '">' + opcion + '</option>'); });
     var solicitado = params.get("tipo");
-    if (lang === "en") solicitado = ({ Codificadora: "Coding printer", Cartucho: "Cartridge", Accesorio: "Accessory" })[solicitado] || solicitado;
+    if (lang === "en") solicitado = ({ Codificadora: "Coding printer", Tinta: "Ink", Accesorio: "Accessory" })[solicitado] || solicitado;
     var tipo = tipos.indexOf(solicitado) !== -1 ? solicitado : "Todos";
     function filtrar() {
       var consulta = busqueda.value.toLowerCase().trim();
@@ -250,50 +250,58 @@
     var siguiente = document.getElementById("cliente-siguiente");
     var pausa = document.getElementById("clientes-pausa");
     if (!pista || !ventana || !anterior || !siguiente || !pausa || !clientes.length) return;
-    var indice = clientes.length, temporizador, enTransicion = false, pausado = false;
-    function paso() {
-      var tarjeta = pista.querySelector(".cliente-tarjeta");
+    var desplazamiento = 0, ultimoTiempo = 0, animacion = 0, pausado = false, sobreCarrusel = false, direccion = 1;
+    var velocidad = 64;
+    function anchoColeccion() {
+      var tarjetas = pista.querySelectorAll(".cliente-tarjeta");
+      if (!tarjetas.length) return 0;
       var estilos = window.getComputedStyle(pista);
-      return tarjeta ? tarjeta.getBoundingClientRect().width + (parseFloat(estilos.columnGap || estilos.gap) || 0) : 0;
-    }
-    function posicionar(sinTransicion) {
-      if (sinTransicion) pista.classList.add("sin-transicion");
-      pista.style.transform = "translate3d(" + (-indice * paso()) + "px,0,0)";
-      if (sinTransicion) window.requestAnimationFrame(function () { pista.classList.remove("sin-transicion"); });
+      var paso = tarjetas[0].getBoundingClientRect().width + (parseFloat(estilos.columnGap || estilos.gap) || 0);
+      return paso * clientes.length;
     }
     function normalizar() {
-      enTransicion = false;
-      if (indice >= clientes.length * 2) { indice -= clientes.length; posicionar(true); }
-      else if (indice < clientes.length) { indice += clientes.length; posicionar(true); }
+      var ancho = anchoColeccion();
+      if (!ancho) return;
+      while (desplazamiento >= ancho * 2) desplazamiento -= ancho;
+      while (desplazamiento < ancho) desplazamiento += ancho;
     }
-    function mover(cambio) {
-      if (enTransicion) return;
-      enTransicion = true;
-      indice += cambio;
-      posicionar(false);
+    function dibujar() {
+      pista.style.transform = "translate3d(" + (-desplazamiento) + "px,0,0)";
     }
-    function detener() { window.clearInterval(temporizador); }
-    function iniciar() {
-      detener();
-      if (!pausado && !document.hidden) temporizador = window.setInterval(function () { mover(1); }, 1800);
+    function cuadro(tiempo) {
+      if (!ultimoTiempo) ultimoTiempo = tiempo;
+      var delta = Math.min((tiempo - ultimoTiempo) / 1000, .05);
+      ultimoTiempo = tiempo;
+      if (!pausado && !sobreCarrusel && !document.hidden) {
+        desplazamiento += velocidad * direccion * delta;
+        normalizar();
+        dibujar();
+      }
+      animacion = window.requestAnimationFrame(cuadro);
+    }
+    function impulsar(nuevaDireccion) {
+      direccion = nuevaDireccion;
+      pausado = false;
+      mostrarEstadoPausa();
     }
     function mostrarEstadoPausa() {
       pausa.setAttribute("aria-label", pausado ? texto.clientPlay : texto.clientPause);
       pausa.innerHTML = '<span aria-hidden="true">' + (pausado ? '▶' : 'Ⅱ') + '</span>';
       pausa.classList.toggle("activo", pausado);
     }
-    anterior.addEventListener("click", function () { mover(-1); iniciar(); });
-    siguiente.addEventListener("click", function () { mover(1); iniciar(); });
-    pausa.addEventListener("click", function () { pausado = !pausado; mostrarEstadoPausa(); iniciar(); });
-    pista.addEventListener("transitionend", function (evento) { if (evento.target === pista && evento.propertyName === "transform") normalizar(); });
-    ventana.addEventListener("mouseenter", detener);
-    ventana.addEventListener("mouseleave", iniciar);
-    window.addEventListener("resize", function () { enTransicion = false; posicionar(true); });
-    document.addEventListener("visibilitychange", iniciar);
+    anterior.addEventListener("click", function () { impulsar(-1); });
+    siguiente.addEventListener("click", function () { impulsar(1); });
+    pausa.addEventListener("click", function () { pausado = !pausado; mostrarEstadoPausa(); });
+    ventana.addEventListener("mouseenter", function () { sobreCarrusel = true; });
+    ventana.addEventListener("mouseleave", function () { sobreCarrusel = false; ultimoTiempo = 0; });
+    window.addEventListener("resize", function () { normalizar(); dibujar(); });
+    document.addEventListener("visibilitychange", function () { ultimoTiempo = 0; });
     if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) pausado = true;
     mostrarEstadoPausa();
-    posicionar(true);
-    iniciar();
+    desplazamiento = anchoColeccion();
+    dibujar();
+    window.cancelAnimationFrame(animacion);
+    animacion = window.requestAnimationFrame(cuadro);
   }
 
   function youtubeDirecto(url) {
@@ -312,8 +320,7 @@
     contenido.innerHTML = '<div class="contenedor migas"><a href="' + conIdioma("index.html") + '">' + texto.breadcrumbHome + '</a><span>›</span><a href="' + conIdioma("productos.html") + '">' + texto.breadcrumbProducts + '</a><span>›</span><strong>' + producto.modelo + '</strong></div><section class="contenedor producto-hero"><div><div class="galeria-principal"><img id="imagen-producto" src="' + asset(galeria[0]) + '" alt="' + producto.nombre + '"></div>' + (galeria.length > 1 ? '<div class="galeria-miniaturas">' + galeria.map(function (imagen, i) { return '<button type="button" data-imagen="' + asset(imagen) + '" class="' + (i === 0 ? "activo" : "") + '"><img src="' + asset(imagen) + '" alt=""></button>'; }).join("") + '</div>' : "") + '</div><div class="producto-resumen"><p class="eyebrow">' + producto.tipo.toUpperCase() + ' · ' + producto.familia.toUpperCase() + '</p><h1>' + producto.nombre + '</h1><p class="producto-intro">' + producto.descripcion + '</p><ul class="lista-destacados">' + producto.destacados.map(function (item) { return '<li>' + item + '</li>'; }).join("") + '</ul><div class="producto-acciones"><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.consultProduct + '</a>' + (producto.ficha ? '<a class="boton boton-contorno" href="' + asset(producto.ficha) + '" target="_blank">' + texto.sheet + '</a>' : "") + '</div></div></section>' +
       '<section class="seccion producto-detalles"><div class="contenedor detalles-rejilla"><div><p class="eyebrow">' + texto.information + '</p><h2>' + texto.features + '</h2><p>' + producto.resumen + '</p>' + (producto.incluye && producto.incluye.length ? '<div class="incluye"><h3>' + texto.includes + '</h3><ul>' + producto.incluye.map(function (item) { return '<li>' + item + '</li>'; }).join("") + '</ul></div>' : "") + '</div><dl class="tabla-especificaciones">' + producto.especificaciones.map(function (fila) { return '<div><dt>' + fila[0] + '</dt><dd>' + fila[1] + '</dd></div>'; }).join("") + '</dl></div></section>' +
       (producto.video ? '<section class="seccion producto-video"><div class="contenedor"><p class="eyebrow">' + texto.demonstration + '</p><h2>' + texto.watchWorking + '</h2><a class="video-enlace" href="' + youtubeDirecto(producto.video) + '" target="_blank" rel="noreferrer"><div><img src="' + asset(producto.imagen) + '" alt=""><span aria-hidden="true">▶</span></div><strong>' + texto.youtube + '</strong></a></div></section>' : "") +
-      (relacionados.length ? '<section class="seccion relacionados"><div class="contenedor"><p class="eyebrow">' + texto.related + '</p><h2>' + texto.completeSolution + '</h2><div class="rejilla-productos">' + relacionados.slice(0, 3).map(tarjetaProducto).join("") + '</div></div></section>' : "") +
-      '<section class="seccion consulta-producto"><div class="contenedor consulta-rejilla"><div><p class="eyebrow">' + texto.directAdvice + '</p><h2>' + texto.talkModel + '</h2><p>' + texto.talkModelText + '</p></div><div class="consulta-whatsapp"><img src="assets/brand/rigel-horizontal.png" alt="Rigel"><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.consultProduct + '</a></div></div></section>';
+      (relacionados.length ? '<section class="seccion relacionados"><div class="contenedor"><p class="eyebrow">' + texto.related + '</p><h2>' + texto.completeSolution + '</h2><div class="rejilla-productos">' + relacionados.slice(0, 3).map(tarjetaProducto).join("") + '</div></div></section>' : "");
     var principal = document.getElementById("imagen-producto");
     Array.prototype.forEach.call(document.querySelectorAll("[data-imagen]"), function (boton) { boton.addEventListener("click", function () { principal.src = boton.getAttribute("data-imagen"); Array.prototype.forEach.call(document.querySelectorAll("[data-imagen]"), function (b) { b.classList.remove("activo"); }); boton.classList.add("activo"); }); });
   }
@@ -335,27 +342,27 @@
 
   function obtenerPreguntas() {
     return lang === "en" ? [
-      ["Does the equipment require maintenance?", "Frequent technical maintenance is not required. Correct cartridge cleaning and proper care help preserve print quality."],
-      ["Do you supply consumables?", "Yes. Contact our team to confirm cartridge and consumable availability."],
+      ["Does the equipment require maintenance?", "Frequent technical maintenance is not required. Correct ink-system cleaning and proper care help preserve print quality."],
+      ["Do you supply consumables?", "Yes. Contact our team to confirm ink and consumable availability."],
       ["Is technical support available?", "Yes. Email <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> or message +593 93 947 4695 on WhatsApp."],
-      ["Is the print permanent?", "Solvent ink gains adhesion over time. Results also depend on the material, surface preparation and cartridge type."],
+      ["Is the print permanent?", "Solvent ink gains adhesion over time. Results also depend on the material, surface preparation and ink type."],
       ["Can I connect it to a conveyor?", "Yes. Models with automatic mode can integrate with a conveyor through a sensor."],
       ["Is it easy to use?", "Yes. The software is intuitive, and Rigel provides technical sheets and support videos."],
       ["What is the expected equipment life?", "With correct care, the equipment is designed for long-term operation. Actual life depends on use and working conditions."],
-      ["Is it a laser printer?", "No. It uses thermal inkjet technology and ink cartridges."],
+      ["Is it a laser printer?", "No. It uses thermal inkjet technology and dedicated inks."],
       ["How does the warranty work?", "The warranty covers manufacturing defects after technical evaluation. Impact, water and misuse damage are not covered."],
-      ["Can it print in color?", "Available colors depend on the cartridge and model. Ask about black, blue, red, yellow, green, magenta or white."]
+      ["Can it print in color?", "Available colors depend on the ink and model. Ask about black, blue, red, yellow, green, magenta or white."]
     ] : [
-      ["¿Requiere mantenimiento?", "Las codificadoras no requieren mantenimiento técnico frecuente. La limpieza correcta del cartucho y el cuidado del equipo ayudan a conservar la calidad de impresión."],
-      ["¿Tienen suministros?", "Sí. Consulta la disponibilidad de cartuchos y consumibles directamente con nuestro equipo."],
+      ["¿Requiere mantenimiento?", "Las codificadoras no requieren mantenimiento técnico frecuente. La limpieza correcta del sistema de tinta y el cuidado del equipo ayudan a conservar la calidad de impresión."],
+      ["¿Tienen suministros?", "Sí. Consulta la disponibilidad de tintas y consumibles directamente con nuestro equipo."],
       ["¿Disponen de soporte técnico?", "Sí. Puedes escribir a <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> o por WhatsApp al +593 93 947 4695."],
-      ["¿La impresión es permanente?", "La tinta solvente adquiere mayor adherencia con el tiempo. El resultado también depende del material, la preparación de la superficie y el cartucho."],
+      ["¿La impresión es permanente?", "La tinta solvente adquiere mayor adherencia con el tiempo. El resultado también depende del material, la preparación de la superficie y el tipo de tinta."],
       ["¿Puedo acoplarla a una banda transportadora?", "Sí. Los modelos compatibles con modo automático pueden integrarse mediante sensor."],
       ["¿Es fácil de usar?", "Sí. El software es intuitivo y Rigel ofrece fichas técnicas y videos de apoyo."],
       ["¿Cuál es la vida útil del equipo?", "Con los cuidados adecuados, los equipos están diseñados para una operación prolongada. La vida útil depende del uso y las condiciones de trabajo."],
-      ["¿Es una impresora láser?", "No. Utiliza tecnología de inyección térmica y cartuchos de tinta."],
+      ["¿Es una impresora láser?", "No. Utiliza tecnología de inyección térmica y tintas especializadas."],
       ["¿Cómo funciona la garantía?", "La garantía cubre fallas de fábrica después de una evaluación técnica. Golpes, contacto con agua y uso incorrecto no están cubiertos."],
-      ["¿Imprime a color?", "La disponibilidad de colores depende del cartucho y del modelo. Consulta opciones en negro, azul, rojo, amarillo, verde, magenta o blanco."]
+      ["¿Imprime a color?", "La disponibilidad de colores depende de la tinta y del modelo. Consulta opciones en negro, azul, rojo, amarillo, verde, magenta o blanco."]
     ];
   }
 
@@ -409,10 +416,10 @@
   var pagina = document.body.getAttribute("data-page");
   var titulos = lang === "en" ? {
     inicio: "Rigel | Marking & coding", productos: "Products | Rigel", nosotros: "About us | Rigel",
-    blog: "Blog | Rigel", contacto: "Contact & support | Rigel"
+    blog: "Blog | Rigel", contacto: "Contact us | Rigel"
   } : {
     inicio: "Rigel | Marcaje y codificación", productos: "Productos | Rigel", nosotros: "Quiénes somos | Rigel",
-    blog: "Blog | Rigel", contacto: "Contacto y soporte | Rigel"
+    blog: "Blog | Rigel", contacto: "Contáctanos | Rigel"
   };
   if (titulos[pagina]) document.title = titulos[pagina];
   if (pagina === "inicio") renderInicio();
@@ -424,3 +431,4 @@
   else if (pagina === "contacto") renderContacto();
   else noEncontrado(texto.home, conIdioma("index.html"));
 }());
+

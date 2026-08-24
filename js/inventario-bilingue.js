@@ -17,7 +17,7 @@
       ["Garantía", "1 año por fallas de fábrica"], ["Pantalla", "Táctil de 3,5 pulgadas"],
       ["Líneas de impresión", "1 a 6 líneas"], ["Altura de impresión", "12,7 mm"],
       ["Longitud de impresión", "1,5 m"], ["Resolución", "300 DPI"],
-      ["Capacidad de tinta", "42 ml"], ["Tipo de tinta", "Cartucho de tinta solvente"],
+      ["Capacidad de tinta", "42 ml"], ["Tipo de tinta", "Tinta solvente"],
       ["Colores de tinta", "Negro, azul, rojo, amarillo y blanco"], ["Formatos de imagen", "JPG, PNG y BMP"],
       ["Superficies", "Cartón, tubo, cable, metal, plástico, aluminio, papel y más"], ["Batería", "4 a 6 horas"],
       ["Peso", "218 g"], ["Dimensiones", "85 × 106 mm"], ["Memoria interna", "65 MB"],
@@ -107,7 +107,7 @@
         ["Garantía", "6 meses por fallas de fábrica"], ["Pantalla", "Táctil de 2,4 pulgadas"],
         ["Líneas de impresión", "1 a 6 líneas"], ["Altura de impresión", "12,7 mm"],
         ["Resolución", "300 / 600 DPI"], ["Capacidad de tinta", "42 ml"],
-        ["Tipo de tinta", "Cartucho de tinta solvente"], ["Formatos de imagen", "JPG, PNG y BMP"],
+        ["Tipo de tinta", "Tinta solvente"], ["Formatos de imagen", "JPG, PNG y BMP"],
         ["Batería", "4 a 6 horas"], ["Peso", "185 g"], ["Dimensiones", "70 × 97 × 45 mm"],
         ["Voltaje", "110 V - 220 V / carga tipo C"]
       ], compatibles: ["S70", "SK10"]
@@ -124,7 +124,7 @@
       especificaciones: [
         ["Sistema operativo", "Basado en Linux"], ["Pantalla", "Táctil HD de 7 pulgadas"],
         ["Altura de impresión", "12,7 mm"], ["Distancia de impresión", "2 a 5 mm"],
-        ["Cartucho", "Tinta solvente de secado rápido, 42 ml"], ["Velocidad", "120 m/min"],
+        ["Tinta", "Tinta solvente de secado rápido, 42 ml"], ["Velocidad", "120 m/min"],
         ["Resolución horizontal", "100 / 120 / 150 / 200 / 300 / 600 DPI"], ["Resolución vertical", "300 / 600 DPI"],
         ["Códigos", "Code 128, Code 39, EAN8, EAN13, UPCA, ITF, QR, GS1DM y PDF417"],
         ["Puertos", "USB, alimentación, sensor fotoeléctrico y codificador"], ["Memoria", "8 GB"],
@@ -211,19 +211,28 @@
     b15: ["B15 Coding Printer", "Wi-Fi handheld", "Wireless coding for dry, wet and frozen products.", "Compact printer controlled from an Android or iOS app through Wi-Fi, with fast-drying solvent ink for flexible production work.", ["Wi-Fi connection", "Android and iOS app", "1 to 5 print lines", "Fast-drying solvent ink"]],
     bt6205bl: ["BT6205BL Coding Printer", "Handheld and automatic", "Dual-use printer for handheld work or conveyor integration.", "Lightweight coding printer with a 4.3-inch display, photoelectric sensor port and removable battery for manual or automatic operation.", ["Handheld or automatic use", "Up to 16 hours of battery life", "4.3-inch HD display", "Photoelectric sensor port"]],
     bt6210bl: ["BT6210BL Coding Printer", "Handheld and automatic", "A 25.4 mm print height for applications that need more information per pass.", "Dual-use coding printer with a 25.4 mm print height, HD display and sensor connection for handheld or conveyor work.", ["Up to 10 print lines", "Up to 2 m print length", "16-hour battery", "Handheld and automatic operation"]],
-    b45: ["B45 Coding Printer", "Industrial", "Large-format coding for text, logos and industrial marking.", "Two-cartridge industrial printer with a print height of up to 50 mm for handheld or automated production.", ["Up to 20 print lines", "50 mm print height", "Two cartridges", "Handheld or automatic use"]],
-    b85: ["B85 Coding Printer", "Industrial large format", "The largest print height in the Rigel handheld range.", "Four-cartridge industrial printer for up to 40 lines and large-format customization in handheld or automatic mode.", ["Up to 40 print lines", "100 mm print height", "Four cartridges", "600 / 300 DPI resolution"]],
-    bb22b: ["BENTSAI BB22B Cartridge", "Solvent ink", "Fast-drying solvent cartridge for 12.7 mm printing.", "Original BENTSAI cartridge for sharp and reliable printing on multiple materials.", ["Solvent ink", "Fast drying", "12.7 mm print height", "Original cartridge"]],
-    eb21b: ["BENTSAI EB21B Cartridge", "Solvent ink", "Solvent cartridge for larger print heights and industrial applications.", "Original fast-drying BENTSAI cartridge for plastic, glass, metal, cardboard and other materials.", ["Solvent ink", "Fast drying", "Industrial use", "Original cartridge"]],
-    eb22bl: ["BENTSAI EB22BL Cartridge", "Solvent ink", "Long-lasting original cartridge for industrial coding.", "BENTSAI solvent cartridge for larger print heights with fast adhesion and a defined finish.", ["Solvent ink", "Long lasting", "Industrial use", "Original cartridge"]],
-    s70: ["S70 Cartridge", "Solvent ink", "12.7 mm solvent cartridge compatible with the M1.", "Consumable for dates, batches, text, logos and codes on different materials.", ["Solvent ink", "Fast drying", "12.7 mm", "Compatible with M1"]],
-    sk10: ["SK10 Cartridge", "Solvent ink", "12.7 mm cartridge for handheld coding with the M1.", "Fast-drying solvent ink for sharp results on paper, plastic, cardboard and metal.", ["Solvent ink", "Fast drying", "12.7 mm", "Compatible with M1"]],
+    b45: ["B45 Coding Printer", "Industrial", "Large-format coding for text, logos and industrial marking.", "Two-ink industrial printer with a print height of up to 50 mm for handheld or automated production.", ["Up to 20 print lines", "50 mm print height", "Two inks", "Handheld or automatic use"]],
+    b85: ["B85 Coding Printer", "Industrial large format", "The largest print height in the Rigel handheld range.", "Four-ink industrial printer for up to 40 lines and large-format customization in handheld or automatic mode.", ["Up to 40 print lines", "100 mm print height", "Four inks", "600 / 300 DPI resolution"]],
+    bb22b: ["BENTSAI BB22B Ink", "Solvent ink", "Fast-drying solvent ink for 12.7 mm printing.", "Original BENTSAI ink for sharp and reliable printing on multiple materials.", ["Solvent ink", "Fast drying", "12.7 mm print height", "Original ink"]],
+    eb21b: ["BENTSAI EB21B Ink", "Solvent ink", "Solvent ink for larger print heights and industrial applications.", "Original fast-drying BENTSAI ink for plastic, glass, metal, cardboard and other materials.", ["Solvent ink", "Fast drying", "Industrial use", "Original ink"]],
+    eb22bl: ["BENTSAI EB22BL Ink", "Solvent ink", "Long-lasting original ink for industrial coding.", "BENTSAI solvent ink for larger print heights with fast adhesion and a defined finish.", ["Solvent ink", "Long lasting", "Industrial use", "Original ink"]],
+    s70: ["S70 Ink", "Solvent ink", "12.7 mm solvent ink compatible with the M1.", "Consumable for dates, batches, text, logos and codes on different materials.", ["Solvent ink", "Fast drying", "12.7 mm", "Compatible with M1"]],
+    sk10: ["SK10 Ink", "Solvent ink", "12.7 mm ink for handheld coding with the M1.", "Fast-drying solvent ink for sharp results on paper, plastic, cardboard and metal.", ["Solvent ink", "Fast drying", "12.7 mm", "Compatible with M1"]],
     m2: ["M2 Coding Printer", "Compact handheld", "Compact touchscreen printer with up to six print lines.", "Lightweight handheld printer for dates, batches, text, logos and codes on flat, curved and rough surfaces.", ["2.4-inch touchscreen", "1 to 6 print lines", "300 to 600 DPI", "185 g weight"]],
     f61: ["F61 Coding Printer", "Industrial inline", "High-speed solution designed for multiple production lines.", "Industrial printer with a 7-inch touchscreen, access control, external ports and a print speed of up to 120 m/min.", ["Up to 120 m/min", "7-inch HD touchscreen", "8 GB memory", "Sensor and encoder integration"]],
     "banda-transportadora": ["Conveyor Belt", "Automation", "Integrates with compatible printers for continuous production.", "Stainless-steel conveyor with adjustable speed, PVC belt and support for sensors and coding equipment.", ["Stainless-steel structure", "0 to 25 m/min adjustable speed", "1500 mm length", "5 kg maximum load"]],
     "codificadora-huevos": ["Egg Coding Printer", "Specialized", "Specialized system for printing dates, text, images and logos on eggs.", "Metal coding system with TIJ printheads, USB interface and an output of approximately 21,000 prints per hour.", ["About 21,000 prints per hour", "2 to 12.7 mm adjustable height", "4.3-inch display", "USB interface"]],
     g7: ["G7 Label Coding Printer", "Tablet-type inkjet", "Tablet-type solution for labels and conveyor integration.", "Industrial printer with a 7-inch touchscreen, configurable printhead and support for databases and multiple code formats.", ["7-inch touchscreen", "12.7 or 25.4 mm height", "Up to 2000 mm length", "XLS, CSV, TXT and LOG data"]],
     k600: ["UKCM K600 Industrial Coding Printer", "Industrial CIJ", "Continuous industrial coding for high-speed production lines.", "Industrial UKCM system for food, chemical and pharmaceutical lines, with IP55 protection and multiple data interfaces.", ["Continuous industrial printing", "IP55 protection", "More than 1,000 messages", "USB, RS485 and Ethernet"]]
+  };
+
+  var imagenesEn = {
+    m1: ["/assets/productos/m1/galeria-4.webp"],
+    b15: ["/assets/productos/b15/galeria-5.webp"],
+    bt6205bl: ["/assets/productos/bt6205bl/galeria-4.webp"],
+    bt6210bl: ["/assets/productos/bt6210bl/galeria-4.webp"],
+    b45: ["/assets/productos/b45/galeria-4.webp"],
+    b85: ["/assets/productos/b85/galeria-4.webp"]
   };
 
   var etiquetasEn = {
@@ -236,7 +245,7 @@
     "Dimensiones": "Dimensions", "Memoria interna": "Internal memory", "Memoria": "Memory", "Voltaje": "Voltage",
     "Conectividad": "Connectivity", "Interfaz": "Interface", "Velocidad": "Print speed", "Temperatura de trabajo": "Working temperature",
     "Sistema operativo": "Operating system", "Tamaño máximo de impresión": "Maximum print size", "Nivel de gris": "Gray level",
-    "Tecnología": "Technology", "Compatibilidad": "Compatibility", "Sistema": "System", "Cartucho": "Cartridge",
+    "Tecnología": "Technology", "Compatibilidad": "Compatibility", "Sistema": "System", "Tinta": "Ink",
     "Códigos": "Codes", "Puertos": "Ports", "Material": "Material", "Longitud": "Length", "Altura desde el suelo": "Height from floor",
     "Ancho de banda": "Belt width", "Potencia del motor": "Motor power", "Tensión nominal": "Rated voltage", "Carga máxima": "Maximum load",
     "Accionamiento": "Drive", "Información imprimible": "Printable content", "Tintas aplicables": "Supported inks", "Eficiencia": "Output",
@@ -247,17 +256,21 @@
 
   var valoresEn = {
     "Disponible": "Available", "Disponible bajo pedido": "Available on request", "No aplica": "Not applicable",
+    "Tinta": "Ink", "Tinta solvente": "Solvent ink", "Manual de usuario": "User manual", "Cable USB tipo C": "USB-C cable",
+    "Pendrive": "USB drive", "Lápiz óptico": "Stylus", "Manual": "Manual", "Regla de precisión": "Precision ruler",
+    "Adaptador": "Adapter", "Cargador": "Charger", "Sensor": "Sensor", "Dos tintas": "Dual-ink system",
+    "Inyector y adaptador": "Injector and adapter", "Regla": "Ruler", "Cuatro tintas": "Four-ink system", "Accesorios de precisión": "Precision accessories",
     "1 año por fallas de fábrica": "1 year against manufacturing defects", "2 años por fallas de fábrica": "2 years against manufacturing defects",
     "6 meses por fallas de fábrica": "6 months against manufacturing defects", "Táctil de 3,5 pulgadas": "3.5-inch touchscreen",
     "Táctil de 2,4 pulgadas": "2.4-inch touchscreen", "4,3 pulgadas de alta definición": "4.3-inch high-definition display",
     "5 pulgadas de alta definición": "5-inch high-definition display", "Táctil HD de 7 pulgadas": "7-inch HD touchscreen",
     "Táctil de 7 pulgadas": "7-inch touchscreen", "Aplicación para Android e iOS": "Android and iOS app",
-    "Cartucho de tinta solvente": "Solvent ink cartridge", "Tinta solvente de secado rápido, 42 ml": "42 ml fast-drying solvent ink",
+    "Tinta solvente": "Solvent ink", "Tinta solvente de secado rápido, 42 ml": "42 ml fast-drying solvent ink",
     "Negro, azul, rojo, amarillo y blanco": "Black, blue, red, yellow and white", "Hasta 16 horas": "Up to 16 hours",
     "Hasta 8 horas": "Up to 8 hours", "4 a 6 horas": "4 to 6 hours", "Acero inoxidable": "Stainless steel",
     "Estructura metálica": "Metal structure", "Inyección térmica TIJ": "Thermal inkjet TIJ", "USB": "USB",
     "Ajustable de 2 a 12,7 mm": "Adjustable from 2 to 12.7 mm", "Textos, fechas, imágenes y logotipos": "Text, dates, images and logos",
-    "Base de aceite, base de agua y tinta UV": "Oil-based, water-based and UV ink cartridges", "Aproximadamente 21.000 impresiones por hora": "Approximately 21,000 prints per hour",
+    "Base de aceite, base de agua y tinta UV": "Oil-based, water-based and UV inks", "Aproximadamente 21.000 impresiones por hora": "Approximately 21,000 prints per hour",
     "Memoria USB": "USB drive", "Más de 1000 mensajes": "More than 1,000 messages", "Rotación completa de 360°": "Full 360° rotation",
     "Basado en Linux": "Linux-based", "Basado en Linux, pantalla táctil y varios idiomas": "Linux-based, touchscreen and multilingual",
     "110 V - 220 V / carga tipo C": "110 V - 220 V / USB-C charging", "Solvente de secado rápido": "Fast-drying solvent ink",
@@ -283,13 +296,16 @@
 
   data.productosEn = data.productos.map(function (producto) {
     var traduccion = nombresEn[producto.slug];
+    var imagenes = imagenesEn[producto.slug];
     return Object.assign({}, producto, {
       nombre: traduccion[0], familia: traduccion[1], resumen: traduccion[2], descripcion: traduccion[3], destacados: traduccion[4],
-      tipo: producto.tipo === "Codificadora" ? "Coding printer" : (producto.tipo === "Cartucho" ? "Cartridge" : "Accessory"),
+      tipo: producto.tipo === "Codificadora" ? "Coding printer" : (producto.tipo === "Tinta" ? "Ink" : "Accessory"),
       disponibilidadTexto: producto.disponibilidad === "disponible" ? "Available" : "Available on request",
       altura: traducirValor(producto.altura),
       alturaFiltro: traducirValor(producto.alturaFiltro),
       ficha: producto.fichaEn || producto.ficha,
+      imagen: imagenes ? imagenes[0] : producto.imagen,
+      galeria: imagenes ? imagenes.slice(1) : producto.galeria,
       incluye: (producto.incluye || []).map(traducirValor),
       especificaciones: producto.especificaciones.map(function (fila) { return [etiquetasEn[fila[0]] || fila[0], traducirValor(fila[1])]; })
     });
@@ -339,11 +355,11 @@
       ]
     },
     {
-      slug: "extender-vida-cartucho-tinta", title: "How to extend cartridge life", excerpt: "Cleaning and storage practices that help maintain print quality.", category: "Maintenance",
+      slug: "extender-vida-tinta", title: "How to extend ink life", excerpt: "Cleaning and storage practices that help maintain print quality.", category: "Maintenance",
       video: "https://www.youtube.com/watch?v=cbf6daTScR8",
       sections: [
-        { title: "Cleaning", paragraphs: ["With the cartridge capped, shake it gently for 30 seconds. Then use a microfiber cloth lightly moistened with alcohol and clean the nozzle from top to bottom."] },
-        { title: "Storage", paragraphs: ["Remove the cartridge after use, replace its cover and store it in a cool and dry place away from high temperatures and humidity."] }
+        { title: "Cleaning", paragraphs: ["With the ink capped, shake it gently for 30 seconds. Then use a microfiber cloth lightly moistened with alcohol and clean the nozzle from top to bottom."] },
+        { title: "Storage", paragraphs: ["Remove the ink after use, replace its cover and store it in a cool and dry place away from high temperatures and humidity."] }
       ]
     },
     {
@@ -355,10 +371,10 @@
       ]
     },
     {
-      slug: "por-que-escoger-cartucho-bentsai", title: "Why choose a BENTSAI cartridge?", excerpt: "Original solvent ink for clear, fast-drying and durable results.", category: "Consumables",
+      slug: "por-que-escoger-tinta-bentsai", title: "Why choose a BENTSAI ink?", excerpt: "Original solvent ink for clear, fast-drying and durable results.", category: "Consumables",
       sections: [
-        { paragraphs: ["BENTSAI cartridges use fast-drying solvent ink designed to produce clear and sharp prints on a wide range of materials."] },
-        { title: "Performance", paragraphs: ["The ink adheres quickly, supports low-temperature applications and helps reduce nozzle drying when the cartridge is maintained correctly."] }
+        { paragraphs: ["BENTSAI inks use fast-drying solvent ink designed to produce clear and sharp prints on a wide range of materials."] },
+        { title: "Performance", paragraphs: ["The ink adheres quickly, supports low-temperature applications and helps reduce nozzle drying when the ink is maintained correctly."] }
       ]
     },
     {
@@ -397,3 +413,4 @@
     });
   });
 }());
+

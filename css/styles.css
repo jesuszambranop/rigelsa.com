@@ -107,8 +107,7 @@ p { line-height: 1.65; }
 .clientes-banda::before { left: 0; }
 .clientes-banda::after { right: 0; }
 .clientes-ventana { min-width: 0; overflow: hidden; padding: 8px 0; }
-.clientes-pista { --clientes-gap: 14px; display: flex; gap: var(--clientes-gap); transform: translate3d(0,0,0); transition: transform .64s cubic-bezier(.2,.72,.22,1); will-change: transform; }
-.clientes-pista.sin-transicion { transition: none; }
+.clientes-pista { --clientes-gap: 14px; display: flex; gap: var(--clientes-gap); transform: translate3d(0,0,0); will-change: transform; }
 .cliente-tarjeta { flex: 0 0 calc((100% - (var(--clientes-gap) * 3)) / 4); height: 176px; display: grid; place-items: center; min-width: 0; margin: 0; padding: 20px 24px; overflow: hidden; background: white; border: 1px solid #dfe5e8; box-shadow: 0 10px 26px rgba(0,63,105,.045); transition: border-color .25s ease, box-shadow .25s ease, transform .25s ease; }
 .cliente-tarjeta:hover { z-index: 2; border-color: rgba(0,130,200,.42); box-shadow: 0 15px 32px rgba(0,63,105,.09); transform: translateY(-4px); }
 .cliente-logo-marco { position: relative; width: 100%; height: 100%; min-width: 0; overflow: hidden; }
@@ -179,10 +178,6 @@ p { line-height: 1.65; }
 .video-marco { position: relative; aspect-ratio: 16/9; background: #000; }
 .video-marco iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .relacionados { background: #fafafa; }
-.consulta-producto { background: white; }
-.consulta-rejilla { display: grid; grid-template-columns: .8fr 1.2fr; gap: 85px; }
-.consulta-rejilla h2 { margin: 0 0 18px; color: var(--azul-oscuro); font-size: 48px; line-height: 1.08; letter-spacing: -.04em; }
-.consulta-rejilla > div:first-child > p:not(.eyebrow) { color: var(--gris); }
 .contacto-directo { display: flex; flex-direction: column; gap: 8px; margin-top: 30px; color: var(--azul); font-weight: 700; }
 
 /* Formularios y contacto */
@@ -288,7 +283,7 @@ p { line-height: 1.65; }
 @media (max-width: 1050px) {
   .navegacion { gap: 16px; font-size: 12px; }
   .producto-hero { gap: 45px; }
-  .consulta-rejilla, .contacto-rejilla { gap: 50px; }
+  .contacto-rejilla { gap: 50px; }
 }
 
 @media (max-width: 900px) {
@@ -297,7 +292,7 @@ p { line-height: 1.65; }
   .navegacion-abierta { display: flex; }
   .navegacion a { padding: 15px 0; border-bottom: 1px solid #eceeef; }
   .rejilla-productos { grid-template-columns: repeat(2, 1fr); }
-  .franja-contenido, .clientes-encabezado, .nosotros-rejilla, .producto-hero, .detalles-rejilla, .consulta-rejilla, .contacto-rejilla { grid-template-columns: 1fr; gap: 42px; }
+  .franja-contenido, .clientes-encabezado, .nosotros-rejilla, .producto-hero, .detalles-rejilla, .contacto-rejilla { grid-template-columns: 1fr; gap: 42px; }
   .nosotros-contenido { max-width: none; }
   .nosotros-mapa { min-height: 420px; }
   .producto-hero { padding-top: 44px; }
@@ -360,7 +355,7 @@ p { line-height: 1.65; }
   .producto-acciones .boton { width: 100%; }
   .tabla-especificaciones > div { grid-template-columns: 1fr; }
   .tabla-especificaciones dd { padding-top: 0; border-left: 0; }
-  .consulta-rejilla h2, .contacto-info h2 { font-size: 40px; }
+  .contacto-info h2 { font-size: 40px; }
   .formulario { padding: 24px 18px; }
   .formulario-google { min-height: 0; }
   .formulario-google-encabezado { padding: 28px 18px 0; }
@@ -392,8 +387,8 @@ p { line-height: 1.65; }
 }
 
 /* Actualización bilingüe y marca oficial */
-.marca-imagen { min-width: 0; width: 178px; padding: 0; color: inherit; background: transparent; }
-.marca-imagen img { width: 100%; height: 58px; object-fit: contain; }
+.marca-imagen { min-width: 0; width: 178px; padding: 0; overflow: hidden; color: inherit; background: transparent; line-height: 0; }
+.marca-imagen img { width: 105.25%; max-width: none; height: auto; display: block; transform: translateX(-2.64%); }
 .navegacion { gap: clamp(12px, 1.7vw, 25px); }
 .idioma-cambio { min-width: 42px; padding: 10px 8px !important; color: white !important; background: var(--azul); border: 0 !important; text-align: center; }
 .idioma-cambio:hover, .idioma-cambio:focus-visible { background: var(--azul-oscuro); }
@@ -419,8 +414,6 @@ p { line-height: 1.65; }
 .video-enlace img { width: 100%; height: 100%; object-fit: contain; }
 .video-enlace span { position: absolute; width: 74px; height: 74px; display: grid; place-items: center; color: white; background: var(--azul); font-size: 28px; }
 .video-enlace strong { padding: 42px; font-size: clamp(24px, 3vw, 40px); line-height: 1.15; }
-.consulta-whatsapp { min-height: 250px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 30px; background: var(--gris-claro); border-top: 4px solid var(--azul); }
-.consulta-whatsapp img { width: min(330px, 72%); }
 .formulario-destino { position: absolute; width: 1px; height: 1px; border: 0; opacity: 0; pointer-events: none; }
 .formulario-estado a { color: var(--azul); font-weight: 700; }
 .logo-404 { width: min(360px, 82vw); margin: 0 auto 34px; }
@@ -437,7 +430,6 @@ p { line-height: 1.65; }
 
 @media (max-width: 700px) {
   .marca-imagen { width: 138px; }
-  .marca-imagen img { height: 48px; }
   .video-enlace { grid-template-columns: 1fr; }
   .video-enlace > div { height: 250px; }
   .video-enlace strong { padding: 28px 22px; }
@@ -484,3 +476,4 @@ p { line-height: 1.65; }
   .whatsapp-flotante { right: 16px; bottom: 16px; width: 58px; height: 58px; }
   .whatsapp-flotante span { display: none; }
 }
+

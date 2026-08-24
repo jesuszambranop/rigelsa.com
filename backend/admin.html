@@ -62,7 +62,7 @@
 
   <main>
     <section id="seccion-productos">
-      <div class="encabezado"><div><h1>Inventario</h1><p>Actualiza disponibilidad o agrega equipos, cartuchos y accesorios.</p></div><button id="nuevo-producto" class="boton-primario" type="button">+ Nuevo producto</button></div>
+      <div class="encabezado"><div><h1>Inventario</h1><p>Actualiza disponibilidad o agrega equipos, tintas y accesorios.</p></div><button id="nuevo-producto" class="boton-primario" type="button">+ Nuevo producto</button></div>
       <div class="panel">
         <div class="tabla-contenedor">
           <table>
@@ -75,12 +75,12 @@
           <h2 id="producto-formulario-titulo">Nuevo producto</h2>
           <input type="hidden" name="original_slug" id="original_slug">
           <div class="rejilla">
-            <label class="campo"><span>Slug / identificador</span><input name="slug" id="slug" required placeholder="ej. nuevo-cartucho"></label>
+            <label class="campo"><span>Slug / identificador</span><input name="slug" id="slug" required placeholder="ej. nueva-tinta"></label>
             <label class="campo"><span>Orden</span><input name="sort_order" id="sort_order" type="number" value="999"></label>
             <label class="campo"><span>Modelo</span><input name="model" id="model" required placeholder="ej. UKCM K600"></label>
             <label class="campo"><span>Estado</span><select name="status" id="status"><option value="disponible">Disponible</option><option value="bajo-pedido">Disponible bajo pedido</option><option value="no-disponible">No disponible</option></select></label>
             <label class="campo"><span>Cantidad en stock</span><input name="stock_quantity" id="stock_quantity" type="number" min="0" placeholder="Opcional"></label>
-            <label class="campo"><span>Tipo</span><select name="type_es" id="type_es"><option>Codificadora</option><option>Cartucho</option><option>Accesorio</option></select></label>
+            <label class="campo"><span>Tipo</span><select name="type_es" id="type_es"><option>Codificadora</option><option>Tinta</option><option>Accesorio</option></select></label>
             <label class="campo"><span>Familia ES</span><input name="family_es" id="family_es"></label>
             <label class="campo"><span>Family EN</span><input name="family_en" id="family_en"></label>
             <label class="campo"><span>Nombre ES</span><input name="name_es" id="name_es" required></label>
@@ -210,3 +210,4 @@
   </script>
 </body>
 </html>
+
