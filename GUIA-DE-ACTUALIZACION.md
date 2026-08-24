@@ -32,7 +32,7 @@ No es necesario crear una página HTML por cada artículo: `articulo.html` carga
 
 ## Logotipos de clientes
 
-Los nueve logotipos oficiales están en `assets/clientes/` y aparecen, uno por uno, en el carrusel ubicado al final de Inicio.
+Los 29 logotipos oficiales están en `assets/clientes/` y aparecen en el carrusel ubicado al final de Inicio.
 
 1. Copia cada logo en `assets/clientes/`, preferiblemente PNG, WebP o SVG con fondo transparente.
 2. Abre `js/app.js` y localiza el arreglo `clientes` al principio del archivo.
@@ -42,7 +42,7 @@ Los nueve logotipos oficiales están en `assets/clientes/` y aparecen, uno por u
 { nombre: "Nombre del cliente", imagen: "assets/clientes/nombre-del-cliente.png" }
 ```
 
-El carrusel muestra un solo logo a la vez y avanza automáticamente cada 2,1 segundos.
+El carrusel muestra varios logos completos a la vez y avanza exactamente una marca cada 1,8 segundos. Incluye controles anterior, pausa y siguiente; al pasar el cursor sobre la banda se detiene temporalmente. Las tarjetas usan `object-fit: contain` y márgenes internos para evitar cualquier recorte.
 
 ## Quiénes somos y preguntas frecuentes
 

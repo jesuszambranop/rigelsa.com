@@ -31,7 +31,7 @@
       knowledge: "CONOCIMIENTO RIGEL", guides: "Guías para codificar mejor", allArticles: "Ver todos los artículos", read: "Leer artículo",
       inventory: "INVENTARIO RIGEL", inventoryTitle: "Productos para cada escala de producción", inventoryText: "Consulta equipos, consumibles y accesorios. Filtra por tipo y altura de impresión.",
       search: "Buscar por modelo o aplicación", searchPlaceholder: "Ej.: UKCM K600, industrial, cartucho…", availability: "Disponibilidad", all: "Todos", available: "Disponible", onRequest: "Bajo pedido", unavailable: "No disponible", stock: "Stock", height: "Altura de impresión", allHeights: "Todas", results: "resultados", oneResult: "resultado", noResults: "No encontramos coincidencias", tryAgain: "Prueba otra búsqueda o restablece los filtros.", reset: "Restablecer filtros", viewFeatures: "Ver características",
-      clientsEyebrow: "NUESTROS CLIENTES", clientsTitle: "Marcas que confían en Rigel", clientsText: "Empresas que incorporan nuestras soluciones de marcaje y codificación en sus procesos.", clientPrevious: "Cliente anterior", clientNext: "Cliente siguiente",
+      clientsEyebrow: "NUESTROS CLIENTES", clientsTitle: "Marcas que confían en Rigel", clientsText: "Empresas que incorporan nuestras soluciones de marcaje y codificación en sus procesos.", clientPrevious: "Cliente anterior", clientNext: "Cliente siguiente", clientsCountLabel: "marcas", clientPause: "Pausar carrusel", clientPlay: "Reanudar carrusel",
       aboutEyebrow: "RIGEL INTERNACIONAL", aboutTitle: "Quiénes somos", aboutParagraphOne: "Somos una empresa dedicada a la venta de equipos de marcaje y codificación. Ofrecemos soluciones tecnológicas innovadoras para pequeñas, medianas y grandes empresas, con enfoque en productos de alta calidad y respeto por el medio ambiente.", aboutParagraphTwo: "Nuestra empresa fue fundada en Ecuador y tiene presencia en Brasil, Colombia, Venezuela, Chile y México. Contamos con más de siete años de experiencia en el mercado de impresoras de codificación.", aboutMapAlt: "Mapa de presencia de Rigel en América Latina",
       breadcrumbHome: "Inicio", breadcrumbProducts: "Productos", information: "INFORMACIÓN TÉCNICA", features: "Características", includes: "Incluye", sheet: "Abrir ficha técnica", consultProduct: "Cotiza con nosotros", demonstration: "DEMOSTRACIÓN", watchWorking: "Mira el equipo en funcionamiento", youtube: "Ver video público en YouTube", related: "COMPATIBLES Y RELACIONADOS", completeSolution: "Completa tu solución", directAdvice: "ASESORÍA DIRECTA", talkModel: "¿Necesitas este modelo?", talkModelText: "Escríbenos por WhatsApp y te ayudaremos a confirmar el equipo, cartucho y configuración adecuados.",
       blogEyebrow: "CONOCIMIENTO RIGEL", blogTitle: "Ideas para una codificación más eficiente", blogText: "Guías prácticas sobre equipos, tintas, trazabilidad, mantenimiento y buenas prácticas de producción.", keepReading: "SEGUIR LEYENDO", otherArticles: "Otros artículos", needAdvice: "¿NECESITAS ASESORÍA?", findPrinter: "Encuentra la solución adecuada", findPrinterText: "Revisa el inventario o cuéntanos tu proceso de impresión.",
@@ -50,7 +50,7 @@
       knowledge: "RIGEL KNOWLEDGE", guides: "Guides for better coding", allArticles: "View all articles", read: "Read article",
       inventory: "RIGEL INVENTORY", inventoryTitle: "Products for every production scale", inventoryText: "Browse equipment, consumables and accessories. Filter by type and print height.",
       search: "Search by model or application", searchPlaceholder: "E.g. UKCM K600, industrial, cartridge…", availability: "Availability", all: "All", available: "Available", onRequest: "On request", unavailable: "Unavailable", stock: "Stock", height: "Print height", allHeights: "All", results: "results", oneResult: "result", noResults: "No matches found", tryAgain: "Try a different search or reset the filters.", reset: "Reset filters", viewFeatures: "View features",
-      clientsEyebrow: "OUR CLIENTS", clientsTitle: "Brands that trust Rigel", clientsText: "Companies that use our marking and coding solutions in their operations.", clientPrevious: "Previous client", clientNext: "Next client",
+      clientsEyebrow: "OUR CLIENTS", clientsTitle: "Brands that trust Rigel", clientsText: "Companies that use our marking and coding solutions in their operations.", clientPrevious: "Previous client", clientNext: "Next client", clientsCountLabel: "brands", clientPause: "Pause carousel", clientPlay: "Resume carousel",
       aboutEyebrow: "RIGEL INTERNATIONAL", aboutTitle: "About us", aboutParagraphOne: "We are a company dedicated to supplying marking and coding equipment. We offer innovative technology solutions for small, medium and large businesses, focused on high-quality products and respect for the environment.", aboutParagraphTwo: "Our company was founded in Ecuador and has a presence in Brazil, Colombia, Venezuela, Chile and Mexico. We have more than seven years of experience in the coding printer market.", aboutMapAlt: "Map of Rigel's presence in Latin America",
       breadcrumbHome: "Home", breadcrumbProducts: "Products", information: "TECHNICAL INFORMATION", features: "Features", includes: "Included", sheet: "Open technical data sheet", consultProduct: "Request a quote", demonstration: "DEMONSTRATION", watchWorking: "See the equipment in action", youtube: "Watch the public video on YouTube", related: "COMPATIBLE & RELATED", completeSolution: "Complete your solution", directAdvice: "DIRECT GUIDANCE", talkModel: "Need this model?", talkModelText: "Message us on WhatsApp and we will help you confirm the right equipment, cartridge and setup.",
       blogEyebrow: "RIGEL KNOWLEDGE", blogTitle: "Ideas for more efficient coding", blogText: "Practical guides about equipment, inks, traceability, maintenance and production best practices.", keepReading: "KEEP READING", otherArticles: "More articles", needAdvice: "NEED GUIDANCE?", findPrinter: "Find the right solution", findPrinterText: "Browse the inventory or tell us about your printing process.",
@@ -62,6 +62,25 @@
 
   var clientes = [
     { nombre: "La Casa del Encebollado", imagen: "assets/clientes/la-casa-del-encebollado.jpg" },
+    { nombre: "Biopremix", imagen: "assets/clientes/biopremix.jpg" },
+    { nombre: "Industrias Omega", imagen: "assets/clientes/industrias-omega.jpg" },
+    { nombre: "Indunidas", imagen: "assets/clientes/indunidas.jpg" },
+    { nombre: "Tutto Freddo", imagen: "assets/clientes/tutto-freddo.jpg" },
+    { nombre: "Ecuatorianita Import & Export", imagen: "assets/clientes/ecuatorianita-import-export.jpg" },
+    { nombre: "Ala Cena", imagen: "assets/clientes/ala-cena.jpg" },
+    { nombre: "La Cuencana", imagen: "assets/clientes/la-cuencana.jpg" },
+    { nombre: "Alimentos DelSurco", imagen: "assets/clientes/alimentos-del-surco.jpg" },
+    { nombre: "Enchapres Decorativos S.A. · ENDESA", imagen: "assets/clientes/endesa-enchapres-decorativos.jpg" },
+    { nombre: "Yupi Snacks", imagen: "assets/clientes/yupi-snacks.jpg" },
+    { nombre: "Industrial Latina", imagen: "assets/clientes/industrial-latina.jpg" },
+    { nombre: "Galleta Pecosa", imagen: "assets/clientes/galleta-pecosa.jpg" },
+    { nombre: "Sigmaplast", imagen: "assets/clientes/sigmaplast.jpg" },
+    { nombre: "Proglobal Food & Beverages", imagen: "assets/clientes/proglobal-food-beverages.jpg" },
+    { nombre: "Ilianza", imagen: "assets/clientes/ilianza.jpg" },
+    { nombre: "All Fields", imagen: "assets/clientes/all-fields.jpg" },
+    { nombre: "Panatlantic Logistics S.A.", imagen: "assets/clientes/panatlantic-logistics.jpg" },
+    { nombre: "Logistics S.A.", imagen: "assets/clientes/logistics-sa.jpg" },
+    { nombre: "Lubrisa", imagen: "assets/clientes/lubrisa.jpg" },
     { nombre: "Zara Import", imagen: "assets/clientes/zara-import.jpg" },
     { nombre: "Furia ST", imagen: "assets/clientes/furia-st.jpg" },
     { nombre: "El Café de Tere", imagen: "assets/clientes/el-cafe-de-tere.jpg" },
@@ -69,7 +88,8 @@
     { nombre: "El Sanduchón", imagen: "assets/clientes/el-sanduchon.jpg" },
     { nombre: "Configolsa", imagen: "assets/clientes/configolsa.jpg" },
     { nombre: "Agricampo S.A.", imagen: "assets/clientes/agricampo.jpg" },
-    { nombre: "Fritamoro", imagen: "assets/clientes/fritamoro.jpg" }
+    { nombre: "Fritamoro", imagen: "assets/clientes/fritamoro.jpg" },
+    { nombre: "El Buco a Casa", imagen: "assets/clientes/el-buco-a-casa.jpg" }
   ];
 
   function asset(ruta) { return String(ruta || "").replace(/^\//, ""); }
@@ -177,7 +197,12 @@
   }
 
   function seccionClientes() {
-    return '<section id="clientes" class="seccion clientes-seccion clientes-inicio"><div class="contenedor"><div class="clientes-encabezado"><div><p class="eyebrow">' + texto.clientsEyebrow + '</p><h2>' + texto.clientsTitle + '</h2></div><p>' + texto.clientsText + '</p></div><div class="clientes-carrusel" aria-roledescription="carousel" aria-label="' + texto.clients + '"><button id="cliente-anterior" type="button" aria-label="' + texto.clientPrevious + '">‹</button><div id="cliente-actual" class="cliente-logo" aria-live="polite"></div><button id="cliente-siguiente" type="button" aria-label="' + texto.clientNext + '">›</button><div id="clientes-indicadores" class="clientes-indicadores"></div></div></div></section>';
+    var tarjetas = clientes.concat(clientes, clientes).map(function (cliente, i) {
+      var original = i < clientes.length;
+      var prioritaria = i >= clientes.length && i < clientes.length + 5;
+      return '<div class="cliente-tarjeta"' + (original ? '' : ' aria-hidden="true"') + '><img src="' + asset(cliente.imagen) + '" alt="' + (original ? cliente.nombre : '') + '" loading="' + (prioritaria ? 'eager' : 'lazy') + '"></div>';
+    }).join("");
+    return '<section id="clientes" class="seccion clientes-seccion clientes-inicio"><div class="contenedor"><div class="clientes-encabezado"><div><p class="eyebrow">' + texto.clientsEyebrow + '</p><h2>' + texto.clientsTitle + '</h2></div><div class="clientes-lateral"><p>' + texto.clientsText + '</p><div class="clientes-acciones"><span class="clientes-total"><strong>' + clientes.length + '</strong> ' + texto.clientsCountLabel + '</span><div class="clientes-controles"><button id="cliente-anterior" class="clientes-flecha" type="button" aria-label="' + texto.clientPrevious + '"><span aria-hidden="true">←</span></button><button id="clientes-pausa" class="clientes-flecha clientes-pausa" type="button" aria-label="' + texto.clientPause + '"><span aria-hidden="true">Ⅱ</span></button><button id="cliente-siguiente" class="clientes-flecha" type="button" aria-label="' + texto.clientNext + '"><span aria-hidden="true">→</span></button></div></div></div></div><div class="clientes-banda" aria-roledescription="carousel" aria-label="' + texto.clients + '"><div id="clientes-ventana" class="clientes-ventana"><div id="clientes-pista" class="clientes-pista">' + tarjetas + '</div></div></div></div></section>';
   }
 
   function renderInicio() {
@@ -219,24 +244,56 @@
   }
 
   function iniciarClientes() {
-    var marco = document.getElementById("cliente-actual");
-    var indicadores = document.getElementById("clientes-indicadores");
-    var carrusel = document.querySelector(".clientes-carrusel");
-    if (!marco || !indicadores || !carrusel || !clientes.length) return;
-    var indice = 0, temporizador;
-    indicadores.innerHTML = clientes.map(function (cliente, i) { return '<button type="button" data-cliente="' + i + '" aria-label="' + cliente.nombre + '"></button>'; }).join("");
-    function mostrar(nuevo) {
-      indice = (nuevo + clientes.length) % clientes.length;
-      var cliente = clientes[indice];
-      marco.innerHTML = '<img src="' + asset(cliente.imagen) + '" alt="' + cliente.nombre + '" loading="lazy">';
-      Array.prototype.forEach.call(indicadores.querySelectorAll("button"), function (punto, i) { punto.classList.toggle("activo", i === indice); });
+    var pista = document.getElementById("clientes-pista");
+    var ventana = document.getElementById("clientes-ventana");
+    var anterior = document.getElementById("cliente-anterior");
+    var siguiente = document.getElementById("cliente-siguiente");
+    var pausa = document.getElementById("clientes-pausa");
+    if (!pista || !ventana || !anterior || !siguiente || !pausa || !clientes.length) return;
+    var indice = clientes.length, temporizador, enTransicion = false, pausado = false;
+    function paso() {
+      var tarjeta = pista.querySelector(".cliente-tarjeta");
+      var estilos = window.getComputedStyle(pista);
+      return tarjeta ? tarjeta.getBoundingClientRect().width + (parseFloat(estilos.columnGap || estilos.gap) || 0) : 0;
     }
-    function iniciar() { window.clearInterval(temporizador); temporizador = window.setInterval(function () { mostrar(indice + 1); }, 2100); }
-    document.getElementById("cliente-anterior").addEventListener("click", function () { mostrar(indice - 1); iniciar(); });
-    document.getElementById("cliente-siguiente").addEventListener("click", function () { mostrar(indice + 1); iniciar(); });
-    indicadores.addEventListener("click", function (evento) { if (evento.target.matches("button")) { mostrar(Number(evento.target.getAttribute("data-cliente"))); iniciar(); } });
-    carrusel.addEventListener("mouseenter", function () { window.clearInterval(temporizador); }); carrusel.addEventListener("mouseleave", iniciar);
-    mostrar(0); iniciar();
+    function posicionar(sinTransicion) {
+      if (sinTransicion) pista.classList.add("sin-transicion");
+      pista.style.transform = "translate3d(" + (-indice * paso()) + "px,0,0)";
+      if (sinTransicion) window.requestAnimationFrame(function () { pista.classList.remove("sin-transicion"); });
+    }
+    function normalizar() {
+      enTransicion = false;
+      if (indice >= clientes.length * 2) { indice -= clientes.length; posicionar(true); }
+      else if (indice < clientes.length) { indice += clientes.length; posicionar(true); }
+    }
+    function mover(cambio) {
+      if (enTransicion) return;
+      enTransicion = true;
+      indice += cambio;
+      posicionar(false);
+    }
+    function detener() { window.clearInterval(temporizador); }
+    function iniciar() {
+      detener();
+      if (!pausado && !document.hidden) temporizador = window.setInterval(function () { mover(1); }, 1800);
+    }
+    function mostrarEstadoPausa() {
+      pausa.setAttribute("aria-label", pausado ? texto.clientPlay : texto.clientPause);
+      pausa.innerHTML = '<span aria-hidden="true">' + (pausado ? '▶' : 'Ⅱ') + '</span>';
+      pausa.classList.toggle("activo", pausado);
+    }
+    anterior.addEventListener("click", function () { mover(-1); iniciar(); });
+    siguiente.addEventListener("click", function () { mover(1); iniciar(); });
+    pausa.addEventListener("click", function () { pausado = !pausado; mostrarEstadoPausa(); iniciar(); });
+    pista.addEventListener("transitionend", function (evento) { if (evento.target === pista && evento.propertyName === "transform") normalizar(); });
+    ventana.addEventListener("mouseenter", detener);
+    ventana.addEventListener("mouseleave", iniciar);
+    window.addEventListener("resize", function () { enTransicion = false; posicionar(true); });
+    document.addEventListener("visibilitychange", iniciar);
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) pausado = true;
+    mostrarEstadoPausa();
+    posicionar(true);
+    iniciar();
   }
 
   function youtubeDirecto(url) {
