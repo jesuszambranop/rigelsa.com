@@ -32,7 +32,7 @@
         "Resolución de 300 DPI"
       ],
       "incluye": [
-        "Cartucho de tinta solvente",
+        "Tinta solvente",
         "Manual de usuario",
         "Cable USB tipo C",
         "Pendrive"
@@ -68,7 +68,7 @@
         ],
         [
           "Tipo de tinta",
-          "Cartucho de tinta solvente"
+          "Tinta solvente"
         ],
         [
           "Colores de tinta",
@@ -119,16 +119,8 @@
       "disponibilidadTexto": "Available",
       "resumen": "Compact touchscreen printer for dry and frozen products.",
       "descripcion": "One-hand coding printer with a 3.5-inch touchscreen for dates, batches, text, logos and codes on flat, curved and rough surfaces.",
-      "imagen": "/assets/productos/m1/principal.webp",
-      "galeria": [
-        "/assets/productos/m1/galeria-1.webp",
-        "/assets/productos/m1/galeria-2.webp",
-        "/assets/productos/m1/galeria-3.webp",
-        "/assets/productos/m1/galeria-4.webp",
-        "/assets/productos/m1/galeria-5.webp",
-        "/assets/productos/m1/galeria-6.webp",
-        "/assets/productos/m1/galeria-7.webp"
-      ],
+      "imagen": "/assets/productos/m1/galeria-4.webp",
+      "galeria": [],
       "ficha": "/assets/productos/m1/technical-data-sheet.pdf",
       "video": "https://www.youtube.com/watch?v=P94ap01WZgY",
       "altura": "12,7 mm",
@@ -140,10 +132,10 @@
         "300 DPI resolution"
       ],
       "incluye": [
-        "Solvent ink cartridge",
-        "Manual de usuario",
-        "Cable USB tipo C",
-        "Pendrive"
+        "Solvent ink",
+        "User manual",
+        "USB-C cable",
+        "USB drive"
       ],
       "especificaciones": [
         [
@@ -176,7 +168,7 @@
         ],
         [
           "Ink type",
-          "Solvent ink cartridge"
+          "Solvent ink"
         ],
         [
           "Ink colors",
@@ -255,7 +247,7 @@
         "Tinta solvente de secado rápido"
       ],
       "incluye": [
-        "Cartucho de tinta solvente",
+        "Tinta solvente",
         "Manual de usuario",
         "Cable USB tipo C",
         "Pendrive"
@@ -341,17 +333,8 @@
       "disponibilidadTexto": "Available",
       "resumen": "Wireless coding for dry, wet and frozen products.",
       "descripcion": "Compact printer controlled from an Android or iOS app through Wi-Fi, with fast-drying solvent ink for flexible production work.",
-      "imagen": "/assets/productos/b15/principal.webp",
-      "galeria": [
-        "/assets/productos/b15/galeria-1.webp",
-        "/assets/productos/b15/galeria-2.webp",
-        "/assets/productos/b15/galeria-3.webp",
-        "/assets/productos/b15/galeria-4.webp",
-        "/assets/productos/b15/galeria-5.webp",
-        "/assets/productos/b15/galeria-6.webp",
-        "/assets/productos/b15/galeria-7.webp",
-        "/assets/productos/b15/galeria-8.webp"
-      ],
+      "imagen": "/assets/productos/b15/galeria-5.webp",
+      "galeria": [],
       "ficha": "/assets/productos/b15/technical-data-sheet.pdf",
       "video": "https://www.youtube.com/watch?v=EAKc1gC-TPA",
       "altura": "12,7 mm",
@@ -363,10 +346,10 @@
         "Fast-drying solvent ink"
       ],
       "incluye": [
-        "Solvent ink cartridge",
-        "Manual de usuario",
-        "Cable USB tipo C",
-        "Pendrive"
+        "Solvent ink",
+        "User manual",
+        "USB-C cable",
+        "USB drive"
       ],
       "especificaciones": [
         [
@@ -477,7 +460,7 @@
         "Puerto para fotosensor"
       ],
       "incluye": [
-        "Cartucho",
+        "Tinta",
         "Lápiz óptico",
         "Pendrive",
         "Manual",
@@ -559,17 +542,8 @@
       "disponibilidadTexto": "Available",
       "resumen": "Dual-use printer for handheld work or conveyor integration.",
       "descripcion": "Lightweight coding printer with a 4.3-inch display, photoelectric sensor port and removable battery for manual or automatic operation.",
-      "imagen": "/assets/productos/bt6205bl/principal.webp",
-      "galeria": [
-        "/assets/productos/bt6205bl/galeria-1.webp",
-        "/assets/productos/bt6205bl/galeria-2.webp",
-        "/assets/productos/bt6205bl/galeria-3.webp",
-        "/assets/productos/bt6205bl/galeria-4.webp",
-        "/assets/productos/bt6205bl/galeria-5.webp",
-        "/assets/productos/bt6205bl/galeria-6.webp",
-        "/assets/productos/bt6205bl/galeria-7.webp",
-        "/assets/productos/bt6205bl/galeria-8.webp"
-      ],
+      "imagen": "/assets/productos/bt6205bl/galeria-4.webp",
+      "galeria": [],
       "ficha": "/assets/productos/bt6205bl/technical-data-sheet.pdf",
       "video": "https://www.youtube.com/watch?v=hQ1XnHxlezo",
       "altura": "12,7 mm",
@@ -581,13 +555,13 @@
         "Photoelectric sensor port"
       ],
       "incluye": [
-        "Cartucho",
-        "Lápiz óptico",
-        "Pendrive",
+        "Ink",
+        "Stylus",
+        "USB drive",
         "Manual",
-        "Regla de precisión",
-        "Adaptador",
-        "Cargador",
+        "Precision ruler",
+        "Adapter",
+        "Charger",
         "Sensor"
       ],
       "especificaciones": [
@@ -691,7 +665,7 @@
         "Trabajo manual y automático"
       ],
       "incluye": [
-        "Cartucho",
+        "Tinta",
         "Lápiz óptico",
         "Pendrive",
         "Manual",
@@ -774,17 +748,8 @@
       "disponibilidadTexto": "Available",
       "resumen": "A 25.4 mm print height for applications that need more information per pass.",
       "descripcion": "Dual-use coding printer with a 25.4 mm print height, HD display and sensor connection for handheld or conveyor work.",
-      "imagen": "/assets/productos/bt6210bl/principal.webp",
-      "galeria": [
-        "/assets/productos/bt6210bl/galeria-1.webp",
-        "/assets/productos/bt6210bl/galeria-2.webp",
-        "/assets/productos/bt6210bl/galeria-3.png",
-        "/assets/productos/bt6210bl/galeria-4.webp",
-        "/assets/productos/bt6210bl/galeria-5.webp",
-        "/assets/productos/bt6210bl/galeria-6.webp",
-        "/assets/productos/bt6210bl/galeria-7.webp",
-        "/assets/productos/bt6210bl/galeria-8.webp"
-      ],
+      "imagen": "/assets/productos/bt6210bl/galeria-4.webp",
+      "galeria": [],
       "ficha": "/assets/productos/bt6210bl/technical-data-sheet.pdf",
       "video": "https://www.youtube.com/watch?v=kITvkkMcnz4",
       "altura": "25,4 mm",
@@ -796,13 +761,13 @@
         "Handheld and automatic operation"
       ],
       "incluye": [
-        "Cartucho",
-        "Lápiz óptico",
-        "Pendrive",
+        "Ink",
+        "Stylus",
+        "USB drive",
         "Manual",
-        "Regla de precisión",
-        "Adaptador",
-        "Cargador",
+        "Precision ruler",
+        "Adapter",
+        "Charger",
         "Sensor"
       ],
       "especificaciones": [
@@ -884,7 +849,7 @@
       "disponibilidad": "bajo-pedido",
       "disponibilidadTexto": "Disponible bajo pedido",
       "resumen": "Codificadora industrial de gran formato para textos, logotipos y señalética.",
-      "descripcion": "Solución manual o automática con dos cartuchos y una altura de impresión de hasta 50 mm. Indicada para operaciones de mayor volumen y personalización industrial.",
+      "descripcion": "Solución manual o automática con dos tintas y una altura de impresión de hasta 50 mm. Indicada para operaciones de mayor volumen y personalización industrial.",
       "imagen": "/assets/productos/b45/principal.webp",
       "galeria": [
         "/assets/productos/b45/galeria-1.webp",
@@ -902,11 +867,11 @@
       "destacados": [
         "Hasta 20 líneas",
         "Altura de impresión de 50 mm",
-        "Dos cartuchos",
+        "Dos tintas",
         "Uso manual o automático"
       ],
       "incluye": [
-        "Dos cartuchos",
+        "Dos tintas",
         "Inyector y adaptador",
         "Lápiz óptico",
         "Pendrive",
@@ -987,35 +952,26 @@
       "disponibilidad": "bajo-pedido",
       "disponibilidadTexto": "Available on request",
       "resumen": "Large-format coding for text, logos and industrial marking.",
-      "descripcion": "Two-cartridge industrial printer with a print height of up to 50 mm for handheld or automated production.",
-      "imagen": "/assets/productos/b45/principal.webp",
-      "galeria": [
-        "/assets/productos/b45/galeria-1.webp",
-        "/assets/productos/b45/galeria-2.webp",
-        "/assets/productos/b45/galeria-3.webp",
-        "/assets/productos/b45/galeria-4.webp",
-        "/assets/productos/b45/galeria-5.webp",
-        "/assets/productos/b45/galeria-6.webp",
-        "/assets/productos/b45/galeria-7.webp",
-        "/assets/productos/b45/galeria-8.webp"
-      ],
+      "descripcion": "Two-ink industrial printer with a print height of up to 50 mm for handheld or automated production.",
+      "imagen": "/assets/productos/b45/galeria-4.webp",
+      "galeria": [],
       "ficha": "/assets/productos/b45/technical-data-sheet.pdf",
       "altura": "50 mm",
       "alturaFiltro": "50 mm",
       "destacados": [
         "Up to 20 print lines",
         "50 mm print height",
-        "Two cartridges",
+        "Two inks",
         "Handheld or automatic use"
       ],
       "incluye": [
-        "Dos cartuchos",
-        "Inyector and adaptador",
-        "Lápiz óptico",
-        "Pendrive",
+        "Dual-ink system",
+        "Injector and adapter",
+        "Stylus",
+        "USB drive",
         "Manual",
-        "Regla",
-        "Cargador"
+        "Ruler",
+        "Charger"
       ],
       "especificaciones": [
         [
@@ -1096,7 +1052,7 @@
       "disponibilidad": "bajo-pedido",
       "disponibilidadTexto": "Disponible bajo pedido",
       "resumen": "La mayor altura de la línea Rigel para codificación y personalización industrial.",
-      "descripcion": "Equipo de cuatro cartuchos capaz de imprimir hasta 40 líneas y cubrir formatos de gran altura. Se adapta a procesos manuales y automáticos.",
+      "descripcion": "Equipo de cuatro tintas capaz de imprimir hasta 40 líneas y cubrir formatos de gran altura. Se adapta a procesos manuales y automáticos.",
       "imagen": "/assets/productos/b85/principal.webp",
       "galeria": [
         "/assets/productos/b85/galeria-1.webp",
@@ -1113,11 +1069,11 @@
       "destacados": [
         "Hasta 40 líneas",
         "Altura de impresión de 100 mm",
-        "Cuatro cartuchos",
+        "Cuatro tintas",
         "Resolución 600 / 300 DPI"
       ],
       "incluye": [
-        "Cuatro cartuchos",
+        "Cuatro tintas",
         "Accesorios de precisión",
         "Pendrive",
         "Manual",
@@ -1197,33 +1153,25 @@
       "disponibilidad": "bajo-pedido",
       "disponibilidadTexto": "Available on request",
       "resumen": "The largest print height in the Rigel handheld range.",
-      "descripcion": "Four-cartridge industrial printer for up to 40 lines and large-format customization in handheld or automatic mode.",
-      "imagen": "/assets/productos/b85/principal.webp",
-      "galeria": [
-        "/assets/productos/b85/galeria-1.webp",
-        "/assets/productos/b85/galeria-2.webp",
-        "/assets/productos/b85/galeria-3.webp",
-        "/assets/productos/b85/galeria-4.webp",
-        "/assets/productos/b85/galeria-5.webp",
-        "/assets/productos/b85/galeria-6.webp",
-        "/assets/productos/b85/galeria-7.webp"
-      ],
+      "descripcion": "Four-ink industrial printer for up to 40 lines and large-format customization in handheld or automatic mode.",
+      "imagen": "/assets/productos/b85/galeria-4.webp",
+      "galeria": [],
       "ficha": "/assets/productos/b85/technical-data-sheet.pdf",
       "altura": "100 mm",
       "alturaFiltro": "100 mm",
       "destacados": [
         "Up to 40 print lines",
         "100 mm print height",
-        "Four cartridges",
+        "Four inks",
         "600 / 300 DPI resolution"
       ],
       "incluye": [
-        "Cuatro cartuchos",
-        "Accesorios de precisión",
-        "Pendrive",
+        "Four-ink system",
+        "Precision accessories",
+        "USB drive",
         "Manual",
-        "Adaptador",
-        "Cargador"
+        "Adapter",
+        "Charger"
       ],
       "especificaciones": [
         [
@@ -1297,13 +1245,13 @@
     "slug": "bb22b",
     "es": {
       "slug": "bb22b",
-      "nombre": "Cartucho BENTSAI BB22B",
+      "nombre": "Tinta BENTSAI BB22B",
       "modelo": "BB22B",
-      "tipo": "Cartucho",
+      "tipo": "Tinta",
       "familia": "Tinta solvente",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Disponible",
-      "resumen": "Cartucho de tinta solvente de secado rápido para impresiones de 12,7 mm.",
+      "resumen": "Tinta solvente de secado rápido para impresiones de 12,7 mm.",
       "descripcion": "Consumible original BENTSAI para mantener una impresión nítida, estable y de rápida adherencia sobre distintas superficies.",
       "imagen": "/assets/productos/bb22b/principal.webp",
       "galeria": [],
@@ -1313,7 +1261,7 @@
         "Tinta solvente",
         "Secado rápido",
         "Impresión de 12,7 mm",
-        "Cartucho original"
+        "Tinta original"
       ],
       "especificaciones": [
         [
@@ -1340,14 +1288,14 @@
     },
     "en": {
       "slug": "bb22b",
-      "nombre": "BENTSAI BB22B Cartridge",
+      "nombre": "BENTSAI BB22B Ink",
       "modelo": "BB22B",
-      "tipo": "Cartridge",
+      "tipo": "Ink",
       "familia": "Solvent ink",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Available",
-      "resumen": "Fast-drying solvent cartridge for 12.7 mm printing.",
-      "descripcion": "Original BENTSAI cartridge for sharp and reliable printing on multiple materials.",
+      "resumen": "Fast-drying solvent ink for 12.7 mm printing.",
+      "descripcion": "Original BENTSAI ink for sharp and reliable printing on multiple materials.",
       "imagen": "/assets/productos/bb22b/principal.webp",
       "galeria": [],
       "altura": "12,7 mm",
@@ -1356,7 +1304,7 @@
         "Solvent ink",
         "Fast drying",
         "12.7 mm print height",
-        "Original cartridge"
+        "Original ink"
       ],
       "especificaciones": [
         [
@@ -1390,14 +1338,14 @@
     "slug": "eb21b",
     "es": {
       "slug": "eb21b",
-      "nombre": "Cartucho BENTSAI EB21B",
+      "nombre": "Tinta BENTSAI EB21B",
       "modelo": "EB21B",
-      "tipo": "Cartucho",
+      "tipo": "Tinta",
       "familia": "Tinta solvente",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Disponible",
-      "resumen": "Cartucho solvente para equipos de mayor altura y aplicaciones industriales.",
-      "descripcion": "Cartucho original BENTSAI de secado rápido para impresiones consistentes sobre plástico, vidrio, metal, cartón y otros materiales.",
+      "resumen": "Tinta solvente para equipos de mayor altura y aplicaciones industriales.",
+      "descripcion": "Tinta original BENTSAI de secado rápido para impresiones consistentes sobre plástico, vidrio, metal, cartón y otros materiales.",
       "imagen": "/assets/productos/eb21b/principal.webp",
       "galeria": [],
       "altura": "25,4 mm",
@@ -1406,7 +1354,7 @@
         "Tinta solvente",
         "Secado rápido",
         "Uso industrial",
-        "Cartucho original"
+        "Tinta original"
       ],
       "especificaciones": [
         [
@@ -1434,14 +1382,14 @@
     },
     "en": {
       "slug": "eb21b",
-      "nombre": "BENTSAI EB21B Cartridge",
+      "nombre": "BENTSAI EB21B Ink",
       "modelo": "EB21B",
-      "tipo": "Cartridge",
+      "tipo": "Ink",
       "familia": "Solvent ink",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Available",
-      "resumen": "Solvent cartridge for larger print heights and industrial applications.",
-      "descripcion": "Original fast-drying BENTSAI cartridge for plastic, glass, metal, cardboard and other materials.",
+      "resumen": "Solvent ink for larger print heights and industrial applications.",
+      "descripcion": "Original fast-drying BENTSAI ink for plastic, glass, metal, cardboard and other materials.",
       "imagen": "/assets/productos/eb21b/principal.webp",
       "galeria": [],
       "altura": "25,4 mm",
@@ -1450,7 +1398,7 @@
         "Solvent ink",
         "Fast drying",
         "Industrial use",
-        "Original cartridge"
+        "Original ink"
       ],
       "especificaciones": [
         [
@@ -1485,14 +1433,14 @@
     "slug": "eb22bl",
     "es": {
       "slug": "eb22bl",
-      "nombre": "Cartucho BENTSAI EB22BL",
+      "nombre": "Tinta BENTSAI EB22BL",
       "modelo": "EB22BL",
-      "tipo": "Cartucho",
+      "tipo": "Tinta",
       "familia": "Tinta solvente",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Disponible",
       "resumen": "Consumible original de larga duración para codificación industrial.",
-      "descripcion": "Cartucho BENTSAI para líneas de impresión de mayor altura, con tinta solvente de rápida adherencia y acabado definido.",
+      "descripcion": "Tinta BENTSAI para líneas de impresión de mayor altura, con tinta solvente de rápida adherencia y acabado definido.",
       "imagen": "/assets/productos/eb22bl/principal.webp",
       "galeria": [],
       "altura": "25,4 mm",
@@ -1501,7 +1449,7 @@
         "Tinta solvente",
         "Larga duración",
         "Uso industrial",
-        "Cartucho original"
+        "Tinta original"
       ],
       "especificaciones": [
         [
@@ -1529,14 +1477,14 @@
     },
     "en": {
       "slug": "eb22bl",
-      "nombre": "BENTSAI EB22BL Cartridge",
+      "nombre": "BENTSAI EB22BL Ink",
       "modelo": "EB22BL",
-      "tipo": "Cartridge",
+      "tipo": "Ink",
       "familia": "Solvent ink",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Available",
-      "resumen": "Long-lasting original cartridge for industrial coding.",
-      "descripcion": "BENTSAI solvent cartridge for larger print heights with fast adhesion and a defined finish.",
+      "resumen": "Long-lasting original ink for industrial coding.",
+      "descripcion": "BENTSAI solvent ink for larger print heights with fast adhesion and a defined finish.",
       "imagen": "/assets/productos/eb22bl/principal.webp",
       "galeria": [],
       "altura": "25,4 mm",
@@ -1545,7 +1493,7 @@
         "Solvent ink",
         "Long lasting",
         "Industrial use",
-        "Original cartridge"
+        "Original ink"
       ],
       "especificaciones": [
         [
@@ -1580,13 +1528,13 @@
     "slug": "s70",
     "es": {
       "slug": "s70",
-      "nombre": "Cartucho S70",
+      "nombre": "Tinta S70",
       "modelo": "S70",
-      "tipo": "Cartucho",
+      "tipo": "Tinta",
       "familia": "Tinta solvente",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Disponible",
-      "resumen": "Cartucho solvente de 12,7 mm compatible con la codificadora M1.",
+      "resumen": "Tinta solvente de 12,7 mm compatible con la codificadora M1.",
       "descripcion": "Consumible para impresión de fechas, lotes, textos, logotipos y códigos sobre diversas superficies.",
       "imagen": "/assets/productos/s70/principal.webp",
       "galeria": [],
@@ -1622,13 +1570,13 @@
     },
     "en": {
       "slug": "s70",
-      "nombre": "S70 Cartridge",
+      "nombre": "S70 Ink",
       "modelo": "S70",
-      "tipo": "Cartridge",
+      "tipo": "Ink",
       "familia": "Solvent ink",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Available",
-      "resumen": "12.7 mm solvent cartridge compatible with the M1.",
+      "resumen": "12.7 mm solvent ink compatible with the M1.",
       "descripcion": "Consumable for dates, batches, text, logos and codes on different materials.",
       "imagen": "/assets/productos/s70/principal.webp",
       "galeria": [],
@@ -1671,13 +1619,13 @@
     "slug": "sk10",
     "es": {
       "slug": "sk10",
-      "nombre": "Cartucho SK10",
+      "nombre": "Tinta SK10",
       "modelo": "SK10",
-      "tipo": "Cartucho",
+      "tipo": "Tinta",
       "familia": "Tinta solvente",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Disponible",
-      "resumen": "Cartucho de 12,7 mm para codificación portátil con el equipo M1.",
+      "resumen": "Tinta de 12,7 mm para codificación portátil con el equipo M1.",
       "descripcion": "Tinta solvente de secado rápido para resultados nítidos en papel, plástico, cartón, metal y otras superficies.",
       "imagen": "/assets/productos/sk10/principal.webp",
       "galeria": [],
@@ -1713,13 +1661,13 @@
     },
     "en": {
       "slug": "sk10",
-      "nombre": "SK10 Cartridge",
+      "nombre": "SK10 Ink",
       "modelo": "SK10",
-      "tipo": "Cartridge",
+      "tipo": "Ink",
       "familia": "Solvent ink",
       "disponibilidad": "disponible",
       "disponibilidadTexto": "Available",
-      "resumen": "12.7 mm cartridge for handheld coding with the M1.",
+      "resumen": "12.7 mm ink for handheld coding with the M1.",
       "descripcion": "Fast-drying solvent ink for sharp results on paper, plastic, cardboard and metal.",
       "imagen": "/assets/productos/sk10/principal.webp",
       "galeria": [],
@@ -1810,7 +1758,7 @@
         ],
         [
           "Tipo de tinta",
-          "Cartucho de tinta solvente"
+          "Tinta solvente"
         ],
         [
           "Formatos de imagen",
@@ -1888,7 +1836,7 @@
         ],
         [
           "Ink type",
-          "Solvent ink cartridge"
+          "Solvent ink"
         ],
         [
           "Image formats",
@@ -1964,7 +1912,7 @@
           "2 a 5 mm"
         ],
         [
-          "Cartucho",
+          "Tinta",
           "Tinta solvente de secado rápido, 42 ml"
         ],
         [
@@ -2042,7 +1990,7 @@
           "2 to 5 mm"
         ],
         [
-          "Cartridge",
+          "Ink",
           "42 ml fast-drying solvent ink"
         ],
         [
@@ -2369,7 +2317,7 @@
         ],
         [
           "Supported inks",
-          "Oil-based, water-based and UV ink cartridges"
+          "Oil-based, water-based and UV inks"
         ],
         [
           "Resolution",
@@ -2743,3 +2691,4 @@
     "sort_order": 17
   }
 ]
+
