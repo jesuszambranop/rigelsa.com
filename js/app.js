@@ -248,7 +248,7 @@
     if (!pista || !clientes.length) return;
     var desplazamiento = 0, ultimoTiempo = 0, animacion = 0;
     var movimientoReducido = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var velocidad = 64;
+    var velocidad = 48;
     function anchoColeccion() {
       var tarjetas = pista.querySelectorAll(".cliente-tarjeta");
       if (!tarjetas.length) return 0;
