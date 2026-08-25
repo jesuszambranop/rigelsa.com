@@ -420,10 +420,15 @@ p { line-height: 1.65; }
 .idioma-cambio:hover, .idioma-cambio:focus-visible { background: var(--azul-oscuro); }
 
 .inicio-presentacion { border-bottom: 1px solid #e1e5e7; }
-.inicio-presentacion-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 90px; align-items: end; }
-.inicio-presentacion h1 { margin: 0; color: var(--azul-oscuro); font-size: clamp(42px, 5.5vw, 72px); line-height: 1.03; letter-spacing: -.045em; }
-.inicio-presentacion-grid > div:last-child > p { margin: 0 0 28px; color: var(--gris); font-size: 17px; }
+.inicio-presentacion-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: clamp(54px, 7vw, 100px); align-items: center; }
+.inicio-presentacion h1 { margin: 0 0 24px; color: var(--azul-oscuro); font-size: clamp(42px, 5.5vw, 72px); line-height: 1.03; letter-spacing: -.045em; }
+.inicio-presentacion-texto > p:not(.eyebrow) { max-width: 600px; margin: 0 0 28px; color: var(--gris); font-size: 17px; }
 .inicio-acciones { display: flex; flex-wrap: wrap; gap: 10px; }
+.aplicaciones-visual { position: relative; min-width: 0; aspect-ratio: 4 / 3; overflow: hidden; background: #f5f6f6; }
+.aplicaciones-slide { position: absolute; inset: 0; margin: 0; opacity: 0; transition: opacity .75s ease; }
+.aplicaciones-slide-activo { z-index: 1; opacity: 1; }
+.aplicaciones-slide img { width: 100%; height: 100%; object-fit: contain; transform: scale(1.018); transition: transform 3.6s ease; }
+.aplicaciones-slide-activo img { transform: scale(1); }
 
 .tarjeta-producto { display: flex; flex-direction: column; overflow: hidden; }
 .producto-imagen { position: relative; z-index: 0; overflow: hidden; flex: 0 0 250px; }
