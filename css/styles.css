@@ -30,7 +30,7 @@ p { line-height: 1.65; }
 .marca-lineas { letter-spacing: -4px; font-size: 27px; font-weight: 300; }
 .marca strong { font-size: 24px; letter-spacing: 2px; }
 .marca small { align-self: flex-end; margin-bottom: 3px; font-size: 8px; font-weight: 700; }
-.navegacion { display: flex; align-items: center; gap: clamp(16px, 2.45vw, 36px); font-size: 13px; font-weight: 600; }
+.navegacion { display: flex; align-items: center; gap: clamp(16px, 2.45vw, 36px); font-size: 15px; font-weight: 600; }
 .navegacion a { padding-block: 32px; border-bottom: 2px solid transparent; }
 .navegacion a:hover, .navegacion a:focus-visible, .navegacion a[aria-current="page"] { color: var(--azul); border-color: var(--azul); }
 .menu-boton { display: none; width: 42px; height: 42px; padding: 10px; border: 0; background: transparent; }
@@ -102,7 +102,7 @@ p { line-height: 1.65; }
 .cifras strong, .cifras span { display: block; }
 .cifras strong { margin-bottom: 6px; font-size: 22px; }
 .cifras span { color: #bcd8e6; font-size: 13px; }
-.clientes-seccion { position: relative; overflow: hidden; background: #f1f4f6; border-top: 0; }
+.clientes-seccion { position: relative; overflow: hidden; background: white; border-top: 0; }
 .clientes-seccion::before { position: absolute; inset: 0 0 auto; height: 1px; background: linear-gradient(90deg, transparent 0%, rgba(0,130,200,.55) 22%, rgba(0,130,200,.55) 78%, transparent 100%); content: ""; }
 .clientes-encabezado { display: block; margin-bottom: 28px; }
 .clientes-encabezado h2 { max-width: 690px; margin: 0; color: var(--azul-oscuro); font-size: clamp(34px, 4vw, 52px); line-height: 1.08; letter-spacing: -.04em; }
@@ -114,7 +114,7 @@ p { line-height: 1.65; }
 .clientes-banda::after { right: 0; }
 .clientes-ventana { min-width: 0; overflow: hidden; }
 .clientes-pista { display: flex; gap: 0; transform: translate3d(0,0,0); will-change: transform; }
-.cliente-tarjeta { flex: 0 0 clamp(360px, 34vw, 460px); height: 238px; display: grid; place-items: center; min-width: 0; margin: 0; padding: 18px 26px; overflow: hidden; background: transparent; border: 0; box-shadow: none; }
+.cliente-tarjeta { flex: 0 0 calc(100% / 3); height: 218px; display: grid; place-items: center; min-width: 0; margin: 0; padding: 12px 18px; overflow: hidden; background: transparent; border: 0; box-shadow: none; }
 .cliente-logo-marco { position: relative; width: 100%; height: 100%; min-width: 0; overflow: hidden; }
 .cliente-tarjeta img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; }
 .soporte-inicio { background: white; }
@@ -280,16 +280,16 @@ p { line-height: 1.65; }
 .ventajas-rejilla > div { min-height: 128px; display: grid; grid-template-columns: 48px 1fr; gap: 12px; align-items: center; padding: 22px 30px; border-right: 1px solid #d4d8da; }
 .ventajas-rejilla > div:last-child { border-right: 0; }
 .ventajas-rejilla span { color: var(--azul); font-size: 28px; font-weight: 300; }
-.ventajas-rejilla p { margin: 0; font-size: 13px; }
+.ventajas-rejilla p { margin: 0; font-size: 15px; }
 .ventajas-rejilla strong { color: #4b4f52; }
 .pie-principal { display: grid; grid-template-columns: 1.15fr .85fr; gap: 90px; padding-top: 70px; padding-bottom: 58px; }
-.pie-marca > p { max-width: 510px; margin: 22px 0 28px; }
+.pie-marca > p { max-width: 510px; margin: 22px 0 28px; font-size: 18px; }
 .pie-columnas { display: grid; grid-template-columns: repeat(3, 1fr); gap: 35px; }
 .pie-columnas > div { display: flex; flex-direction: column; gap: 12px; }
-.pie-columnas h2 { margin: 0 0 8px; color: #555a5d; font-size: 14px; }
-.pie-columnas a { font-size: 12px; }
+.pie-columnas h2 { margin: 0 0 8px; color: #555a5d; font-size: 16px; }
+.pie-columnas a { font-size: 14px; }
 .pie-columnas a:hover { color: var(--azul); }
-.pie-legal { padding: 24px 0 36px; border-top: 1px solid #ccd1d3; font-size: 11px; }
+.pie-legal { padding: 24px 0 36px; border-top: 1px solid #ccd1d3; font-size: 13px; }
 .pie-legal p { margin: 0; }
 .pagina-404 { min-height: 70vh; display: grid; place-items: center; padding: 60px 24px; text-align: center; }
 .pagina-404 h1 { margin: 0; color: var(--azul-oscuro); font-size: clamp(44px, 6vw, 72px); }
@@ -297,7 +297,7 @@ p { line-height: 1.65; }
 .pagina-404 .boton { margin-top: 15px; }
 
 @media (max-width: 1050px) {
-  .navegacion { gap: 16px; font-size: 12px; }
+  .navegacion { gap: 16px; font-size: 14px; }
   .producto-hero { gap: 45px; }
   .contacto-rejilla { gap: 50px; }
 }
@@ -319,7 +319,7 @@ p { line-height: 1.65; }
   .busqueda-catalogo { grid-column: auto; }
   .faq-rejilla { grid-template-columns: 1fr; }
   .franja-k600 img { max-height: 440px; }
-  .cliente-tarjeta { flex-basis: 400px; }
+  .cliente-tarjeta { flex-basis: 50%; }
   .soporte-visual { min-height: 460px; }
 }
 
@@ -445,7 +445,7 @@ p { line-height: 1.65; }
 .logo-404 { width: min(360px, 82vw); margin: 0 auto 34px; }
 
 @media (max-width: 1100px) {
-  .navegacion { gap: 11px; font-size: 11px; }
+  .navegacion { gap: 11px; font-size: 13px; }
   .marca-imagen { width: 150px; }
 }
 

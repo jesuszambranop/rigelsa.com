@@ -347,7 +347,7 @@
   }
 
   function renderBlog() {
-    contenido.innerHTML = '<section class="cabecera-pagina"><div class="contenedor"><p class="eyebrow">' + texto.blogEyebrow + '</p><h1>' + texto.blogTitle + '</h1><p>' + texto.blogText + '</p></div></section><section class="seccion"><div class="contenedor"><div class="rejilla-blog rejilla-blog-completa">' + articulos.map(tarjetaArticulo).join("") + '</div></div></section>';
+    contenido.innerHTML = '<section class="cabecera-pagina"><div class="contenedor"><h1>' + texto.blogTitle + '</h1><p>' + texto.blogText + '</p></div></section><section class="seccion"><div class="contenedor"><div class="rejilla-blog rejilla-blog-completa">' + articulos.map(tarjetaArticulo).join("") + '</div></div></section>';
   }
 
   function renderArticulo() {
