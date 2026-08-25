@@ -119,10 +119,8 @@ p { line-height: 1.65; }
 .cliente-tarjeta img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; }
 .soporte-inicio { background: white; }
 .soporte-rejilla { display: grid; grid-template-columns: .92fr 1.08fr; gap: clamp(48px, 7vw, 96px); align-items: center; }
-.soporte-visual { position: relative; min-height: 510px; display: grid; place-items: center; overflow: hidden; background: linear-gradient(145deg, #eff3f5 0%, #d9e3e8 100%); }
-.soporte-visual::before { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(0,130,200,.1), transparent 55%); content: ""; }
-.soporte-visual > span { position: absolute; inset: 26px auto auto 28px; z-index: 2; color: var(--azul); font-size: 13px; font-weight: 800; letter-spacing: .16em; }
-.soporte-visual img { position: relative; z-index: 1; width: 88%; max-height: 455px; object-fit: contain; filter: drop-shadow(0 25px 28px rgba(0,48,76,.2)); }
+.soporte-visual { position: relative; aspect-ratio: 4 / 5; min-height: 0; overflow: hidden; background: #edf1f3; }
+.soporte-visual img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .soporte-contenido h2 { max-width: 650px; margin: 0 0 24px; color: var(--azul-oscuro); font-size: clamp(38px, 4.8vw, 62px); line-height: 1.05; letter-spacing: -.045em; }
 .soporte-contenido > p:not(.eyebrow) { max-width: 650px; margin: 0 0 25px; color: var(--gris); font-size: 16px; }
 .soporte-contenido ul { margin: 0 0 32px; padding: 0; list-style: none; border-top: 1px solid #dbe0e3; }
@@ -220,7 +218,7 @@ p { line-height: 1.65; }
 .formulario-google-encabezado > p:last-child, .formulario-google-exito > p:not(.eyebrow) { margin: 12px 0 0; color: var(--gris); font-size: 13px; }
 .formulario-google-campos { padding-top: 26px; border-top: 0; }
 .formulario-google-campos .formulario-doble label { margin-bottom: 18px; }
-.formulario-google-campos button[type="submit"] { min-width: 190px; justify-content: space-between; gap: 28px; }
+.formulario-google-campos button[type="submit"] { width: auto; min-width: 0; justify-content: center; gap: 0; }
 .formulario-google-campos button[type="submit"]:disabled { cursor: wait; opacity: .65; }
 .formulario-google-exito { min-height: 606px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 48px; }
 .formulario-google-check { width: 64px; height: 64px; display: grid; place-items: center; margin-bottom: 28px; color: white; background: var(--azul); font-size: 32px; font-weight: 800; }
@@ -320,7 +318,7 @@ p { line-height: 1.65; }
   .faq-rejilla { grid-template-columns: 1fr; }
   .franja-k600 img { max-height: 440px; }
   .cliente-tarjeta { flex-basis: 50%; }
-  .soporte-visual { min-height: 460px; }
+  .soporte-visual { min-height: 0; }
 }
 
 @media (max-width: 700px) {
@@ -353,8 +351,7 @@ p { line-height: 1.65; }
   .clientes-banda::before, .clientes-banda::after { width: 54px; }
   .cliente-tarjeta { flex-basis: 350px; height: 200px; padding: 14px 20px; }
   .soporte-rejilla { gap: 34px; }
-  .soporte-visual { min-height: 390px; }
-  .soporte-visual img { max-height: 350px; }
+  .soporte-visual { min-height: 0; }
   .soporte-contenido h2 { font-size: 40px; }
   .nosotros-presentacion { padding: 52px 0 64px; }
   .nosotros-rejilla { gap: 28px; }

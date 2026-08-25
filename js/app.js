@@ -85,7 +85,8 @@
       industrialAlt: "Codificadora industrial K600",
       industrialCaption: "Codificación industrial continua",
       supportEyebrow: "SOPORTE TÉCNICO RIGEL",
-      supportTitle: "Acompañamiento para mantener tu producción en marcha",
+      supportTitle: "Soporte técnico especializado",
+      supportImageAlt: "Técnico de Rigel realizando mantenimiento a una codificadora industrial",
       supportText: "Brindamos instalación, mantenimiento preventivo y correctivo, capacitación y visitas técnicas a empresas para asegurar el rendimiento de cada equipo.",
       supportItems: ["Visitas técnicas en planta", "Mantenimiento preventivo y correctivo", "Capacitación y asistencia especializada"],
       supportButton: "Solicitar soporte"
@@ -114,7 +115,8 @@
       industrialAlt: "K600 industrial coding printer",
       industrialCaption: "Continuous industrial coding",
       supportEyebrow: "RIGEL TECHNICAL SUPPORT",
-      supportTitle: "Support that keeps your production moving",
+      supportTitle: "Specialized technical support",
+      supportImageAlt: "Rigel technician servicing an industrial coding printer",
       supportText: "We provide installation, preventive and corrective maintenance, training and on-site technical visits to ensure the performance of every machine.",
       supportItems: ["On-site technical visits", "Preventive and corrective maintenance", "Training and specialized assistance"],
       supportButton: "Request support"
@@ -283,7 +285,7 @@
   }
 
   function seccionSoporte() {
-    return '<section class="seccion soporte-inicio"><div class="contenedor soporte-rejilla"><div class="soporte-visual"><span>K600</span><img src="assets/productos/k600/principal.png" alt="' + inicio.industrialAlt + '" loading="lazy"></div><div class="soporte-contenido"><p class="eyebrow">' + inicio.supportEyebrow + '</p><h2>' + inicio.supportTitle + '</h2><p>' + inicio.supportText + '</p><ul>' + inicio.supportItems.map(function (item) { return '<li>' + item + '</li>'; }).join("") + '</ul><a class="boton boton-azul" href="' + conIdioma("contacto.html") + '">' + inicio.supportButton + '</a></div></div></section>';
+    return '<section class="seccion soporte-inicio"><div class="contenedor soporte-rejilla"><div class="soporte-visual"><img src="assets/soporte/soporte-tecnico-rigel.webp" alt="' + inicio.supportImageAlt + '" loading="lazy"></div><div class="soporte-contenido"><p class="eyebrow">' + inicio.supportEyebrow + '</p><h2>' + inicio.supportTitle + '</h2><p>' + inicio.supportText + '</p><ul>' + inicio.supportItems.map(function (item) { return '<li>' + item + '</li>'; }).join("") + '</ul><a class="boton boton-azul" href="' + conIdioma("contacto.html") + '">' + inicio.supportButton + '</a></div></div></section>';
   }
 
   function renderInicio() {
