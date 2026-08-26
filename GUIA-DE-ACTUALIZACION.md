@@ -44,9 +44,9 @@ Los 29 logotipos oficiales están en `assets/clientes/` y aparecen en el carruse
 
 El carrusel muestra varios logos completos a la vez y avanza exactamente una marca cada 1,8 segundos. Incluye controles anterior, pausa y siguiente; al pasar el cursor sobre la banda se detiene temporalmente. Las tarjetas usan `object-fit: contain` y márgenes internos para evitar cualquier recorte.
 
-## Quiénes somos y preguntas frecuentes
+## Quiénes somos y países
 
-La página bilingüe `quienes-somos.html` contiene la presentación internacional de Rigel, el mapa `assets/nosotros/mapa-presencia.png` y todas las preguntas frecuentes. El menú y el pie enlazan esta página; ya no existen páginas independientes de Clientes ni de Preguntas frecuentes.
+La página bilingüe `quienes-somos.html` contiene la presentación internacional de Rigel, el mapa regional y las tarjetas de contacto por país. Los mapas individuales se encuentran en `assets/paises/` y los datos de cada sede se editan en el arreglo `sedes` de `js/app.js`.
 
 ## Slides principales
 

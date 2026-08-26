@@ -21,13 +21,13 @@
 
   var texto = {
     es: {
-      skip: "Ir al contenido", home: "Inicio", products: "Productos", about: "Quiénes somos", clients: "Clientes", faq: "Preguntas frecuentes", blog: "Blog", support: "Contáctanos",
+      skip: "Ir al contenido", home: "Inicio", products: "Productos", about: "Quiénes somos", clients: "Clientes", blog: "Blog", support: "Contáctanos",
       advice: "Asesoría especializada", adviceText: "para elegir el equipo correcto.", technical: "Soporte técnico", technicalText: "antes y después de la implementación.", coverage: "Cobertura internacional", coverageText: "para proyectos de codificación.",
-      footerText: "Empresa especializada en sistemas de marcación y codificación con sede en Ecuador, operamos en varios países de Latinoamérica.", contactUs: "Contáctanos", printers: "Codificadoras", inks: "Tintas", accessories: "Accesorios", contact: "Contacto",
+      footerText: "Empresa especializada en sistemas de marcación y codificación con sede en Ecuador, operamos en varios países de Latinoamérica.", contactUs: "Contáctanos", printers: "Codificadoras", inks: "Tinta", accessories: "Accesorios", contact: "Contacto",
       heroAlt: ["Soluciones Rigel para codificación industrial", "Codificación portátil sobre diferentes superficies", "Equipos Rigel para líneas de producción"],
       heroEyebrow: "MARCAJE Y CODIFICACIÓN", heroTitle: "Soluciones que avanzan al ritmo de tu producción", heroText: "Equipos portátiles, automáticos e industriales para imprimir fechas, lotes, códigos, textos y logotipos sobre múltiples superficies.", seeProducts: "Ver productos", quote: "Cotiza con nosotros",
-      applicationsEyebrow: "UNA SOLUCIÓN PARA CADA PROCESO", applicationsTitle: "Del marcaje manual a la línea automatizada", applicationsText: "Elige por altura, velocidad, superficie y volumen de producción. Cada producto dispone de características técnicas claras y asesoría directa.",
-      portable: "Portátiles", portableText: "Equipos ligeros para trabajar en distintos espacios y superficies.", automatic: "Automatización", automaticText: "Codificadoras, sensores y bandas para producción continua.", industrial: "Industrial", industrialText: "Soluciones de alta velocidad para líneas exigentes.",
+      applicationsEyebrow: "UNA SOLUCIÓN PARA CADA PROCESO", applicationsTitle: "Del marcaje manual a la línea automatizada", applicationsText: "Selecciona la solución según la superficie, el ritmo de producción y el nivel de automatización de tu proceso.",
+      portable: "Codificadora portátil", portableText: "Equipos ligeros para trabajar en distintos espacios y superficies.", automatic: "Automatizaciones", automaticText: "Codificadoras, sensores y bandas para producción continua.",
       knowledge: "CONOCIMIENTO RIGEL", guides: "Guías para codificar mejor", allArticles: "Ver todos los artículos", read: "Leer artículo",
       inventory: "INVENTARIO RIGEL", inventoryTitle: "Productos para cada escala de producción", inventoryText: "Consulta equipos, consumibles y accesorios. Filtra por tipo y altura de impresión.",
       search: "Buscar por modelo o aplicación", searchPlaceholder: "Ej.: K600, industrial, tinta…", availability: "Disponibilidad", all: "Todos", available: "Disponible", onRequest: "Bajo pedido", unavailable: "No disponible", stock: "Stock", height: "Altura de impresión", allHeights: "Todas", results: "resultados", oneResult: "resultado", noResults: "No encontramos coincidencias", tryAgain: "Prueba otra búsqueda o restablece los filtros.", reset: "Restablecer filtros", viewFeatures: "Ver características",
@@ -35,18 +35,18 @@
       aboutEyebrow: "RIGEL INTERNACIONAL", aboutTitle: "Quiénes somos", aboutParagraphOne: "Somos una empresa dedicada a la venta de equipos de marcaje y codificación. Ofrecemos soluciones tecnológicas innovadoras para pequeñas, medianas y grandes empresas, con enfoque en productos de alta calidad y respeto por el medio ambiente.", aboutParagraphTwo: "Nuestra empresa fue fundada en Ecuador y tiene presencia en Brasil, Colombia, Venezuela, Chile y México. Contamos con más de siete años de experiencia en el mercado.", aboutMapAlt: "Mapa de presencia de Rigel en América Latina",
       breadcrumbHome: "Inicio", breadcrumbProducts: "Productos", information: "INFORMACIÓN TÉCNICA", features: "Características", includes: "Incluye", sheet: "Abrir ficha técnica", consultProduct: "Cotiza con nosotros", demonstration: "DEMOSTRACIÓN", watchWorking: "Mira el equipo en funcionamiento", youtube: "Ver video público en YouTube", related: "COMPATIBLES Y RELACIONADOS", completeSolution: "Completa tu solución",
       blogEyebrow: "MANTENTE INFORMADO", blogTitle: "Ideas para una codificación más eficiente", blogText: "Guías prácticas sobre equipos, tintas, trazabilidad, mantenimiento y buenas prácticas de producción.", keepReading: "SEGUIR LEYENDO", otherArticles: "Otros artículos", needAdvice: "¿NECESITAS ASESORÍA?", findPrinter: "Encuentra la solución adecuada", findPrinterText: "Revisa el inventario o cuéntanos tu proceso de impresión.",
-      faqEyebrow: "PREGUNTAS FRECUENTES", faqTitle: "Preguntas frecuentes", faqText: "Información esencial para utilizar, mantener e integrar tu solución de codificación.", stillQuestions: "¿Todavía tienes dudas?", stillQuestionsText: "Cuéntanos qué equipo utilizas y qué necesitas resolver.",
+      countries: "Países", address: "Dirección", phoneLabel: "Teléfono", emailLabel: "Correo", hoursLabel: "Horario", whatsappCountry: "WhatsApp",
       contactEyebrow: "CONTACTO", contactTitle: "Hablemos de tu proceso de codificación", contactText: "Recibe asesoría para elegir un modelo, confirmar compatibilidad o resolver una consulta técnica.", personalized: "ATENCIÓN PERSONALIZADA", supportTitle: "Atención Rigel", supportText: "Describe el producto, la superficie y la información que necesitas imprimir. También puedes indicar el volumen aproximado de producción.", email: "Correo", channel: "Canal", name: "Nombre completo", message: "¿Cómo podemos ayudarte?", phone: "WhatsApp", send: "Enviar mensaje", formKicker: "FORMULARIO DE CONTACTO", formTitle: "Cuéntanos cómo podemos ayudarte", formRequired: "Todos los campos son obligatorios.", namePlaceholder: "Escribe tu nombre", emailPlaceholder: "nombre@empresa.com", phonePlaceholder: "+593 99 999 9999", messagePlaceholder: "Escribe aquí tu mensaje o requerimiento…", formNote: "Al enviar este formulario aceptas que usemos tus datos únicamente para responder tu solicitud.", sending: "Enviando…", received: "MENSAJE RECIBIDO", thankYou: "Gracias por contactarnos.", sent: "Tu información fue enviada correctamente a Rigel.", sendAnother: "Enviar otro mensaje", required: "Completa los campos obligatorios.",
       notFound: "Contenido no encontrado", backProducts: "Volver a productos", backBlog: "Volver al blog"
     },
     en: {
-      skip: "Skip to content", home: "Home", products: "Products", about: "About us", clients: "Clients", faq: "Frequently asked questions", blog: "Blog", support: "Contact us",
+      skip: "Skip to content", home: "Home", products: "Products", about: "About us", clients: "Clients", blog: "Blog", support: "Contact us",
       advice: "Specialized guidance", adviceText: "to choose the right equipment.", technical: "Technical support", technicalText: "before and after implementation.", coverage: "International coverage", coverageText: "for coding projects.",
-      footerText: "Company specialized in marking and coding systems, headquartered in Ecuador and operating in several Latin American countries.", contactUs: "Contact us", printers: "Coding printers", inks: "Inks", accessories: "Accessories", contact: "Contact",
+      footerText: "Company specialized in marking and coding systems, headquartered in Ecuador and operating in several Latin American countries.", contactUs: "Contact us", printers: "Coding printers", inks: "Ink", accessories: "Accessories", contact: "Contact",
       heroAlt: ["Rigel industrial coding solutions", "Handheld coding on different materials", "Rigel equipment for production lines"],
       heroEyebrow: "MARKING & CODING", heroTitle: "Solutions that keep pace with your production", heroText: "Handheld, automatic and industrial equipment for dates, batches, codes, text and logos on multiple materials.", seeProducts: "View products", quote: "Request a quote",
-      applicationsEyebrow: "A SOLUTION FOR EVERY PROCESS", applicationsTitle: "From handheld marking to automated lines", applicationsText: "Choose by height, speed, material and production volume. Every product includes clear technical details and direct guidance.",
-      portable: "Handheld", portableText: "Lightweight equipment for different spaces and materials.", automatic: "Automation", automaticText: "Printers, sensors and conveyors for continuous production.", industrial: "Industrial", industrialText: "High-speed solutions for demanding production lines.",
+      applicationsEyebrow: "A SOLUTION FOR EVERY PROCESS", applicationsTitle: "From handheld marking to automated lines", applicationsText: "Choose the right solution for your material, production pace and level of process automation.",
+      portable: "Handheld printer", portableText: "Lightweight equipment for different spaces and materials.", automatic: "Automation", automaticText: "Printers, sensors and conveyors for continuous production.",
       knowledge: "RIGEL KNOWLEDGE", guides: "Guides for better coding", allArticles: "View all articles", read: "Read article",
       inventory: "RIGEL INVENTORY", inventoryTitle: "Products for every production scale", inventoryText: "Browse equipment, consumables and accessories. Filter by type and print height.",
       search: "Search by model or application", searchPlaceholder: "E.g. K600, industrial, ink…", availability: "Availability", all: "All", available: "Available", onRequest: "On request", unavailable: "Unavailable", stock: "Stock", height: "Print height", allHeights: "All", results: "results", oneResult: "result", noResults: "No matches found", tryAgain: "Try a different search or reset the filters.", reset: "Reset filters", viewFeatures: "View features",
@@ -54,7 +54,7 @@
       aboutEyebrow: "RIGEL INTERNATIONAL", aboutTitle: "About us", aboutParagraphOne: "We are a company dedicated to supplying marking and coding equipment. We offer innovative technology solutions for small, medium and large businesses, focused on high-quality products and respect for the environment.", aboutParagraphTwo: "Our company was founded in Ecuador and has a presence in Brazil, Colombia, Venezuela, Chile and Mexico. We have more than seven years of experience in the market.", aboutMapAlt: "Map of Rigel's presence in Latin America",
       breadcrumbHome: "Home", breadcrumbProducts: "Products", information: "TECHNICAL INFORMATION", features: "Features", includes: "Included", sheet: "Open technical data sheet", consultProduct: "Request a quote", demonstration: "DEMONSTRATION", watchWorking: "See the equipment in action", youtube: "Watch the public video on YouTube", related: "COMPATIBLE & RELATED", completeSolution: "Complete your solution",
       blogEyebrow: "STAY INFORMED", blogTitle: "Ideas for more efficient coding", blogText: "Practical guides about equipment, inks, traceability, maintenance and production best practices.", keepReading: "KEEP READING", otherArticles: "More articles", needAdvice: "NEED GUIDANCE?", findPrinter: "Find the right solution", findPrinterText: "Browse the inventory or tell us about your printing process.",
-      faqEyebrow: "FREQUENTLY ASKED QUESTIONS", faqTitle: "Frequently asked questions", faqText: "Essential information for using, maintaining and integrating your coding solution.", stillQuestions: "Still have questions?", stillQuestionsText: "Tell us which equipment you use and what you need to solve.",
+      countries: "Countries", address: "Address", phoneLabel: "Phone", emailLabel: "Email", hoursLabel: "Hours", whatsappCountry: "WhatsApp",
       contactEyebrow: "CONTACT", contactTitle: "Let’s talk about your coding process", contactText: "Get guidance to choose a model, confirm compatibility or solve a technical question.", personalized: "PERSONALIZED ASSISTANCE", supportTitle: "Rigel assistance", supportText: "Describe the product, material and information you need to print. You can also include your approximate production volume.", email: "Email", channel: "Channel", name: "Full name", message: "How can we help?", phone: "WhatsApp", send: "Send message", formKicker: "CONTACT FORM", formTitle: "Tell us how we can help", formRequired: "All fields are required.", namePlaceholder: "Enter your name", emailPlaceholder: "name@company.com", phonePlaceholder: "+593 99 999 9999", messagePlaceholder: "Write your message or request here…", formNote: "By sending this form, you agree that we may use your data only to respond to your request.", sending: "Sending…", received: "MESSAGE RECEIVED", thankYou: "Thank you for contacting us.", sent: "Your information was successfully sent to Rigel.", sendAnother: "Send another message", required: "Complete the required fields.",
       notFound: "Content not found", backProducts: "Back to products", backBlog: "Back to blog"
     }
@@ -64,11 +64,11 @@
     es: {
       slides: [
         { imagen: "todas-maquinas.jpg", alt: "Equipos de codificación Rigel", eyebrow: "SOLUCIONES PARA CADA PROCESO", titulo: "Codificación para cada necesidad", texto: "Ofrecemos soluciones portátiles, automáticas e industriales según tu producto, superficie y ritmo de producción.", boton: "Productos", enlace: "productos.html" },
-        { imagen: "k600.jpg", alt: "Codificadora industrial K600", eyebrow: "PRODUCCIÓN INDUSTRIAL", titulo: "K600: codificación continua para líneas exigentes", texto: "Marca fechas, lotes, códigos y datos variables con precisión y estabilidad en procesos de alta velocidad.", boton: "Conoce la K600", enlace: "producto.html?slug=k600" },
         { imagen: "cafe.jpg", alt: "Bolsa de café con fecha y lote impresos", eyebrow: "EMPAQUES FLEXIBLES", titulo: "Información clara desde el primer empaque", texto: "Imprime fechas, lotes y códigos definidos sobre bolsas de café, snacks y productos secos.", boton: "Ver codificadoras", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "k600.jpg", alt: "Codificadora industrial K600", eyebrow: "PRODUCCIÓN INDUSTRIAL", titulo: "K600: codificación continua para líneas exigentes", texto: "Marca fechas, lotes, códigos y datos variables con precisión y estabilidad en procesos de alta velocidad.", boton: "Conoce la K600", enlace: "producto.html?slug=k600" },
         { imagen: "cosmetica.jpg", alt: "Envases cosméticos con códigos impresos", eyebrow: "COSMÉTICA Y CUIDADO PERSONAL", titulo: "Trazabilidad que acompaña a tu marca", texto: "Consigue impresiones legibles y discretas en tubos, frascos y envases de múltiples materiales.", boton: "Explorar soluciones", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "banda.webp", alt: "Codificadora integrada a una banda transportadora", eyebrow: "AUTOMATIZACIÓN EN LÍNEA", titulo: "Codificación continua sobre banda transportadora", texto: "Integra impresión automática de fechas, lotes y códigos mientras el producto avanza por la línea.", boton: "Ver automatización", enlace: "productos.html?tipo=Accesorio" },
         { imagen: "metal.jpg", alt: "Latas metálicas con códigos impresos", eyebrow: "METAL Y SUPERFICIES NO POROSAS", titulo: "Códigos nítidos sobre metal", texto: "Selecciona equipos y tintas para lograr adherencia, contraste y lectura confiable en cada lote.", boton: "Ver productos", enlace: "productos.html" },
-        { imagen: "lacteos.jpg", alt: "Envase de yogur con fecha, lote y código", eyebrow: "ALIMENTOS Y LÁCTEOS", titulo: "Fechas y lotes legibles en cada envase", texto: "Integra información esencial para control, trazabilidad y confianza del consumidor.", boton: "Ver soluciones", enlace: "productos.html?tipo=Codificadora" },
         { imagen: "automatizacion.jpg", alt: "Sistema automático de codificación para huevos", eyebrow: "AUTOMATIZACIÓN", titulo: "Más velocidad, control y consistencia", texto: "Integramos codificación automática para líneas continuas y aplicaciones especializadas.", boton: "Ver automatización", enlace: "productos.html?tipo=Accesorio" }
       ],
       applicationsEyebrow: "APLICACIONES DE CODIFICACIÓN",
@@ -86,7 +86,7 @@
       industrialCaption: "Codificación industrial continua",
       supportEyebrow: "SOPORTE TÉCNICO RIGEL",
       supportTitle: "Soporte técnico especializado",
-      supportImageAlt: "Técnico de Rigel realizando mantenimiento a una codificadora industrial",
+      supportImageAlt: "Técnico de Rigel capacitando a un equipo en una codificadora industrial",
       supportText: "Brindamos instalación, mantenimiento preventivo y correctivo, capacitación y visitas técnicas a empresas para asegurar el rendimiento de cada equipo.",
       supportItems: ["Visitas técnicas en planta", "Mantenimiento preventivo y correctivo", "Capacitación y asistencia especializada"],
       supportButton: "Solicitar soporte"
@@ -94,11 +94,11 @@
     en: {
       slides: [
         { imagen: "todas-maquinas.jpg", alt: "Rigel coding equipment", eyebrow: "SOLUTIONS FOR EVERY PROCESS", titulo: "Coding for every production need", texto: "We provide handheld, automatic and industrial solutions according to your product, material and production pace.", boton: "Products", enlace: "productos.html" },
-        { imagen: "k600.jpg", alt: "K600 industrial coding printer", eyebrow: "INDUSTRIAL PRODUCTION", titulo: "K600: continuous coding for demanding lines", texto: "Print dates, batches, codes and variable data with precision and stability in high-speed processes.", boton: "Discover the K600", enlace: "producto.html?slug=k600" },
         { imagen: "cafe.jpg", alt: "Coffee pouch with printed date and batch", eyebrow: "FLEXIBLE PACKAGING", titulo: "Clear information from the first package", texto: "Print defined dates, batches and codes on coffee bags, snacks and dry products.", boton: "View coding printers", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "k600.jpg", alt: "K600 industrial coding printer", eyebrow: "INDUSTRIAL PRODUCTION", titulo: "K600: continuous coding for demanding lines", texto: "Print dates, batches, codes and variable data with precision and stability in high-speed processes.", boton: "Discover the K600", enlace: "producto.html?slug=k600" },
         { imagen: "cosmetica.jpg", alt: "Cosmetic containers with printed codes", eyebrow: "COSMETICS & PERSONAL CARE", titulo: "Traceability that supports your brand", texto: "Achieve readable and discreet prints on tubes, bottles and containers made of different materials.", boton: "Explore solutions", enlace: "productos.html?tipo=Codificadora" },
+        { imagen: "banda.webp", alt: "Coding printer integrated with a conveyor", eyebrow: "IN-LINE AUTOMATION", titulo: "Continuous coding on a conveyor", texto: "Automatically print dates, batches and codes while products move through the production line.", boton: "View automation", enlace: "productos.html?tipo=Accesorio" },
         { imagen: "metal.jpg", alt: "Metal cans with printed codes", eyebrow: "METAL & NON-POROUS MATERIALS", titulo: "Sharp codes on metal", texto: "Choose equipment and inks for reliable adhesion, contrast and readability in every batch.", boton: "View products", enlace: "productos.html" },
-        { imagen: "lacteos.jpg", alt: "Yogurt container with date, batch and code", eyebrow: "FOOD & DAIRY", titulo: "Readable dates and batches on every container", texto: "Integrate essential information for control, traceability and consumer confidence.", boton: "View solutions", enlace: "productos.html?tipo=Codificadora" },
         { imagen: "automatizacion.jpg", alt: "Automatic egg coding system", eyebrow: "AUTOMATION", titulo: "More speed, control and consistency", texto: "We integrate automatic coding for continuous lines and specialized applications.", boton: "View automation", enlace: "productos.html?tipo=Accesorio" }
       ],
       applicationsEyebrow: "CODING APPLICATIONS",
@@ -116,7 +116,7 @@
       industrialCaption: "Continuous industrial coding",
       supportEyebrow: "RIGEL TECHNICAL SUPPORT",
       supportTitle: "Specialized technical support",
-      supportImageAlt: "Rigel technician servicing an industrial coding printer",
+      supportImageAlt: "Rigel technician training a team on an industrial coding printer",
       supportText: "We provide installation, preventive and corrective maintenance, training and on-site technical visits to ensure the performance of every machine.",
       supportItems: ["On-site technical visits", "Preventive and corrective maintenance", "Training and specialized assistance"],
       supportButton: "Request support"
@@ -155,6 +155,30 @@
     { nombre: "El Buco a Casa", imagen: "assets/clientes/el-buco-a-casa.jpg" }
   ];
 
+  var sedes = lang === "en" ? [
+    { country: "Ecuador", city: "Guayaquil", map: "ecuador.svg", whatsapp: "593939474695", details: [[texto.address, "Calle Elizalde #119 and Pichincha, Edificio Luz María, 8th floor, office 8A."], [texto.phoneLabel, "+593 93 947 4695"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Monday to Friday, 9:00 AM–5:00 PM."]] },
+    { country: "Ecuador", city: "Quito", map: "ecuador.svg", whatsapp: "593981163409", details: [[texto.address, "Edificio Empresarial Unicornio, opposite CCI, 14th floor, office 1402."], [texto.phoneLabel, "+593 98 116 3409"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Monday to Friday, 9:00 AM–5:00 PM."]] },
+    { country: "Chile", city: "Santiago", map: "chile.svg", whatsapp: "56915586530", details: [[texto.address, "Santiago, Chile. Nationwide shipping and service."], [texto.phoneLabel, "+56 9 1558 6530"]] },
+    { country: "Colombia", city: "National coverage", map: "colombia.svg", whatsapp: "573108123039", details: [[texto.address, "Virtual service with nationwide shipping and support."], [texto.phoneLabel, "+57 310 812 3039"]] },
+    { country: "Venezuela", city: "National coverage", map: "venezuela.svg", whatsapp: "584249699579", details: [[texto.address, "Nationwide shipping and service."], [texto.phoneLabel, "0424-9699579"]] },
+    { country: "Brazil", city: "Rigel Brasil", map: "brasil.svg", whatsapp: "5562992037992", details: [[texto.phoneLabel, "+55 62 99203-7992"], [texto.emailLabel, "info@rigelsa.com.br", "email"], [texto.hoursLabel, "Monday to Friday, 8:00 AM–5:00 PM; Saturday, 8:00 AM–12:00 PM."]] },
+    { country: "Mexico", city: "Mérida, Yucatán", map: "mexico.svg", whatsapp: "529996351998", details: [[texto.address, "Calle 62 diagonal, no. 256, Colonia Jacinto Canek, Mérida, Yucatán, C.P. 97227."], [texto.phoneLabel, "+52 999 635 1998 · Service: +52 999 106 1004"], [texto.emailLabel, "ventasmexico@rigelsa.com", "email"], [texto.hoursLabel, "Monday to Friday, 9:00 AM–6:00 PM; Saturday, 9:00 AM–1:00 PM."]] }
+  ] : [
+    { country: "Ecuador", city: "Guayaquil", map: "ecuador.svg", whatsapp: "593939474695", details: [[texto.address, "Calle Elizalde #119 y Pichincha, Edificio Luz María, piso 8, oficina 8A."], [texto.phoneLabel, "+593 93 947 4695"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 9:00 AM–5:00 PM."]] },
+    { country: "Ecuador", city: "Quito", map: "ecuador.svg", whatsapp: "593981163409", details: [[texto.address, "Edificio Empresarial Unicornio, frente al CCI, piso 14, oficina 1402."], [texto.phoneLabel, "+593 98 116 3409"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 9:00 AM–5:00 PM."]] },
+    { country: "Chile", city: "Santiago", map: "chile.svg", whatsapp: "56915586530", details: [[texto.address, "Santiago, Chile. Envíos y atención a nivel nacional."], [texto.phoneLabel, "+56 9 1558 6530"]] },
+    { country: "Colombia", city: "Cobertura nacional", map: "colombia.svg", whatsapp: "573108123039", details: [[texto.address, "Atención virtual con envíos y servicio a nivel nacional."], [texto.phoneLabel, "+57 310 812 3039"]] },
+    { country: "Venezuela", city: "Cobertura nacional", map: "venezuela.svg", whatsapp: "584249699579", details: [[texto.address, "Envíos y atención a nivel nacional."], [texto.phoneLabel, "0424-9699579"]] },
+    { country: "Brasil", city: "Rigel Brasil", map: "brasil.svg", whatsapp: "5562992037992", details: [[texto.phoneLabel, "+55 62 99203-7992"], [texto.emailLabel, "info@rigelsa.com.br", "email"], [texto.hoursLabel, "Lunes a viernes, 8:00–17:00; sábados, 8:00–12:00."]] },
+    { country: "México", city: "Mérida, Yucatán", map: "mexico.svg", whatsapp: "529996351998", details: [[texto.address, "Calle 62 diagonal, número 256, colonia Jacinto Canek, Mérida, Yucatán, C.P. 97227."], [texto.phoneLabel, "+52 999 635 1998 · Atención: +52 999 106 1004"], [texto.emailLabel, "ventasmexico@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 9:00–18:00; sábados, 9:00–13:00."]] }
+  ];
+
+  var presenciaMapa = lang === "en" ? [
+    ["Mexico", "mexico"], ["Colombia", "colombia"], ["Ecuador", "ecuador"], ["Venezuela", "venezuela"], ["Brazil", "brasil"], ["Chile", "chile"]
+  ] : [
+    ["México", "mexico"], ["Colombia", "colombia"], ["Ecuador", "ecuador"], ["Venezuela", "venezuela"], ["Brasil", "brasil"], ["Chile", "chile"]
+  ];
+
   function asset(ruta) { return String(ruta || "").replace(/^\//, ""); }
 
   function conIdioma(ruta) {
@@ -190,6 +214,20 @@
     }).join("") + '</div>';
   }
 
+  function mapaPresencia() {
+    return '<div class="nosotros-mapa"><img src="assets/nosotros/mapa-america.webp" alt="' + texto.aboutMapAlt + '"><div class="mapa-etiquetas">' + presenciaMapa.map(function (pais) {
+      return '<span class="mapa-etiqueta mapa-etiqueta-' + pais[1] + '">' + pais[0] + '</span>';
+    }).join("") + '</div></div>';
+  }
+
+  function tarjetaSede(sede) {
+    var detalles = sede.details.map(function (detalle) {
+      var valor = detalle[2] === "email" ? '<a href="mailto:' + detalle[1] + '">' + detalle[1] + '</a>' : detalle[1];
+      return '<li><strong>' + detalle[0] + '</strong><span>' + valor + '</span></li>';
+    }).join("");
+    return '<article class="sede-tarjeta"><img class="sede-mapa" src="assets/paises/' + sede.map + '" alt="" aria-hidden="true"><div class="sede-contenido"><h3><span>' + sede.country + '</span><strong>' + sede.city + '</strong></h3><ul>' + detalles + '</ul><a class="sede-whatsapp" href="https://wa.me/' + sede.whatsapp + '" target="_blank" rel="noreferrer"><img src="assets/social/whatsapp.svg" alt="">' + texto.whatsappCountry + '</a></div></article>';
+  }
+
   function dibujarEstructura() {
     var saltar = document.querySelector(".saltar-contenido");
     if (saltar) saltar.textContent = texto.skip;
@@ -223,7 +261,7 @@
       '</div></div><div class="contenedor pie-principal"><div class="pie-marca"><a class="marca marca-imagen" href="' + conIdioma("index.html") + '">' + marca() + '</a><p>' + texto.footerText + '</p><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a>' + enlacesSociales() + '</div>' +
       '<div class="pie-columnas"><div><h2>Rigel</h2><a href="' + conIdioma("index.html") + '">' + texto.home + '</a><a href="' + conIdioma("quienes-somos.html") + '">' + texto.about + '</a><a href="' + conIdioma("blog.html") + '">' + texto.blog + '</a></div>' +
       '<div><h2>' + texto.products + '</h2><a href="' + conIdioma("productos.html?tipo=Codificadora") + '">' + texto.printers + '</a><a href="' + conIdioma("productos.html?tipo=Tinta") + '">' + texto.inks + '</a><a href="' + conIdioma("productos.html?tipo=Accesorio") + '">' + texto.accessories + '</a></div>' +
-      '<div><h2>' + texto.support + '</h2><a href="' + conIdioma("quienes-somos.html#preguntas") + '">' + texto.faq + '</a><a href="' + conIdioma("contacto.html") + '">' + texto.contact + '</a><a href="mailto:' + correo + '">' + correo + '</a></div></div></div>' +
+      '<div><h2>' + texto.support + '</h2><a href="' + conIdioma("contacto.html") + '">' + texto.contact + '</a><a href="mailto:' + correo + '">' + correo + '</a></div></div></div>' +
       '<div class="contenedor pie-legal"><p>© Rigel 2026.</p></div>';
 
     if (!document.querySelector(".whatsapp-flotante")) {
@@ -292,7 +330,7 @@
     var slides = inicio.slides;
     contenido.innerHTML = '<section class="hero" aria-roledescription="carousel" aria-label="' + texto.heroTitle + '"><div class="hero-pista">' + slides.map(function (slide, i) { return '<article class="hero-slide' + (i === 0 ? " hero-slide-activo" : "") + '" aria-hidden="' + (i !== 0) + '"' + (i === 0 ? '' : ' inert') + '><img src="assets/slides/nuevos/' + slide.imagen + '" alt="' + slide.alt + '" loading="' + (i === 0 ? 'eager' : 'lazy') + '"><div class="contenedor hero-contenido"><div class="hero-texto"><p class="eyebrow">' + slide.eyebrow + '</p><h1>' + slide.titulo + '</h1><p>' + slide.texto + '</p><a class="boton boton-azul" href="' + conIdioma(slide.enlace) + '">' + slide.boton + '</a></div></div></article>'; }).join("") + '</div><div class="hero-control" aria-label="' + (lang === "es" ? "Seleccionar diapositiva" : "Select slide") + '">' + slides.map(function (_, i) { return '<button type="button" class="' + (i === 0 ? "activo" : "") + '" aria-label="' + (lang === "es" ? "Mostrar diapositiva " : "Show slide ") + (i + 1) + '" aria-pressed="' + (i === 0) + '"></button>'; }).join("") + '</div></section>' +
       '<section class="seccion inicio-presentacion"><div class="contenedor inicio-presentacion-grid"><div class="inicio-presentacion-texto"><p class="eyebrow">' + inicio.applicationsEyebrow + '</p><h1>' + inicio.applicationsTitle + '</h1><p>' + inicio.applicationsText + '</p><div class="inicio-acciones"><a class="boton boton-azul" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.quote + '</a></div></div><div class="aplicaciones-visual" aria-roledescription="carousel" aria-label="' + inicio.applicationsAlt + '">' + inicio.applicationImages.map(function (imagen, i) { return '<figure class="aplicaciones-slide' + (i === 0 ? ' aplicaciones-slide-activo' : '') + '" aria-hidden="' + (i !== 0) + '"><img src="assets/aplicaciones/' + imagen.imagen + '" alt="' + imagen.alt + '" loading="' + (i === 0 ? 'eager' : 'lazy') + '"></figure>'; }).join("") + '</div></div></section>' +
-      '<section class="franja-industrial"><div class="contenedor franja-contenido"><div><p class="eyebrow eyebrow-claro">' + texto.applicationsEyebrow + '</p><h2>' + texto.applicationsTitle + '</h2></div><div class="franja-texto"><p>' + texto.applicationsText + '</p><a href="' + conIdioma("productos.html") + '">' + texto.seeProducts + ' →</a></div><figure class="franja-k600"><img src="assets/productos/k600/principal.png" alt="' + inicio.industrialAlt + '" loading="lazy"><figcaption><strong>K600</strong><span>' + inicio.industrialCaption + '</span></figcaption></figure></div><div class="contenedor cifras"><div><strong>' + texto.portable + '</strong><span>' + texto.portableText + '</span></div><div><strong>' + texto.automatic + '</strong><span>' + texto.automaticText + '</span></div><div><strong>' + texto.industrial + '</strong><span>' + texto.industrialText + '</span></div></div></section>' +
+      '<section class="franja-industrial"><div class="contenedor franja-contenido"><div><p class="eyebrow eyebrow-claro">' + texto.applicationsEyebrow + '</p><h2>' + texto.applicationsTitle + '</h2></div><div class="franja-texto"><p>' + texto.applicationsText + '</p><a href="' + conIdioma("productos.html") + '">' + texto.seeProducts + ' →</a></div></div><div class="contenedor cifras"><div><strong>' + texto.portable + '</strong><span>' + texto.portableText + '</span></div><div><strong>' + texto.automatic + '</strong><span>' + texto.automaticText + '</span></div></div></section>' +
       '<section class="seccion blog-inicio"><div class="contenedor"><div class="titulo-fila titulo-fila-compacta"><div><p class="eyebrow">' + texto.knowledge + '</p><h2>' + texto.guides + '</h2></div><a class="enlace-flecha" href="' + conIdioma("blog.html") + '">' + texto.allArticles + ' →</a></div><div class="rejilla-blog">' + articulos.slice(0, 3).map(tarjetaArticulo).join("") + '</div></div></section>' +
       '<section class="cta-final"><div class="contenedor"><div><p class="eyebrow eyebrow-claro">WHATSAPP</p><h2>' + texto.quote + '</h2></div><a class="boton boton-blanco" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></section>' +
       seccionClientes() + seccionSoporte();
@@ -403,36 +441,9 @@
     contenido.innerHTML = '<article><header class="contenedor articulo-cabecera"><p class="eyebrow">' + articulo.categoria.toUpperCase() + '</p><h1>' + articulo.titulo + '</h1><p>' + articulo.extracto + '</p></header><div class="contenedor articulo-portada"><img src="' + asset(articulo.imagen) + '" alt="' + articulo.titulo + '"></div><div class="contenedor articulo-cuerpo">' + secciones + (articulo.video ? '<section><h2>Video</h2><a class="boton boton-azul" href="' + youtubeDirecto(articulo.video) + '" target="_blank" rel="noreferrer">' + texto.youtube + '</a></section>' : "") + '<aside class="articulo-cta"><p class="eyebrow">' + texto.needAdvice + '</p><h2>' + texto.findPrinter + '</h2><p>' + texto.findPrinterText + '</p><div><a class="boton boton-azul" href="' + conIdioma("productos.html") + '">' + texto.seeProducts + '</a><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></aside></div></article><section class="seccion otros-articulos"><div class="contenedor"><p class="eyebrow">' + texto.keepReading + '</p><h2>' + texto.otherArticles + '</h2><div class="rejilla-blog">' + otros.map(tarjetaArticulo).join("") + '</div></div></section>';
   }
 
-  function obtenerPreguntas() {
-    return lang === "en" ? [
-      ["Does the equipment require maintenance?", "Frequent technical maintenance is not required. Correct ink-system cleaning and proper care help preserve print quality."],
-      ["Do you supply consumables?", "Yes. Contact our team to confirm ink and consumable availability."],
-      ["Is technical support available?", "Yes. Email <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> or message +593 93 947 4695 on WhatsApp."],
-      ["Is the print permanent?", "Solvent ink gains adhesion over time. Results also depend on the material, surface preparation and ink type."],
-      ["Can I connect it to a conveyor?", "Yes. Models with automatic mode can integrate with a conveyor through a sensor."],
-      ["Is it easy to use?", "Yes. The software is intuitive, and Rigel provides technical sheets and support videos."],
-      ["What is the expected equipment life?", "With correct care, the equipment is designed for long-term operation. Actual life depends on use and working conditions."],
-      ["Is it a laser printer?", "No. It uses thermal inkjet technology and dedicated inks."],
-      ["How does the warranty work?", "The warranty covers manufacturing defects after technical evaluation. Impact, water and misuse damage are not covered."],
-      ["Can it print in color?", "Available colors depend on the ink and model. Ask about black, blue, red, yellow, green, magenta or white."]
-    ] : [
-      ["¿Requiere mantenimiento?", "Las codificadoras no requieren mantenimiento técnico frecuente. La limpieza correcta del sistema de tinta y el cuidado del equipo ayudan a conservar la calidad de impresión."],
-      ["¿Tienen suministros?", "Sí. Consulta la disponibilidad de tintas y consumibles directamente con nuestro equipo."],
-      ["¿Disponen de soporte técnico?", "Sí. Puedes escribir a <a href=\"mailto:ventas@rigelsa.com\">ventas@rigelsa.com</a> o por WhatsApp al +593 93 947 4695."],
-      ["¿La impresión es permanente?", "La tinta solvente adquiere mayor adherencia con el tiempo. El resultado también depende del material, la preparación de la superficie y el tipo de tinta."],
-      ["¿Puedo acoplarla a una banda transportadora?", "Sí. Los modelos compatibles con modo automático pueden integrarse mediante sensor."],
-      ["¿Es fácil de usar?", "Sí. El software es intuitivo y Rigel ofrece fichas técnicas y videos de apoyo."],
-      ["¿Cuál es la vida útil del equipo?", "Con los cuidados adecuados, los equipos están diseñados para una operación prolongada. La vida útil depende del uso y las condiciones de trabajo."],
-      ["¿Es una impresora láser?", "No. Utiliza tecnología de inyección térmica y tintas especializadas."],
-      ["¿Cómo funciona la garantía?", "La garantía cubre fallas de fábrica después de una evaluación técnica. Golpes, contacto con agua y uso incorrecto no están cubiertos."],
-      ["¿Imprime a color?", "La disponibilidad de colores depende de la tinta y del modelo. Consulta opciones en negro, azul, rojo, amarillo, verde, magenta o blanco."]
-    ];
-  }
-
   function renderNosotros() {
-    var preguntas = obtenerPreguntas();
-    contenido.innerHTML = '<section class="seccion nosotros-presentacion"><div class="contenedor nosotros-rejilla"><div class="nosotros-mapa"><img src="assets/nosotros/mapa-presencia.png" alt="' + texto.aboutMapAlt + '"></div><div class="nosotros-contenido"><p class="eyebrow">' + texto.aboutEyebrow + '</p><h1>' + texto.aboutTitle + '</h1><p>' + texto.aboutParagraphOne + '</p><p>' + texto.aboutParagraphTwo + '</p></div></div></section>' +
-      '<section id="preguntas" class="seccion faq-nosotros"><div class="contenedor faq-encabezado"><p class="eyebrow">' + texto.faqEyebrow + '</p><h2>' + texto.faqTitle + '</h2><p>' + texto.faqText + '</p></div><div class="contenedor faq-rejilla">' + preguntas.map(function (item, i) { return '<details' + (i === 0 ? " open" : "") + '><summary><span>' + String(i + 1).padStart(2, "0") + '</span>' + item[0] + '<b>+</b></summary><p>' + item[1] + '</p></details>'; }).join("") + '</div><div class="contenedor faq-contacto"><h2>' + texto.stillQuestions + '</h2><p>' + texto.stillQuestionsText + '</p><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a></div></section>';
+    contenido.innerHTML = '<section class="seccion nosotros-presentacion"><div class="contenedor nosotros-rejilla">' + mapaPresencia() + '<div class="nosotros-contenido"><p class="eyebrow">' + texto.aboutEyebrow + '</p><h1>' + texto.aboutTitle + '</h1><p>' + texto.aboutParagraphOne + '</p><p>' + texto.aboutParagraphTwo + '</p></div></div></section>' +
+      '<section class="seccion sedes-seccion"><div class="contenedor"><h2 class="sedes-titulo">' + texto.countries + '</h2><div class="sedes-rejilla">' + sedes.map(tarjetaSede).join("") + '</div></div></section>';
   }
 
   function renderContacto() {
