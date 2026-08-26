@@ -10,14 +10,12 @@ Extrae el ZIP y abre `index.html`. Las páginas, filtros, fichas, videos, enlace
 
 ### Sitio administrable local
 
-En Windows, haz doble clic en `iniciar_backend.bat`. La primera ejecución instala las dependencias y después habilita:
+Antes de iniciar el backend, define `RIGEL_ADMIN_USER` y `RIGEL_ADMIN_PASSWORD` con credenciales privadas. En Windows, haz doble clic en `iniciar_backend.bat`. La primera ejecución instala las dependencias y después habilita:
 
 - Sitio: `http://127.0.0.1:5000/`
 - Administración: `http://127.0.0.1:5000/admin`
-- Usuario local inicial: `admin`
-- Contraseña local inicial: `rigel-admin`
 
-Estas credenciales solo se permiten en `localhost`. En un hosting, el backend bloquea la administración hasta definir `RIGEL_ADMIN_USER` y `RIGEL_ADMIN_PASSWORD`.
+No publiques credenciales en el repositorio. En un hosting, el backend bloquea la administración hasta que ambas variables estén configuradas.
 
 ## GitHub y publicación
 
@@ -43,7 +41,7 @@ El panel permite:
 
 - Cambiar un producto entre Disponible, Bajo pedido y No disponible.
 - Registrar una cantidad opcional de stock.
-- Agregar o editar codificadoras, cartuchos y accesorios mediante formulario.
+- Agregar o editar codificadoras, tintas y accesorios mediante formulario.
 - Subir una imagen principal y una galería.
 - Editar textos, características y especificaciones en ambos idiomas.
 - Mantener una tabla local opcional para integraciones que usen la API Python.
@@ -53,15 +51,15 @@ El inventario administrable se guarda en `backend/data/rigel.sqlite3`. El formul
 ## Contenido incluido
 
 - Inicio, Productos, Quiénes somos, Blog y Contacto en páginas independientes.
-- 17 productos bilingües, incluida la Codificadora industrial UKCM K600.
+- 17 productos bilingües, incluida la Codificadora industrial K600.
 - Catálogo público con búsqueda y filtros de tipo y altura, sin mostrar estados ni cantidades de stock.
 - Imágenes mostradas completas mediante `object-fit: contain`.
 - Favicon cuadrado oficial proporcionado.
 - Burbuja permanente de WhatsApp a `wa.me/593939474695`.
 - Facebook, Instagram, TikTok, YouTube y LinkedIn de Rigel.
 - Carrusel principal adaptable a móvil sin recortar sus textos.
-- Carrusel de nueve clientes integrado al final del Inicio, automático y uno por uno.
-- Preguntas frecuentes integradas en la página bilingüe Quiénes somos.
+- Carrusel de 29 clientes integrado al final del Inicio, automático, responsive y con avance de una marca por transición.
+- Sedes y contactos por país integrados en la página bilingüe Quiénes somos.
 - Blog y fichas de producto dinámicas.
 
 ## Google Forms y Google Sheets

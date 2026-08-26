@@ -49,17 +49,18 @@ class PageParser(HTMLParser):
                 self.references.extend(part.strip().split()[0] for part in values[attribute].split(","))
 
 
-def local_target(reference: str) -> Path | None:
+def local_target(reference: str, base: Path = ROOT) -> Path | None:
     reference = reference.strip()
     if not reference or reference.startswith(("#", "mailto:", "tel:", "data:", "javascript:")):
         return None
     parsed = urlsplit(reference)
     if parsed.scheme or parsed.netloc:
         return None
-    path = unquote(parsed.path).lstrip("/")
+    raw_path = unquote(parsed.path)
+    path = raw_path.lstrip("/")
     if not path:
         return None
-    return ROOT / path
+    return (ROOT if raw_path.startswith("/") else base) / path
 
 
 def run(command: list[str]) -> None:
@@ -94,7 +95,7 @@ def main() -> int:
 
     css = (ROOT / "css" / "styles.css").read_text(encoding="utf-8")
     for reference in re.findall(r"url\(\s*['\"]?([^)'\"]+)", css):
-        target = local_target(reference)
+        target = local_target(reference, ROOT / "css")
         if target and not target.is_file():
             errors.append(f"css/styles.css: recurso inexistente {reference}")
 
