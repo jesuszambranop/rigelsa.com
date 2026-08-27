@@ -111,15 +111,15 @@ p { line-height: 1.65; }
 .clientes-banda::after { right: 0; }
 .clientes-ventana { min-width: 0; overflow: hidden; }
 .clientes-pista { display: flex; gap: 0; transform: translate3d(0,0,0); will-change: transform; }
-.cliente-tarjeta { flex: 0 0 calc(100% / 3); height: 218px; display: grid; place-items: center; min-width: 0; margin: 0; padding: 12px 18px; overflow: hidden; background: transparent; border: 0; box-shadow: none; }
+.cliente-tarjeta { flex: 0 0 20%; height: 218px; display: grid; place-items: center; min-width: 0; margin: 0; padding: 10px 8px; overflow: hidden; background: transparent; border: 0; box-shadow: none; }
 .cliente-logo-marco { position: relative; width: 100%; height: 100%; min-width: 0; overflow: hidden; }
 .cliente-tarjeta img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center; }
 .soporte-inicio { background: white; }
 .soporte-rejilla { display: grid; grid-template-columns: .92fr 1.08fr; gap: clamp(48px, 7vw, 96px); align-items: center; }
-.soporte-visual { position: relative; aspect-ratio: 1 / 1.08; min-height: 0; overflow: hidden; background: #edf1f3; }
-.soporte-visual img { width: 100%; height: 100%; object-fit: cover; object-position: center 48%; }
+.soporte-visual { position: relative; aspect-ratio: 1.16 / 1; min-height: 0; overflow: hidden; background: #edf1f3; }
+.soporte-visual img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
 .soporte-contenido h2 { max-width: 650px; margin: 0 0 24px; color: var(--azul-oscuro); font-size: clamp(38px, 4.8vw, 62px); line-height: 1.05; letter-spacing: -.045em; }
-.soporte-contenido > p:not(.eyebrow) { max-width: 650px; margin: 0 0 25px; color: var(--gris); font-size: 16px; }
+.soporte-contenido > p:not(.eyebrow) { max-width: 650px; margin: 0 0 30px; color: var(--gris); font-size: 17px; line-height: 1.75; }
 .soporte-contenido ul { margin: 0 0 32px; padding: 0; list-style: none; border-top: 1px solid #dbe0e3; }
 .soporte-contenido li { position: relative; padding: 16px 0 16px 28px; color: #50565a; border-bottom: 1px solid #dbe0e3; font-weight: 700; }
 .soporte-contenido li::before { position: absolute; inset: 22px auto auto 2px; width: 10px; height: 2px; background: var(--azul); content: ""; }
@@ -321,7 +321,7 @@ p { line-height: 1.65; }
   .pie-principal { grid-template-columns: 1fr; gap: 55px; }
   .filtros-catalogo { grid-template-columns: 1fr 1fr; }
   .busqueda-catalogo { grid-column: auto; }
-  .cliente-tarjeta { flex-basis: 50%; }
+  .cliente-tarjeta { flex-basis: 20%; }
   .soporte-visual { min-height: 0; }
 }
 

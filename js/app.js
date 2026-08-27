@@ -85,8 +85,8 @@
       industrialCaption: "Codificación industrial continua",
       supportEyebrow: "SOPORTE TÉCNICO RIGEL",
       supportTitle: "Soporte técnico especializado",
-      supportImageAlt: "Técnico de Rigel capacitando a un equipo en una codificadora industrial",
-      supportText: "Brindamos instalación, mantenimiento preventivo y correctivo, capacitación y visitas técnicas a empresas para asegurar el rendimiento de cada equipo.",
+      supportImageAlt: "Técnico de Rigel realizando mantenimiento especializado a una codificadora industrial",
+      supportText: "En Rigel, brindamos servicio técnico industrial especializado con más de 7 años de experiencia en sistemas de marcación y codificación. Nuestro equipo está disponible 24/7, los 365 días del año, para minimizar los tiempos de inactividad de tus operaciones. Solicita nuestro servicio técnico y obtén una respuesta de inmediato.",
       supportItems: ["Visitas técnicas en planta", "Mantenimiento preventivo y correctivo", "Capacitación y asistencia especializada"],
       supportButton: "Solicitar soporte"
     },
@@ -114,8 +114,8 @@
       industrialCaption: "Continuous industrial coding",
       supportEyebrow: "RIGEL TECHNICAL SUPPORT",
       supportTitle: "Specialized technical support",
-      supportImageAlt: "Rigel technician training a team on an industrial coding printer",
-      supportText: "We provide installation, preventive and corrective maintenance, training and on-site technical visits to ensure the performance of every machine.",
+      supportImageAlt: "Rigel technician performing specialized maintenance on an industrial coding printer",
+      supportText: "At Rigel, we provide specialized industrial technical service backed by more than 7 years of experience in marking and coding systems. Our team is available 24/7, 365 days a year, to minimize downtime in your operations. Request our technical service and receive an immediate response.",
       supportItems: ["On-site technical visits", "Preventive and corrective maintenance", "Training and specialized assistance"],
       supportButton: "Request support"
     }
@@ -150,7 +150,12 @@
     { nombre: "Configolsa", imagen: "assets/clientes/configolsa.jpg" },
     { nombre: "Agricampo S.A.", imagen: "assets/clientes/agricampo.jpg" },
     { nombre: "Fritamoro", imagen: "assets/clientes/fritamoro.jpg" },
-    { nombre: "El Buco a Casa", imagen: "assets/clientes/el-buco-a-casa.jpg" }
+    { nombre: "El Buco a Casa", imagen: "assets/clientes/el-buco-a-casa.jpg" },
+    { nombre: "Agrimen Soluciones Agrícolas", imagen: "assets/clientes/agrimen.webp" },
+    { nombre: "Biodesix", imagen: "assets/clientes/biodesix.webp" },
+    { nombre: "Calmosacorp", imagen: "assets/clientes/calmosacorp.webp" },
+    { nombre: "Mr. Morocho", imagen: "assets/clientes/mr-morocho.webp" },
+    { nombre: "Graiman", imagen: "assets/clientes/graiman.webp" }
   ];
 
   var sedes = lang === "en" ? [
@@ -321,7 +326,7 @@
   }
 
   function seccionSoporte() {
-    return '<section class="seccion soporte-inicio"><div class="contenedor soporte-rejilla"><div class="soporte-visual"><img src="assets/soporte/soporte-tecnico-rigel.webp" alt="' + inicio.supportImageAlt + '" loading="lazy"></div><div class="soporte-contenido"><p class="eyebrow">' + inicio.supportEyebrow + '</p><h2>' + inicio.supportTitle + '</h2><p>' + inicio.supportText + '</p><ul>' + inicio.supportItems.map(function (item) { return '<li>' + item + '</li>'; }).join("") + '</ul><a class="boton boton-azul" href="' + conIdioma("contacto.html") + '">' + inicio.supportButton + '</a></div></div></section>';
+    return '<section class="seccion soporte-inicio"><div class="contenedor soporte-rejilla"><div class="soporte-visual"><img src="assets/soporte/soporte-tecnico-rigel.webp" alt="' + inicio.supportImageAlt + '" loading="lazy"></div><div class="soporte-contenido"><p class="eyebrow">' + inicio.supportEyebrow + '</p><h2>' + inicio.supportTitle + '</h2><p>' + inicio.supportText + '</p><a class="boton boton-azul" href="' + conIdioma("contacto.html") + '">' + inicio.supportButton + '</a></div></div></section>';
   }
 
   function renderInicio() {
@@ -370,7 +375,7 @@
     if (!pista || !clientes.length) return;
     var desplazamiento = 0, ultimoTiempo = 0, animacion = 0;
     var movimientoReducido = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var velocidad = 64;
+    var velocidad = 80;
     function anchoColeccion() {
       var tarjetas = pista.querySelectorAll(".cliente-tarjeta");
       if (!tarjetas.length) return 0;
