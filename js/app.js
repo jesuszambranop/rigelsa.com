@@ -176,6 +176,42 @@
     { country: "México", city: "Mérida, Yucatán", map: "mexico.svg", whatsapp: "529996351998", details: [[texto.address, "Calle 62 diagonal, número 256, colonia Jacinto Canek, Mérida, Yucatán, C.P. 97227."], [texto.phoneLabel, "+52 999 635 1998 · Atención: +52 999 106 1004"], [texto.emailLabel, "ventasmexico@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 08:30 AM–05:30 PM; sábados, 08:30 AM–01:00 PM."]] }
   ];
 
+  var canalesSedes = {
+    ecuador: {
+      website: "https://rigelsa.com/",
+      facebook: "https://www.facebook.com/Rigel.ec/",
+      instagram: "https://www.instagram.com/RIGEL.ECUADOR/",
+      tiktok: "https://www.tiktok.com/@rigel.ecuador"
+    },
+    mexico: {
+      website: "https://rigel-mexico.com/",
+      facebook: "https://www.facebook.com/p/Rigel-M%C3%A9xico-61552099534264/",
+      instagram: "https://www.instagram.com/rigel.mexico/?hl=en",
+      tiktok: "https://www.tiktok.com/@rigel_mexico"
+    },
+    colombia: {
+      facebook: "https://www.facebook.com/p/Rigelcolombia-61559340630949/",
+      instagram: "https://www.instagram.com/rigel.colombia/?hl=en",
+      tiktok: "https://www.tiktok.com/@rigel.colombia"
+    },
+    chile: {
+      facebook: "https://www.facebook.com/p/Rigelchile-61559390699190/",
+      instagram: "https://www.instagram.com/rigel.chile/?hl=en",
+      tiktok: "https://www.tiktok.com/@rigel.chile"
+    },
+    venezuela: {
+      facebook: "https://www.facebook.com/p/RIGEL-Venezuela-61557157245612/",
+      instagram: "https://www.instagram.com/rigel_venezuela/",
+      tiktok: "https://www.tiktok.com/@rigel.venezuela"
+    },
+    brasil: {
+      website: "https://rigelsa.com.br/",
+      facebook: "https://www.facebook.com/61576333168295",
+      instagram: "https://www.instagram.com/rigel.brasil/",
+      tiktok: "https://www.tiktok.com/@rigel.brasil"
+    }
+  };
+
   var presenciaMapa = lang === "en" ? [
     ["Mexico", "mexico"], ["Colombia", "colombia"], ["Ecuador", "ecuador"], ["Venezuela", "venezuela"], ["Brazil", "brasil"], ["Chile", "chile"]
   ] : [
@@ -224,11 +260,17 @@
   }
 
   function tarjetaSede(sede) {
+    var clave = sede.map.replace(".svg", "");
+    var canales = canalesSedes[clave] || {};
     var detalles = sede.details.map(function (detalle) {
       var valor = detalle[2] === "email" ? '<a href="mailto:' + detalle[1] + '">' + detalle[1] + '</a>' : detalle[1];
       return '<li><strong>' + detalle[0] + '</strong><span>' + valor + '</span></li>';
     }).join("");
-    return '<article class="sede-tarjeta"><img class="sede-mapa" src="assets/paises/' + sede.map + '" alt="" aria-hidden="true"><div class="sede-contenido"><h3><span>' + sede.country + '</span><strong>' + sede.city + '</strong></h3><ul>' + detalles + '</ul><a class="sede-whatsapp" href="https://wa.me/' + sede.whatsapp + '" target="_blank" rel="noreferrer"><img src="assets/social/whatsapp.svg" alt="">' + texto.whatsappCountry + '</a></div></article>';
+    var sitio = canales.website ? '<a class="sede-web" href="' + canales.website + '" target="_blank" rel="noreferrer" aria-label="' + (lang === "es" ? "Sitio web de " : "Website for ") + sede.country + '"><img src="assets/social/web.svg" alt=""></a>' : "";
+    var sociales = ["facebook", "instagram", "tiktok"].map(function (red) {
+      return canales[red] ? '<a href="' + canales[red] + '" target="_blank" rel="noreferrer" aria-label="' + red.charAt(0).toUpperCase() + red.slice(1) + ' · ' + sede.country + '"><img src="assets/social/' + red + '.svg" alt=""></a>' : "";
+    }).join("");
+    return '<article class="sede-tarjeta sede-' + clave + '"><img class="sede-mapa" src="assets/paises/' + sede.map + '" alt="" aria-hidden="true"><div class="sede-contenido"><h3><span>' + sede.country + '</span><strong>' + sede.city + '</strong></h3><ul>' + detalles + '</ul><div class="sede-acciones"><div class="sede-canales"><a class="sede-whatsapp" href="https://wa.me/' + sede.whatsapp + '" target="_blank" rel="noreferrer" aria-label="WhatsApp · ' + sede.country + '"><img src="assets/social/whatsapp.svg" alt=""></a>' + sitio + '</div><div class="sede-redes">' + sociales + '</div></div></div></article>';
   }
 
   function dibujarEstructura() {

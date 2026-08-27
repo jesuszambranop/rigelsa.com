@@ -263,19 +263,31 @@ p { line-height: 1.65; }
 .sedes-titulo { margin: 0 0 44px; color: var(--azul-oscuro); font-size: clamp(38px, calc(5vw - 2px), 60px); line-height: 1; letter-spacing: -.045em; }
 .sedes-rejilla { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
 .sede-tarjeta { position: relative; min-height: 330px; padding: 34px; overflow: hidden; background: #f6f6f6; }
-.sede-mapa { position: absolute; inset: 8% -8% auto auto; width: 58%; height: 84%; object-fit: contain; opacity: .95; }
-.sede-contenido { position: relative; z-index: 1; width: 68%; min-height: 262px; display: flex; flex-direction: column; align-items: flex-start; }
+.sede-mapa { position: absolute; inset: -13% -2% auto auto; width: 87%; height: 126%; object-fit: contain; opacity: .95; }
+.sede-chile .sede-mapa { inset-inline-end: 4%; }
+.sede-contenido { position: relative; z-index: 1; width: 100%; min-height: 262px; display: flex; flex-direction: column; align-items: flex-start; }
 .sede-contenido h3 { margin: 0 0 22px; color: var(--azul-oscuro); line-height: 1.1; }
 .sede-contenido h3 span, .sede-contenido h3 strong { display: block; }
 .sede-contenido h3 span { margin-bottom: 7px; color: var(--azul); font-size: 25px; }
 .sede-contenido h3 strong { font-size: 15px; letter-spacing: .03em; }
+.sede-contenido h3, .sede-contenido ul { width: 68%; }
 .sede-contenido ul { margin: 0 0 24px; padding: 0; list-style: none; }
 .sede-contenido li { margin-bottom: 10px; color: #555c60; font-size: 13px; line-height: 1.45; }
 .sede-contenido li strong, .sede-contenido li span { display: block; }
 .sede-contenido li strong { margin-bottom: 2px; color: #2f383d; font-size: 11px; letter-spacing: .07em; text-transform: uppercase; }
-.sede-contenido a:not(.sede-whatsapp) { color: var(--azul); }
-.sede-whatsapp { display: inline-flex; align-items: center; gap: 8px; margin-top: auto; padding: 9px 13px; color: #256f47; background: rgba(37,211,102,.08); border: 1px solid rgba(37,211,102,.45); font-size: 12px; font-weight: 800; }
-.sede-whatsapp img { width: 17px; height: 17px; }
+.sede-contenido a:not(.sede-whatsapp):not(.sede-web) { color: var(--azul); }
+.sede-acciones { width: 100%; display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: auto; }
+.sede-canales, .sede-redes { display: flex; align-items: center; gap: 10px; }
+.sede-whatsapp, .sede-web, .sede-redes a { width: 42px; height: 42px; display: grid; place-items: center; flex: 0 0 auto; }
+.sede-whatsapp { background: #2eac36; }
+.sede-whatsapp img { width: 21px; height: 21px; filter: brightness(0) invert(1); }
+.sede-web { color: #111; background: transparent; }
+.sede-web img { width: 24px; height: 24px; }
+.sede-redes { margin-inline-start: auto; }
+.sede-redes a { width: 34px; height: 34px; color: #111; background: transparent; }
+.sede-redes img { width: 17px; height: 17px; object-fit: contain; }
+.sede-whatsapp:hover, .sede-whatsapp:focus-visible { background: #238a2a; transform: translateY(-2px); }
+.sede-web:hover, .sede-web:focus-visible, .sede-redes a:hover, .sede-redes a:focus-visible { opacity: .62; transform: translateY(-2px); }
 
 /* Pie */
 .pie { color: #6e7376; background: #f0f1f2; }
@@ -364,7 +376,7 @@ p { line-height: 1.65; }
   .nosotros-contenido > p:not(.eyebrow) { font-size: 15px; }
   .sedes-rejilla { grid-template-columns: 1fr; }
   .sede-tarjeta { min-height: 315px; padding: 28px; }
-  .sede-mapa { width: 55%; }
+  .sede-mapa { width: 82.5%; }
   .cta-final .contenedor { display: block; }
   .cta-final .boton { margin-top: 25px; }
   .cabecera-pagina { padding: 62px 0; }
@@ -407,8 +419,13 @@ p { line-height: 1.65; }
   .cliente-tarjeta { flex-basis: 320px; height: 190px; padding: 12px 17px; }
   .mapa-etiquetas { font-size: 9px; }
   .sede-tarjeta { padding: 24px 20px; }
-  .sede-contenido { width: 77%; }
-  .sede-mapa { inset-inline-end: -15%; width: 66%; opacity: .75; }
+  .sede-contenido { width: 100%; }
+  .sede-contenido h3, .sede-contenido ul { width: 77%; }
+  .sede-mapa { inset-inline-end: -2%; width: 87%; opacity: .75; }
+  .sede-chile .sede-mapa { inset-inline-end: 6%; }
+  .sede-acciones { gap: 10px; }
+  .sede-canales, .sede-redes { gap: 7px; }
+  .sede-redes a { width: 30px; height: 34px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
