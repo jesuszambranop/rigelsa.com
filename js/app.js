@@ -22,8 +22,8 @@
   var texto = {
     es: {
       skip: "Ir al contenido", home: "Inicio", products: "Productos", about: "Quiénes somos", clients: "Clientes", blog: "Blog", support: "Contáctanos",
-      advice: "Asesoría especializada", adviceText: "para elegir el equipo correcto.", technical: "Soporte técnico", technicalText: "antes y después de la implementación.", coverage: "Cobertura internacional", coverageText: "para proyectos de codificación.",
-      footerText: "Empresa especializada en sistemas de marcación y codificación con sede en Ecuador, operamos en varios países de Latinoamérica.", contactUs: "Contáctanos", printers: "Codificadoras", inks: "Tinta", accessories: "Accesorios", contact: "Contacto",
+      advice: "Asesoría especializada", adviceText: "para elegir el equipo correcto.", technical: "Soporte técnico", technicalText: "antes y después de la implementación.", coverage: "Cobertura nacional", coverageText: "",
+      footerText: "Empresa especializada en sistemas de marcación y codificación con sede en Ecuador, operamos en varios países de Latinoamérica.", contactUs: "Contáctanos", printers: "Codificadoras", inks: "Tintas", accessories: "Accesorios", contact: "Contacto",
       heroAlt: ["Soluciones Rigel para codificación industrial", "Codificación portátil sobre diferentes superficies", "Equipos Rigel para líneas de producción"],
       heroEyebrow: "MARCAJE Y CODIFICACIÓN", heroTitle: "Soluciones que avanzan al ritmo de tu producción", heroText: "Equipos portátiles, automáticos e industriales para imprimir fechas, lotes, códigos, textos y logotipos sobre múltiples superficies.", seeProducts: "Ver productos", quote: "Cotiza con nosotros",
       applicationsEyebrow: "UNA SOLUCIÓN PARA CADA PROCESO", applicationsTitle: "Del marcaje manual a la línea automatizada", applicationsText: "Selecciona la solución según la superficie, el ritmo de producción y el nivel de automatización de tu proceso.",
@@ -32,7 +32,7 @@
       inventory: "INVENTARIO RIGEL", inventoryTitle: "Productos para cada escala de producción", inventoryText: "Consulta equipos, consumibles y accesorios. Filtra por tipo y altura de impresión.",
       search: "Buscar por modelo o aplicación", searchPlaceholder: "Ej.: K600, industrial, tinta…", availability: "Disponibilidad", all: "Todos", available: "Disponible", onRequest: "Bajo pedido", unavailable: "No disponible", stock: "Stock", height: "Altura de impresión", allHeights: "Todas", results: "resultados", oneResult: "resultado", noResults: "No encontramos coincidencias", tryAgain: "Prueba otra búsqueda o restablece los filtros.", reset: "Restablecer filtros", viewFeatures: "Ver características",
       clientsEyebrow: "NUESTROS CLIENTES", clientsTitle: "Marcas que confían en Rigel", clientPrevious: "Cliente anterior", clientNext: "Cliente siguiente", clientPause: "Pausar carrusel", clientPlay: "Reanudar carrusel",
-      aboutEyebrow: "RIGEL INTERNACIONAL", aboutTitle: "Quiénes somos", aboutParagraphOne: "Somos una empresa dedicada a la venta de equipos de marcaje y codificación. Ofrecemos soluciones tecnológicas innovadoras para pequeñas, medianas y grandes empresas, con enfoque en productos de alta calidad y respeto por el medio ambiente.", aboutParagraphTwo: "Nuestra empresa fue fundada en Ecuador y tiene presencia en Brasil, Colombia, Venezuela, Chile y México. Contamos con más de siete años de experiencia en el mercado.", aboutMapAlt: "Mapa de presencia de Rigel en América Latina",
+      aboutTitle: "Quiénes somos", aboutParagraphOne: "Somos una empresa dedicada a la venta de equipos de marcaje y codificación. Ofrecemos soluciones tecnológicas innovadoras para pequeñas, medianas y grandes empresas, con enfoque en productos de alta calidad y respeto por el medio ambiente.", aboutParagraphTwo: "Nuestra empresa fue fundada en Ecuador y tiene presencia en Brasil, Colombia, Venezuela, Chile y México. Contamos con más de siete años de experiencia en el mercado.", aboutMapAlt: "Mapa de presencia de Rigel en América Latina",
       breadcrumbHome: "Inicio", breadcrumbProducts: "Productos", information: "INFORMACIÓN TÉCNICA", features: "Características", includes: "Incluye", sheet: "Abrir ficha técnica", consultProduct: "Cotiza con nosotros", demonstration: "DEMOSTRACIÓN", watchWorking: "Mira el equipo en funcionamiento", youtube: "Ver video público en YouTube", related: "COMPATIBLES Y RELACIONADOS", completeSolution: "Completa tu solución",
       blogEyebrow: "MANTENTE INFORMADO", blogTitle: "Ideas para una codificación más eficiente", blogText: "Guías prácticas sobre equipos, tintas, trazabilidad, mantenimiento y buenas prácticas de producción.", keepReading: "SEGUIR LEYENDO", otherArticles: "Otros artículos", needAdvice: "¿NECESITAS ASESORÍA?", findPrinter: "Encuentra la solución adecuada", findPrinterText: "Revisa el inventario o cuéntanos tu proceso de impresión.",
       countries: "Países", address: "Dirección", phoneLabel: "Teléfono", emailLabel: "Correo", hoursLabel: "Horario", whatsappCountry: "WhatsApp",
@@ -41,8 +41,8 @@
     },
     en: {
       skip: "Skip to content", home: "Home", products: "Products", about: "About us", clients: "Clients", blog: "Blog", support: "Contact us",
-      advice: "Specialized guidance", adviceText: "to choose the right equipment.", technical: "Technical support", technicalText: "before and after implementation.", coverage: "International coverage", coverageText: "for coding projects.",
-      footerText: "Company specialized in marking and coding systems, headquartered in Ecuador and operating in several Latin American countries.", contactUs: "Contact us", printers: "Coding printers", inks: "Ink", accessories: "Accessories", contact: "Contact",
+      advice: "Specialized guidance", adviceText: "to choose the right equipment.", technical: "Technical support", technicalText: "before and after implementation.", coverage: "National coverage", coverageText: "",
+      footerText: "Company specialized in marking and coding systems, headquartered in Ecuador and operating in several Latin American countries.", contactUs: "Contact us", printers: "Coding printers", inks: "Inks", accessories: "Accessories", contact: "Contact",
       heroAlt: ["Rigel industrial coding solutions", "Handheld coding on different materials", "Rigel equipment for production lines"],
       heroEyebrow: "MARKING & CODING", heroTitle: "Solutions that keep pace with your production", heroText: "Handheld, automatic and industrial equipment for dates, batches, codes, text and logos on multiple materials.", seeProducts: "View products", quote: "Request a quote",
       applicationsEyebrow: "A SOLUTION FOR EVERY PROCESS", applicationsTitle: "From handheld marking to automated lines", applicationsText: "Choose the right solution for your material, production pace and level of process automation.",
@@ -51,7 +51,7 @@
       inventory: "RIGEL INVENTORY", inventoryTitle: "Products for every production scale", inventoryText: "Browse equipment, consumables and accessories. Filter by type and print height.",
       search: "Search by model or application", searchPlaceholder: "E.g. K600, industrial, ink…", availability: "Availability", all: "All", available: "Available", onRequest: "On request", unavailable: "Unavailable", stock: "Stock", height: "Print height", allHeights: "All", results: "results", oneResult: "result", noResults: "No matches found", tryAgain: "Try a different search or reset the filters.", reset: "Reset filters", viewFeatures: "View features",
       clientsEyebrow: "OUR CLIENTS", clientsTitle: "Brands that trust Rigel", clientPrevious: "Previous client", clientNext: "Next client", clientPause: "Pause carousel", clientPlay: "Resume carousel",
-      aboutEyebrow: "RIGEL INTERNATIONAL", aboutTitle: "About us", aboutParagraphOne: "We are a company dedicated to supplying marking and coding equipment. We offer innovative technology solutions for small, medium and large businesses, focused on high-quality products and respect for the environment.", aboutParagraphTwo: "Our company was founded in Ecuador and has a presence in Brazil, Colombia, Venezuela, Chile and Mexico. We have more than seven years of experience in the market.", aboutMapAlt: "Map of Rigel's presence in Latin America",
+      aboutTitle: "About us", aboutParagraphOne: "We are a company dedicated to supplying marking and coding equipment. We offer innovative technology solutions for small, medium and large businesses, focused on high-quality products and respect for the environment.", aboutParagraphTwo: "Our company was founded in Ecuador and has a presence in Brazil, Colombia, Venezuela, Chile and Mexico. We have more than seven years of experience in the market.", aboutMapAlt: "Map of Rigel's presence in Latin America",
       breadcrumbHome: "Home", breadcrumbProducts: "Products", information: "TECHNICAL INFORMATION", features: "Features", includes: "Included", sheet: "Open technical data sheet", consultProduct: "Request a quote", demonstration: "DEMONSTRATION", watchWorking: "See the equipment in action", youtube: "Watch the public video on YouTube", related: "COMPATIBLE & RELATED", completeSolution: "Complete your solution",
       blogEyebrow: "STAY INFORMED", blogTitle: "Ideas for more efficient coding", blogText: "Practical guides about equipment, inks, traceability, maintenance and production best practices.", keepReading: "KEEP READING", otherArticles: "More articles", needAdvice: "NEED GUIDANCE?", findPrinter: "Find the right solution", findPrinterText: "Browse the inventory or tell us about your printing process.",
       countries: "Countries", address: "Address", phoneLabel: "Phone", emailLabel: "Email", hoursLabel: "Hours", whatsappCountry: "WhatsApp",
@@ -68,7 +68,6 @@
         { imagen: "k600.jpg", alt: "Codificadora industrial K600", eyebrow: "PRODUCCIÓN INDUSTRIAL", titulo: "K600: codificación continua para líneas exigentes", texto: "Marca fechas, lotes, códigos y datos variables con precisión y estabilidad en procesos de alta velocidad.", boton: "Conoce la K600", enlace: "producto.html?slug=k600" },
         { imagen: "cosmetica.jpg", alt: "Envases cosméticos con códigos impresos", eyebrow: "COSMÉTICA Y CUIDADO PERSONAL", titulo: "Trazabilidad que acompaña a tu marca", texto: "Consigue impresiones legibles y discretas en tubos, frascos y envases de múltiples materiales.", boton: "Explorar soluciones", enlace: "productos.html?tipo=Codificadora" },
         { imagen: "banda.webp", alt: "Codificadora integrada a una banda transportadora", eyebrow: "AUTOMATIZACIÓN EN LÍNEA", titulo: "Codificación continua sobre banda transportadora", texto: "Integra impresión automática de fechas, lotes y códigos mientras el producto avanza por la línea.", boton: "Ver automatización", enlace: "productos.html?tipo=Accesorio" },
-        { imagen: "metal.jpg", alt: "Latas metálicas con códigos impresos", eyebrow: "METAL Y SUPERFICIES NO POROSAS", titulo: "Códigos nítidos sobre metal", texto: "Selecciona equipos y tintas para lograr adherencia, contraste y lectura confiable en cada lote.", boton: "Ver productos", enlace: "productos.html" },
         { imagen: "automatizacion.jpg", alt: "Sistema automático de codificación para huevos", eyebrow: "AUTOMATIZACIÓN", titulo: "Más velocidad, control y consistencia", texto: "Integramos codificación automática para líneas continuas y aplicaciones especializadas.", boton: "Ver automatización", enlace: "productos.html?tipo=Accesorio" }
       ],
       applicationsEyebrow: "APLICACIONES DE CODIFICACIÓN",
@@ -98,7 +97,6 @@
         { imagen: "k600.jpg", alt: "K600 industrial coding printer", eyebrow: "INDUSTRIAL PRODUCTION", titulo: "K600: continuous coding for demanding lines", texto: "Print dates, batches, codes and variable data with precision and stability in high-speed processes.", boton: "Discover the K600", enlace: "producto.html?slug=k600" },
         { imagen: "cosmetica.jpg", alt: "Cosmetic containers with printed codes", eyebrow: "COSMETICS & PERSONAL CARE", titulo: "Traceability that supports your brand", texto: "Achieve readable and discreet prints on tubes, bottles and containers made of different materials.", boton: "Explore solutions", enlace: "productos.html?tipo=Codificadora" },
         { imagen: "banda.webp", alt: "Coding printer integrated with a conveyor", eyebrow: "IN-LINE AUTOMATION", titulo: "Continuous coding on a conveyor", texto: "Automatically print dates, batches and codes while products move through the production line.", boton: "View automation", enlace: "productos.html?tipo=Accesorio" },
-        { imagen: "metal.jpg", alt: "Metal cans with printed codes", eyebrow: "METAL & NON-POROUS MATERIALS", titulo: "Sharp codes on metal", texto: "Choose equipment and inks for reliable adhesion, contrast and readability in every batch.", boton: "View products", enlace: "productos.html" },
         { imagen: "automatizacion.jpg", alt: "Automatic egg coding system", eyebrow: "AUTOMATION", titulo: "More speed, control and consistency", texto: "We integrate automatic coding for continuous lines and specialized applications.", boton: "View automation", enlace: "productos.html?tipo=Accesorio" }
       ],
       applicationsEyebrow: "CODING APPLICATIONS",
@@ -156,21 +154,21 @@
   ];
 
   var sedes = lang === "en" ? [
-    { country: "Ecuador", city: "Guayaquil", map: "ecuador.svg", whatsapp: "593939474695", details: [[texto.address, "Calle Elizalde #119 and Pichincha, Edificio Luz María, 8th floor, office 8A."], [texto.phoneLabel, "+593 93 947 4695"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Monday to Friday, 9:00 AM–5:00 PM."]] },
-    { country: "Ecuador", city: "Quito", map: "ecuador.svg", whatsapp: "593981163409", details: [[texto.address, "Edificio Empresarial Unicornio, opposite CCI, 14th floor, office 1402."], [texto.phoneLabel, "+593 98 116 3409"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Monday to Friday, 9:00 AM–5:00 PM."]] },
-    { country: "Chile", city: "Santiago", map: "chile.svg", whatsapp: "56915586530", details: [[texto.address, "Santiago, Chile. Nationwide shipping and service."], [texto.phoneLabel, "+56 9 1558 6530"]] },
-    { country: "Colombia", city: "National coverage", map: "colombia.svg", whatsapp: "573108123039", details: [[texto.address, "Virtual service with nationwide shipping and support."], [texto.phoneLabel, "+57 310 812 3039"]] },
-    { country: "Venezuela", city: "National coverage", map: "venezuela.svg", whatsapp: "584249699579", details: [[texto.address, "Nationwide shipping and service."], [texto.phoneLabel, "0424-9699579"]] },
-    { country: "Brazil", city: "Rigel Brasil", map: "brasil.svg", whatsapp: "5562992037992", details: [[texto.phoneLabel, "+55 62 99203-7992"], [texto.emailLabel, "info@rigelsa.com.br", "email"], [texto.hoursLabel, "Monday to Friday, 8:00 AM–5:00 PM; Saturday, 8:00 AM–12:00 PM."]] },
-    { country: "Mexico", city: "Mérida, Yucatán", map: "mexico.svg", whatsapp: "529996351998", details: [[texto.address, "Calle 62 diagonal, no. 256, Colonia Jacinto Canek, Mérida, Yucatán, C.P. 97227."], [texto.phoneLabel, "+52 999 635 1998 · Service: +52 999 106 1004"], [texto.emailLabel, "ventasmexico@rigelsa.com", "email"], [texto.hoursLabel, "Monday to Friday, 9:00 AM–6:00 PM; Saturday, 9:00 AM–1:00 PM."]] }
+    { country: "Ecuador", city: "Guayaquil", map: "ecuador.svg", whatsapp: "593939474695", details: [[texto.address, "Calle Elizalde #119 y Pichincha, Luz María Building, 8th floor, office 8A."], [texto.phoneLabel, "+593 93 947 4695"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Monday to Friday, 08:30 AM–05:30 PM; Saturdays, 08:30 AM–01:00 PM."]] },
+    { country: "Ecuador", city: "Quito", map: "ecuador.svg", whatsapp: "593981163409", details: [[texto.address, "Unicornio Business Building, opposite CCI, 14th floor, office 1402."], [texto.phoneLabel, "+593 98 116 3409"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Monday to Friday, 08:30 AM–05:30 PM; Saturdays, 08:30 AM–01:00 PM."]] },
+    { country: "Chile", city: "Santiago", map: "chile.svg", whatsapp: "56915586530", details: [[texto.address, "Santiago, Chile. Nationwide shipping and service."], [texto.phoneLabel, "+56 9 1558 6530"], [texto.hoursLabel, "Monday to Friday, 08:30 AM–05:30 PM; Saturdays, 08:30 AM–01:00 PM."]] },
+    { country: "Colombia", city: "National coverage", map: "colombia.svg", whatsapp: "573108123039", details: [[texto.address, "Virtual service with nationwide shipping and support."], [texto.phoneLabel, "+57 310 812 3039"], [texto.hoursLabel, "Monday to Friday, 08:30 AM–05:30 PM; Saturdays, 08:30 AM–01:00 PM."]] },
+    { country: "Venezuela", city: "National coverage", map: "venezuela.svg", whatsapp: "584249699579", details: [[texto.address, "Nationwide shipping and service."], [texto.phoneLabel, "0424-9699579"], [texto.hoursLabel, "Monday to Friday, 08:30 AM–05:30 PM; Saturdays, 08:30 AM–01:00 PM."]] },
+    { country: "Brazil", city: "Rigel Brasil", map: "brasil.svg", whatsapp: "5562992037992", details: [[texto.phoneLabel, "+55 62 99203-7992"], [texto.emailLabel, "info@rigelsa.com.br", "email"], [texto.hoursLabel, "Monday to Friday, 08:30 AM–05:30 PM; Saturdays, 08:30 AM–01:00 PM."]] },
+    { country: "Mexico", city: "Mérida, Yucatán", map: "mexico.svg", whatsapp: "529996351998", details: [[texto.address, "Calle 62 diagonal, no. 256, Colonia Jacinto Canek, Mérida, Yucatán, C.P. 97227."], [texto.phoneLabel, "+52 999 635 1998 · Service: +52 999 106 1004"], [texto.emailLabel, "ventasmexico@rigelsa.com", "email"], [texto.hoursLabel, "Monday to Friday, 08:30 AM–05:30 PM; Saturdays, 08:30 AM–01:00 PM."]] }
   ] : [
-    { country: "Ecuador", city: "Guayaquil", map: "ecuador.svg", whatsapp: "593939474695", details: [[texto.address, "Calle Elizalde #119 y Pichincha, Edificio Luz María, piso 8, oficina 8A."], [texto.phoneLabel, "+593 93 947 4695"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 9:00 AM–5:00 PM."]] },
-    { country: "Ecuador", city: "Quito", map: "ecuador.svg", whatsapp: "593981163409", details: [[texto.address, "Edificio Empresarial Unicornio, frente al CCI, piso 14, oficina 1402."], [texto.phoneLabel, "+593 98 116 3409"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 9:00 AM–5:00 PM."]] },
-    { country: "Chile", city: "Santiago", map: "chile.svg", whatsapp: "56915586530", details: [[texto.address, "Santiago, Chile. Envíos y atención a nivel nacional."], [texto.phoneLabel, "+56 9 1558 6530"]] },
-    { country: "Colombia", city: "Cobertura nacional", map: "colombia.svg", whatsapp: "573108123039", details: [[texto.address, "Atención virtual con envíos y servicio a nivel nacional."], [texto.phoneLabel, "+57 310 812 3039"]] },
-    { country: "Venezuela", city: "Cobertura nacional", map: "venezuela.svg", whatsapp: "584249699579", details: [[texto.address, "Envíos y atención a nivel nacional."], [texto.phoneLabel, "0424-9699579"]] },
-    { country: "Brasil", city: "Rigel Brasil", map: "brasil.svg", whatsapp: "5562992037992", details: [[texto.phoneLabel, "+55 62 99203-7992"], [texto.emailLabel, "info@rigelsa.com.br", "email"], [texto.hoursLabel, "Lunes a viernes, 8:00–17:00; sábados, 8:00–12:00."]] },
-    { country: "México", city: "Mérida, Yucatán", map: "mexico.svg", whatsapp: "529996351998", details: [[texto.address, "Calle 62 diagonal, número 256, colonia Jacinto Canek, Mérida, Yucatán, C.P. 97227."], [texto.phoneLabel, "+52 999 635 1998 · Atención: +52 999 106 1004"], [texto.emailLabel, "ventasmexico@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 9:00–18:00; sábados, 9:00–13:00."]] }
+    { country: "Ecuador", city: "Guayaquil", map: "ecuador.svg", whatsapp: "593939474695", details: [[texto.address, "Calle Elizalde #119 y Pichincha, Edificio Luz María, piso 8, oficina 8A."], [texto.phoneLabel, "+593 93 947 4695"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 08:30 AM–05:30 PM; sábados, 08:30 AM–01:00 PM."]] },
+    { country: "Ecuador", city: "Quito", map: "ecuador.svg", whatsapp: "593981163409", details: [[texto.address, "Edificio Empresarial Unicornio, frente al CCI, piso 14, oficina 1402."], [texto.phoneLabel, "+593 98 116 3409"], [texto.emailLabel, "ventas@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 08:30 AM–05:30 PM; sábados, 08:30 AM–01:00 PM."]] },
+    { country: "Chile", city: "Santiago", map: "chile.svg", whatsapp: "56915586530", details: [[texto.address, "Santiago, Chile. Envíos y atención a nivel nacional."], [texto.phoneLabel, "+56 9 1558 6530"], [texto.hoursLabel, "Lunes a viernes, 08:30 AM–05:30 PM; sábados, 08:30 AM–01:00 PM."]] },
+    { country: "Colombia", city: "Cobertura nacional", map: "colombia.svg", whatsapp: "573108123039", details: [[texto.address, "Atención virtual con envíos y servicio a nivel nacional."], [texto.phoneLabel, "+57 310 812 3039"], [texto.hoursLabel, "Lunes a viernes, 08:30 AM–05:30 PM; sábados, 08:30 AM–01:00 PM."]] },
+    { country: "Venezuela", city: "Cobertura nacional", map: "venezuela.svg", whatsapp: "584249699579", details: [[texto.address, "Envíos y atención a nivel nacional."], [texto.phoneLabel, "0424-9699579"], [texto.hoursLabel, "Lunes a viernes, 08:30 AM–05:30 PM; sábados, 08:30 AM–01:00 PM."]] },
+    { country: "Brasil", city: "Rigel Brasil", map: "brasil.svg", whatsapp: "5562992037992", details: [[texto.phoneLabel, "+55 62 99203-7992"], [texto.emailLabel, "info@rigelsa.com.br", "email"], [texto.hoursLabel, "Lunes a viernes, 08:30 AM–05:30 PM; sábados, 08:30 AM–01:00 PM."]] },
+    { country: "México", city: "Mérida, Yucatán", map: "mexico.svg", whatsapp: "529996351998", details: [[texto.address, "Calle 62 diagonal, número 256, colonia Jacinto Canek, Mérida, Yucatán, C.P. 97227."], [texto.phoneLabel, "+52 999 635 1998 · Atención: +52 999 106 1004"], [texto.emailLabel, "ventasmexico@rigelsa.com", "email"], [texto.hoursLabel, "Lunes a viernes, 08:30 AM–05:30 PM; sábados, 08:30 AM–01:00 PM."]] }
   ];
 
   var presenciaMapa = lang === "en" ? [
@@ -257,7 +255,7 @@
     footer.innerHTML = '<div class="pie-ventajas"><div class="contenedor ventajas-rejilla">' +
       '<div><span>01</span><p><strong>' + texto.advice + '</strong> ' + texto.adviceText + '</p></div>' +
       '<div><span>02</span><p><strong>' + texto.technical + '</strong> ' + texto.technicalText + '</p></div>' +
-      '<div><span>03</span><p><strong>' + texto.coverage + '</strong> ' + texto.coverageText + '</p></div>' +
+      '<div><span>03</span><p><strong>' + texto.coverage + '</strong>' + (texto.coverageText ? ' ' + texto.coverageText : '') + '</p></div>' +
       '</div></div><div class="contenedor pie-principal"><div class="pie-marca"><a class="marca marca-imagen" href="' + conIdioma("index.html") + '">' + marca() + '</a><p>' + texto.footerText + '</p><a class="boton boton-verde" href="' + whatsapp + '" target="_blank" rel="noreferrer">' + texto.contactUs + '</a>' + enlacesSociales() + '</div>' +
       '<div class="pie-columnas"><div><h2>Rigel</h2><a href="' + conIdioma("index.html") + '">' + texto.home + '</a><a href="' + conIdioma("quienes-somos.html") + '">' + texto.about + '</a><a href="' + conIdioma("blog.html") + '">' + texto.blog + '</a></div>' +
       '<div><h2>' + texto.products + '</h2><a href="' + conIdioma("productos.html?tipo=Codificadora") + '">' + texto.printers + '</a><a href="' + conIdioma("productos.html?tipo=Tinta") + '">' + texto.inks + '</a><a href="' + conIdioma("productos.html?tipo=Accesorio") + '">' + texto.accessories + '</a></div>' +
@@ -310,7 +308,7 @@
       });
     }
     mostrar(0);
-    if (!movimientoReducido) window.setInterval(function () { mostrar(indice + 1); }, 3600);
+    if (!movimientoReducido) window.setInterval(function () { mostrar(indice + 1); }, 2600);
   }
 
   function seccionClientes() {
@@ -355,7 +353,10 @@
         var campo = (p.nombre + " " + p.modelo + " " + p.familia + " " + p.resumen).toLowerCase();
         return (!consulta || campo.indexOf(consulta) !== -1) && (tipo === "Todos" || p.tipo === tipo) && (altura.value === "todas" || p.alturaFiltro === altura.value);
       });
-      document.getElementById("tipo-filtros").innerHTML = tipos.map(function (item) { return '<button type="button" data-tipo="' + item + '" class="' + (item === tipo ? "activo" : "") + '">' + (item === "Todos" ? texto.all : item) + '</button>'; }).join("") + '<p>' + filtrados.length + ' ' + (filtrados.length === 1 ? texto.oneResult : texto.results) + '</p>';
+      document.getElementById("tipo-filtros").innerHTML = tipos.map(function (item) {
+        var etiqueta = item === "Todos" ? texto.all : ((item === "Tinta" || item === "Ink") ? texto.inks : item);
+        return '<button type="button" data-tipo="' + item + '" class="' + (item === tipo ? "activo" : "") + '">' + etiqueta + '</button>';
+      }).join("") + '<p>' + filtrados.length + ' ' + (filtrados.length === 1 ? texto.oneResult : texto.results) + '</p>';
       document.getElementById("rejilla-productos").innerHTML = filtrados.length ? '<div class="rejilla-productos rejilla-inventario">' + filtrados.map(tarjetaProducto).join("") + '</div>' : '<div class="sin-resultados"><h2>' + texto.noResults + '</h2><p>' + texto.tryAgain + '</p><button id="restablecer" class="boton boton-azul" type="button">' + texto.reset + '</button></div>';
       Array.prototype.forEach.call(document.querySelectorAll("[data-tipo]"), function (boton) { boton.addEventListener("click", function () { tipo = boton.getAttribute("data-tipo"); filtrar(); }); });
       var reset = document.getElementById("restablecer");
@@ -369,7 +370,7 @@
     if (!pista || !clientes.length) return;
     var desplazamiento = 0, ultimoTiempo = 0, animacion = 0;
     var movimientoReducido = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    var velocidad = 48;
+    var velocidad = 64;
     function anchoColeccion() {
       var tarjetas = pista.querySelectorAll(".cliente-tarjeta");
       if (!tarjetas.length) return 0;
@@ -442,7 +443,7 @@
   }
 
   function renderNosotros() {
-    contenido.innerHTML = '<section class="seccion nosotros-presentacion"><div class="contenedor nosotros-rejilla">' + mapaPresencia() + '<div class="nosotros-contenido"><p class="eyebrow">' + texto.aboutEyebrow + '</p><h1>' + texto.aboutTitle + '</h1><p>' + texto.aboutParagraphOne + '</p><p>' + texto.aboutParagraphTwo + '</p></div></div></section>' +
+    contenido.innerHTML = '<section class="seccion nosotros-presentacion"><div class="contenedor nosotros-rejilla">' + mapaPresencia() + '<div class="nosotros-contenido"><h1>' + texto.aboutTitle + '</h1><p>' + texto.aboutParagraphOne + '</p><p>' + texto.aboutParagraphTwo + '</p></div></div></section>' +
       '<section class="seccion sedes-seccion"><div class="contenedor"><h2 class="sedes-titulo">' + texto.countries + '</h2><div class="sedes-rejilla">' + sedes.map(tarjetaSede).join("") + '</div></div></section>';
   }
 
