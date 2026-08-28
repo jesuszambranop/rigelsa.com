@@ -45,6 +45,7 @@ p { line-height: 1.65; }
 .titulo-fila p { max-width: 760px; margin: 18px 0 0; color: var(--gris); font-size: 17px; }
 .titulo-fila-compacta { align-items: center; margin-bottom: 46px; }
 .titulo-fila-compacta h2 { font-size: clamp(34px, 4vw, 52px); }
+.titulo-fila .eyebrow { margin: 0 0 14px; color: var(--azul); font-size: 12px; font-weight: 800; letter-spacing: .16em; }
 .boton { display: inline-flex; align-items: center; justify-content: center; min-height: 50px; padding: 0 25px; border: 1px solid var(--azul); cursor: pointer; font-size: 14px; font-weight: 700; text-align: center; }
 .boton-azul { color: var(--blanco); background: var(--azul); }
 .boton-verde { color: var(--blanco); background: var(--verde); border-color: var(--verde); }
@@ -89,7 +90,7 @@ p { line-height: 1.65; }
 /* Inicio */
 .franja-industrial { position: relative; min-height: 660px; overflow: hidden; background: #02549c; }
 .franja-video { position: absolute; inset: 0 0 0 43%; width: 57%; height: 100%; object-fit: cover; object-position: center; }
-.franja-degradado { position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, #02549c 0%, #02549c 39%, rgba(2,84,156,.96) 47%, rgba(2,84,156,.62) 58%, rgba(2,84,156,.12) 78%, rgba(2,84,156,0) 100%); pointer-events: none; }
+.franja-degradado { position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, #02549c 0%, #02549c 34%, rgba(2,84,156,.96) 42%, rgba(2,84,156,.62) 53%, rgba(2,84,156,.12) 73%, rgba(2,84,156,0) 100%); pointer-events: none; }
 .franja-contenido { position: relative; z-index: 2; min-height: 660px; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; gap: 46px; padding-block: 78px 54px; }
 .franja-principal { width: 43%; max-width: 620px; }
 .franja-principal .eyebrow { margin-bottom: 20px; }
@@ -135,7 +136,7 @@ p { line-height: 1.65; }
 .tarjeta-blog h2, .tarjeta-blog h3 { margin: 0 0 13px; color: var(--azul-oscuro); font-size: 22px; line-height: 1.28; }
 .tarjeta-blog > span { display: block; min-height: 76px; margin-bottom: 18px; color: var(--gris); font-size: 14px; line-height: 1.6; }
 .tarjeta-blog > a:last-child { color: var(--azul); font-size: 13px; font-weight: 700; }
-.cta-final { padding: 68px 0; color: white; background: var(--azul); }
+.cta-final { padding: 68px 0; color: white; background: #02549c; }
 .cta-final .contenedor { display: flex; align-items: center; justify-content: space-between; gap: 40px; }
 .cta-final h2 { margin: 0; font-size: clamp(34px, 4vw, 54px); letter-spacing: -.04em; }
 
