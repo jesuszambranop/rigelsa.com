@@ -264,12 +264,11 @@ p { line-height: 1.65; }
 .sede-contenido h3 span { margin-bottom: 7px; color: var(--azul); font-size: 25px; }
 .sede-contenido h3 strong { font-size: 15px; letter-spacing: .03em; }
 .sede-contenido h3, .sede-contenido ul { width: 68%; }
-.sede-tarjeta-unificada { grid-column: 1 / -1; min-height: 430px; }
-.sede-tarjeta-unificada .sede-mapa { width: 55%; }
-.sede-tarjeta-unificada .sede-contenido h3, .sede-tarjeta-unificada .sede-contenido ul, .sede-oficinas { width: 72%; }
-.sede-oficinas { display: grid; grid-template-columns: repeat(2, 1fr); gap: 28px; margin-bottom: 22px; }
-.sede-oficinas section { padding-inline-end: 24px; border-inline-end: 1px solid #d8dcde; }
-.sede-oficinas section:last-child { border-inline-end: 0; }
+.sede-tarjeta-unificada { min-height: 540px; }
+.sede-tarjeta-unificada .sede-contenido h3, .sede-tarjeta-unificada .sede-contenido ul, .sede-oficinas { width: 68%; }
+.sede-oficinas { display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 22px; }
+.sede-oficinas section { padding-bottom: 12px; border-bottom: 1px solid #d8dcde; }
+.sede-oficinas section:last-child { border-bottom: 0; }
 .sede-oficinas h4 { margin: 0 0 12px; color: var(--azul-oscuro); font-size: 16px; }
 .sede-oficinas p { margin: 0 0 10px; color: #555c60; font-size: 13px; line-height: 1.45; }
 .sede-oficinas strong, .sede-oficinas span { display: block; }
@@ -378,7 +377,6 @@ p { line-height: 1.65; }
   .sedes-rejilla { grid-template-columns: 1fr; }
   .sede-tarjeta { min-height: 315px; padding: 28px; }
   .sede-mapa { width: 82.5%; }
-  .sede-tarjeta-unificada .sede-mapa { width: 72%; }
   .cta-final .contenedor { display: block; }
   .cta-final .boton { margin-top: 25px; }
   .cabecera-pagina { padding: 62px 0; }
@@ -423,10 +421,7 @@ p { line-height: 1.65; }
   .sede-tarjeta { padding: 24px 20px; }
   .sede-contenido { width: 100%; }
   .sede-contenido h3, .sede-contenido ul { width: 77%; }
-  .sede-tarjeta-unificada .sede-contenido h3, .sede-tarjeta-unificada .sede-contenido ul, .sede-oficinas { width: 82%; }
-  .sede-oficinas { grid-template-columns: 1fr; gap: 12px; }
-  .sede-oficinas section { padding: 0 0 12px; border-inline-end: 0; border-bottom: 1px solid #d8dcde; }
-  .sede-oficinas section:last-child { border-bottom: 0; }
+  .sede-tarjeta-unificada .sede-contenido h3, .sede-tarjeta-unificada .sede-contenido ul, .sede-oficinas { width: 77%; }
   .sede-mapa { inset-inline-end: -2%; width: 87%; opacity: .75; }
   .sede-chile .sede-mapa { inset-inline-end: 6%; }
   .sede-acciones { gap: 10px; }
