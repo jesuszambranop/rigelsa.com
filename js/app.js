@@ -262,7 +262,8 @@
       return '<li><strong>' + detalle[0] + '</strong><span>' + valor + '</span></li>';
     }).join("");
     var oficinas = sede.offices ? '<div class="sede-oficinas">' + sede.offices.map(function (oficina) { return '<section><h4>' + oficina.city + '</h4><p><strong>' + texto.address + '</strong><span>' + oficina.address + '</span></p><p><strong>' + texto.phoneLabel + '</strong><span>' + oficina.phone + '</span></p></section>'; }).join("") + '</div>' : "";
-    var whatsapps = (sede.offices || [{ city: sede.country, whatsapp: sede.whatsapp }]).map(function (oficina) { return '<a class="sede-whatsapp" href="https://wa.me/' + oficina.whatsapp + '" target="_blank" rel="noreferrer" title="WhatsApp · ' + oficina.city + '" aria-label="WhatsApp · ' + oficina.city + '"><img src="assets/social/whatsapp.svg" alt=""></a>'; }).join("");
+    var contactosWhatsapp = sede.offices ? [sede.offices[0]] : [{ city: sede.country, whatsapp: sede.whatsapp }];
+    var whatsapps = contactosWhatsapp.map(function (oficina) { return '<a class="sede-whatsapp" href="https://wa.me/' + oficina.whatsapp + '" target="_blank" rel="noreferrer" title="WhatsApp · ' + oficina.city + '" aria-label="WhatsApp · ' + oficina.city + '"><img src="assets/social/whatsapp.svg" alt=""></a>'; }).join("");
     var sociales = ["facebook", "instagram", "tiktok"].map(function (red) {
       return canales[red] ? '<a href="' + canales[red] + '" target="_blank" rel="noreferrer" aria-label="' + red.charAt(0).toUpperCase() + red.slice(1) + ' · ' + sede.country + '"><img src="assets/social/' + red + '.svg" alt=""></a>' : "";
     }).join("");
