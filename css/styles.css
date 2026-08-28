@@ -87,18 +87,11 @@ p { line-height: 1.65; }
 .producto-enlace a { color: var(--azul); font-size: 13px; font-weight: 700; }
 
 /* Inicio */
-.franja-industrial { position: relative; padding: 92px 0 82px; overflow: hidden; color: var(--blanco); background-image: linear-gradient(90deg, rgba(0,48,76,.98) 0%, rgba(0,77,119,.94) 48%, rgba(0,108,165,.72) 100%), url("../assets/slides/nuevos/soluciones-automatizacion.webp"); background-position: center; background-size: cover; }
-.franja-contenido { display: grid; grid-template-columns: 1.12fr .88fr; gap: clamp(48px, 8vw, 120px); align-items: end; }
-.franja-contenido h2 { max-width: 720px; margin: 0; font-size: clamp(42px, 5.5vw, 72px); line-height: 1.03; letter-spacing: -.045em; }
-.franja-texto { max-width: 520px; padding: 30px 0 4px; }
-.franja-texto p { margin: 0 0 26px; color: #e4f2f8; font-size: 17px; }
-.franja-texto a { color: #7fd0ff; font-weight: 700; }
-.cifras { display: grid; grid-template-columns: repeat(2, 1fr); margin-top: 68px; border-top: 1px solid rgba(255,255,255,.25); border-bottom: 1px solid rgba(255,255,255,.25); backdrop-filter: blur(2px); }
-.cifras div { min-height: 128px; padding: 30px 34px; background: rgba(0,47,74,.2); border-right: 1px solid rgba(255,255,255,.23); }
-.cifras div:last-child { border-right: 0; }
-.cifras strong, .cifras span { display: block; }
-.cifras strong { margin-bottom: 6px; font-size: 22px; }
-.cifras span { color: #bcd8e6; font-size: 13px; }
+.franja-industrial { position: relative; min-height: 520px; overflow: hidden; background: #fff; }
+.franja-video { position: absolute; inset: 0 0 0 45%; width: 55%; height: 100%; object-fit: cover; object-position: center; }
+.franja-degradado { position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, #fff 0%, #fff 41%, rgba(255,255,255,.96) 47%, rgba(255,255,255,.58) 55%, rgba(255,255,255,0) 68%); pointer-events: none; }
+.franja-contenido { position: relative; z-index: 2; min-height: 520px; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 34px; }
+.franja-contenido h2 { width: 43%; max-width: 620px; margin: 0; color: var(--azul-oscuro); font-size: clamp(42px, 5.2vw, 70px); line-height: 1.03; letter-spacing: -.045em; }
 .clientes-seccion { position: relative; overflow: hidden; background: white; border-top: 0; }
 .clientes-seccion::before { position: absolute; inset: 0 0 auto; height: 1px; background: linear-gradient(90deg, transparent 0%, rgba(0,130,200,.55) 22%, rgba(0,130,200,.55) 78%, transparent 100%); content: ""; }
 .clientes-encabezado { display: block; margin-bottom: 28px; }
@@ -356,11 +349,11 @@ p { line-height: 1.65; }
   .titulo-fila .boton, .titulo-fila .enlace-flecha { margin-top: 24px; }
   .rejilla-productos, .rejilla-blog { grid-template-columns: 1fr; }
   .producto-imagen { height: 230px; }
-  .franja-industrial { padding: 64px 0; }
-  .franja-contenido { gap: 30px; }
-  .cifras { grid-template-columns: 1fr; }
-  .cifras div { border-right: 0; border-bottom: 1px solid rgba(255,255,255,.23); }
-  .cifras div:last-child { border-bottom: 0; }
+  .franja-industrial { min-height: 650px; }
+  .franja-video { inset: 0 0 auto; width: 100%; height: 52%; object-position: center; }
+  .franja-degradado { background: linear-gradient(180deg, rgba(255,255,255,0) 18%, rgba(255,255,255,.45) 38%, #fff 53%, #fff 100%); }
+  .franja-contenido { min-height: 650px; justify-content: flex-end; gap: 24px; padding-bottom: 70px; }
+  .franja-contenido h2 { width: 100%; max-width: 560px; font-size: 42px; }
   .clientes-encabezado { margin-bottom: 22px; }
   .clientes-banda { padding-block: 10px; }
   .clientes-banda::before, .clientes-banda::after { width: 54px; }
