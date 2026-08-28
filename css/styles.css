@@ -89,7 +89,7 @@ p { line-height: 1.65; }
 /* Inicio */
 .franja-industrial { position: relative; min-height: 660px; overflow: hidden; background: #02549c; }
 .franja-video { position: absolute; inset: 0 0 0 43%; width: 57%; height: 100%; object-fit: cover; object-position: center; }
-.franja-degradado { position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, #02549c 0%, #02549c 39%, rgba(2,84,156,.96) 47%, rgba(2,84,156,.62) 58%, rgba(2,84,156,.12) 78%, rgba(2,84,156,0) 100%); pointer-events: none; }
+.franja-degradado { position: absolute; inset: 0; z-index: 1; background: linear-gradient(90deg, #02549c 0%, #02549c 34%, rgba(2,84,156,.96) 42%, rgba(2,84,156,.62) 53%, rgba(2,84,156,.12) 73%, rgba(2,84,156,0) 100%); pointer-events: none; }
 .franja-contenido { position: relative; z-index: 2; min-height: 660px; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; gap: 46px; padding-block: 78px 54px; }
 .franja-principal { width: 43%; max-width: 620px; }
 .franja-principal .eyebrow { margin-bottom: 20px; }
