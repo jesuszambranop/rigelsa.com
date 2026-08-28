@@ -255,22 +255,22 @@ p { line-height: 1.65; }
 .sedes-seccion { background: white; border-top: 1px solid #e5e8ea; }
 .sedes-titulo { margin: 0 0 44px; color: var(--azul-oscuro); font-size: clamp(38px, calc(5vw - 2px), 60px); line-height: 1; letter-spacing: -.045em; }
 .sedes-rejilla { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-.sede-tarjeta { position: relative; min-height: 330px; padding: 34px; overflow: hidden; background: #f6f6f6; }
+.sede-tarjeta { position: relative; height: 500px; min-height: 500px; padding: 34px; overflow: hidden; background: #f6f6f6; }
 .sede-mapa { position: absolute; inset: -13% -2% auto auto; width: 87%; height: 126%; object-fit: contain; opacity: .95; }
 .sede-chile .sede-mapa { inset-inline-end: 4%; }
-.sede-contenido { position: relative; z-index: 1; width: 100%; min-height: 262px; display: flex; flex-direction: column; align-items: flex-start; }
+.sede-contenido { position: relative; z-index: 1; width: 100%; min-height: 100%; display: flex; flex-direction: column; align-items: flex-start; }
 .sede-contenido h3 { margin: 0 0 22px; color: var(--azul-oscuro); line-height: 1.1; }
 .sede-contenido h3 span, .sede-contenido h3 strong { display: block; }
 .sede-contenido h3 span { margin-bottom: 7px; color: var(--azul); font-size: 25px; }
 .sede-contenido h3 strong { font-size: 15px; letter-spacing: .03em; }
 .sede-contenido h3, .sede-contenido ul { width: 68%; }
-.sede-tarjeta-unificada { min-height: 540px; }
-.sede-tarjeta-unificada .sede-contenido h3, .sede-tarjeta-unificada .sede-contenido ul, .sede-oficinas { width: 68%; }
-.sede-oficinas { display: grid; grid-template-columns: 1fr; gap: 12px; margin-bottom: 22px; }
-.sede-oficinas section { padding-bottom: 12px; border-bottom: 1px solid #d8dcde; }
-.sede-oficinas section:last-child { border-bottom: 0; }
-.sede-oficinas h4 { margin: 0 0 12px; color: var(--azul-oscuro); font-size: 16px; }
-.sede-oficinas p { margin: 0 0 10px; color: #555c60; font-size: 13px; line-height: 1.45; }
+.sede-tarjeta-unificada { min-height: 500px; }
+.sede-tarjeta-unificada .sede-contenido h3, .sede-tarjeta-unificada .sede-contenido ul, .sede-oficinas { width: 78%; }
+.sede-oficinas { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin-bottom: 16px; }
+.sede-oficinas section { padding-inline-end: 14px; border-inline-end: 1px solid #d8dcde; }
+.sede-oficinas section:last-child { padding-inline-end: 0; border-inline-end: 0; }
+.sede-oficinas h4 { margin: 0 0 9px; color: var(--azul-oscuro); font-size: 16px; }
+.sede-oficinas p { margin: 0 0 8px; color: #555c60; font-size: 12px; line-height: 1.4; }
 .sede-oficinas strong, .sede-oficinas span { display: block; }
 .sede-oficinas strong { margin-bottom: 2px; color: #2f383d; font-size: 11px; letter-spacing: .07em; text-transform: uppercase; }
 .sede-contenido ul { margin: 0 0 24px; padding: 0; list-style: none; }
@@ -375,7 +375,7 @@ p { line-height: 1.65; }
   .nosotros-contenido h1 { font-size: 44px; }
   .nosotros-contenido > p:not(.eyebrow) { font-size: 15px; }
   .sedes-rejilla { grid-template-columns: 1fr; }
-  .sede-tarjeta { min-height: 315px; padding: 28px; }
+  .sede-tarjeta { height: 500px; min-height: 500px; padding: 28px; }
   .sede-mapa { width: 82.5%; }
   .cta-final .contenedor { display: block; }
   .cta-final .boton { margin-top: 25px; }
@@ -422,6 +422,10 @@ p { line-height: 1.65; }
   .sede-contenido { width: 100%; }
   .sede-contenido h3, .sede-contenido ul { width: 77%; }
   .sede-tarjeta-unificada .sede-contenido h3, .sede-tarjeta-unificada .sede-contenido ul, .sede-oficinas { width: 77%; }
+  .sede-tarjeta { height: 620px; min-height: 620px; }
+  .sede-oficinas { grid-template-columns: 1fr; gap: 10px; margin-bottom: 14px; }
+  .sede-oficinas section { padding: 0 0 10px; border-inline-end: 0; border-bottom: 1px solid #d8dcde; }
+  .sede-oficinas section:last-child { padding-bottom: 0; border-bottom: 0; }
   .sede-mapa { inset-inline-end: -2%; width: 87%; opacity: .75; }
   .sede-chile .sede-mapa { inset-inline-end: 6%; }
   .sede-acciones { gap: 10px; }
