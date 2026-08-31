@@ -354,7 +354,7 @@ p { line-height: 1.65; }
   .marca small { font-size: 7px; }
   .hero { min-height: 650px; background: #eef1f3; }
   .hero-slide::after { background: linear-gradient(0deg, rgba(247,248,249,.99) 0%, rgba(247,248,249,.96) 39%, rgba(247,248,249,.28) 70%, rgba(247,248,249,0) 100%); }
-  .hero-slide img { display: block; object-fit: cover; object-position: center center; }
+  .hero-slide img { display: block; object-fit: cover; object-position: 86% center; }
   .hero-contenido { align-items: flex-end; }
   .hero-texto { width: 100%; padding: 285px 0 78px; }
   .hero-texto h1 { max-width: 560px; font-size: 40px; }
